@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1695FBBB-C64E-44F3-833D-164135208EFA}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1695FBBB-C64E-44F3-833D-164135208EFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="test_music" ID="{0D309709-776A-4851-8257-0023104F3688}">
+					<ChildrenList>
+						<Action Name="" ID="{858C02FE-F2E4-4C5C-A3EC-F82E37B7BE2A}" ShortID="326063782">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Zephrily - Cobalt Coastlands 2 Remix (Legends Arceus)" ID="{56A85AE2-58A4-44F5-95FB-63C8F26CF01E}" WorkUnitID="{83E26E37-3229-4915-A994-39A119FE6FAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
