@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	379521629	test_music			\Default Work Unit\test_music	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	390051558	Zephrily - Cobalt Coastlands 2 Remix (Legends Arceus)	D:\GitHub\SuNoFes-2022\SuNoFes_2022\SuNoFes_2022_WwiseProject\.cache\Windows\SFX\Zephrily - Cobalt Coastlands 2 Remix (Legends Arceus)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Zephrily - Cobalt Coastlands 2 Remix (Legends Arceus)		30159904
-
