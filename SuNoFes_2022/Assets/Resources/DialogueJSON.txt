@@ -1,0 +1,21 @@
+{
+    "dialogue": [
+        {
+            "speakerName": "Temp",
+            "speakerExpression": "Mad",
+            "speakerDialogue": "I'm mad."
+        },
+        {
+            "speakerName": "Bobby",
+            "speakerExpression": "Happy",
+            "speakerDialogue": "I'm happy."
+        }
+    ],
+    "dialogue_2": [
+        {
+            "speakerName": "Temp",
+            "speakerExpression": "Mad",
+            "speakerDialogue": "I'm mad."
+        }
+    ]
+}
