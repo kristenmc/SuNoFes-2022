@@ -21,9 +21,9 @@ public class DialogueLoader : MonoBehaviour
         public Dialogue[] dialogue;
     }
 
-    [SerializeField] TextAsset dialogueJSON;
+    [SerializeField] private TextAsset dialogueJSON;
     [SerializeField] private DialogueManager dialogueManager;
-    [SerializeField] DialogueList dialogueList = new DialogueList();
+    [SerializeField] private DialogueList dialogueList = new DialogueList();
 
     // Start is called before the first frame update
     void Start()

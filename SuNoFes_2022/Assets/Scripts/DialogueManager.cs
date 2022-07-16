@@ -8,10 +8,10 @@ public class DialogueManager : MonoBehaviour
 {
     static private DialogueManager _instance;
     static public DialogueManager Instance { get { return _instance;}}
-    [SerializeField] Queue<DialogueLoader.Dialogue> dialogueQueue;
+    [SerializeField] private Queue<DialogueLoader.Dialogue> dialogueQueue;
     
-    [SerializeField] TextMeshProUGUI displayName;
-    [SerializeField] TextMeshProUGUI displayDialogue;
+    [SerializeField] private TextMeshProUGUI displayName;
+    [SerializeField] private TextMeshProUGUI displayDialogue;
 
     private void Awake()
     {
