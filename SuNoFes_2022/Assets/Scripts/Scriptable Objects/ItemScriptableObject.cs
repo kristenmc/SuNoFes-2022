@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Item_Name", menuName = "ScriptableObjects/BuyableObject", order = 1)]
+[CreateAssetMenu(fileName = "Item_Name", menuName = "ScriptableObjects/ItemObject", order = 1)]
 public class ItemScriptableObject : ScriptableObject
 {
 #region SO Backing Fields
     [SerializeField] private string _itemName;
     [SerializeField] private string _itemDescription;
-    [Tooltip("Unique ID of this item. Used to better organize and code the items in.")]
+    [Tooltip("Unique ID of this item. Used to better organize and code t he items in.")]
     [SerializeField] private int _itemID = -1;
     [Tooltip("How long this item takes to arrive after ordering, in days.")]
     [SerializeField] private int _itemShippingTime;

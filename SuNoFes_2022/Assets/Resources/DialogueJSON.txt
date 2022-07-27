@@ -1,18 +1,29 @@
 {
     "dialogue": [
         {
+            "scene": "Temp Scene 1",
             "speakerName": "Temp",
             "speakerExpression": "Mad",
-            "speakerDialogue": "I'm mad."
+            "speakerDialogue": "I'm mad.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Yes",
+            "branchingChoice2": "No",
+            "branchingChoice3": "Ok"
         },
         {
+            "scene": "Temp Scene 1",
             "speakerName": "Bobby",
             "speakerExpression": "Happy",
-            "speakerDialogue": "I'm happy."
+            "speakerDialogue": "I'm happy.",
+            "isBranching": "isNPCResponse",
+            "branchingChoice1": "I also Yes",
+            "branchingChoice2": "I also No",
+            "branchingChoice3": "I also Ok"
         }
     ],
     "dialogue_2": [
         {
+            "scene": "Temp Scene 1",
             "speakerName": "Temp",
             "speakerExpression": "Mad",
             "speakerDialogue": "I'm mad."

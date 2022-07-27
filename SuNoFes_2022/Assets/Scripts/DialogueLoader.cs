@@ -9,10 +9,17 @@ public class DialogueLoader : MonoBehaviour
     [System.Serializable]
     public class Dialogue
     {
+        public string sceneName;
         public string speakerName;
         //Probably switch this to an enum
         public string speakerExpression;
         public string speakerDialogue;
+        public string isBranching;
+        public string branchingChoice1;
+        public string branchingChoice2;
+        public string branchingChoice3;
+        public string branchingChoice4;
+        
     }
     
     [System.Serializable]
