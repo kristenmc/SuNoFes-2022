@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Item_Name", menuName = "ScriptableObjects/CharObject", order = 2)]
+[CreateAssetMenu(fileName = "Char_Name", menuName = "ScriptableObjects/CharObject", order = 2)]
 public class CharacterScriptableObject : ScriptableObject
 {
-    [SerializeField] private int _characterAffection;
+    [SerializeField] private int _characterAffinity;
     [SerializeField] private int _sceneProgression;
     [SerializeField] private DialogueLoader[] _scenes;
     
@@ -19,10 +19,10 @@ public class CharacterScriptableObject : ScriptableObject
     //TODO: add a list of items the character likes
     //TODO: add a list of items the character needs for story progression
     
-    public int CharacterAffection
+    public int CharacterAffinity
     {
-        get {return _characterAffection;}
-        set {_characterAffection = value;}
+        get {return _characterAffinity;}
+        set {_characterAffinity = value;}
     }
     public int SceneProgression
     {
