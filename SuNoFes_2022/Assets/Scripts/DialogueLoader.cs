@@ -28,20 +28,55 @@ public class DialogueLoader : MonoBehaviour
         public Dialogue[] dialogue;
     }
 
-    [SerializeField] private TextAsset dialogueJSON;
+    private TextAsset[] dialogueJSONs;
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private DialogueList dialogueList = new DialogueList();
+    [SerializeField] private DialogueList[] dialogueScenes;
+    [SerializeField] private CharacterScriptableObject character;
 
     // Start is called before the first frame update
     void Start()
     {
-        dialogueList = JsonUtility.FromJson<DialogueList>(dialogueJSON.text);
+        LoadDialogueData();
+    }
+
+    public void LoadDialogueData()
+    {
+        dialogueJSONs = character.Scenes;
+        dialogueScenes = new DialogueList[dialogueJSONs.Length];
         dialogueManager = DialogueManager.Instance;
+        for(int i = 0; i < dialogueJSONs.Length; i++)
+        {
+            dialogueList = JsonUtility.FromJson<DialogueList>(dialogueJSONs[i].text);
+            dialogueScenes[i] = dialogueList;
+        }
+    }
+
+    private void OnMouseDown() 
+    {
+        if(!dialogueManager.isDialoguePlaying())
+        {
+            LoadDialogue();    
+            Debug.Log("obj clicked");
+        }
     }
 
     public void LoadDialogue()
     {
-        dialogueManager.StartDialogue(dialogueList.dialogue);
+        if(character.SceneProgression < dialogueScenes.Length)
+        {
+            dialogueManager.StartDialogue(dialogueScenes[character.SceneProgression].dialogue);
+            character.SceneProgression++;
+        }
+        else
+        {
+            //Play ending scene or something idk
+        }
+    }
+
+    public void ResetSceneProgression()
+    {
+        character.SceneProgression = 0;
     }
 
     // Update is called once per frame

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterAffinity: 0
   _sceneProgression: 0
-  _scenes: []
+  _scenes:
+  - {fileID: 4900000, guid: a86396cbe8e0c23458c2444a6e7f10aa, type: 3}
   _characterExpressions: []

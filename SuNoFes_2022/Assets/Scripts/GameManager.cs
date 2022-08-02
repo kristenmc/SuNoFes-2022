@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] CharacterScriptableObject[] characterScenes;
+    [SerializeField] GameObject[] availableCharacters;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,24 +17,14 @@ public class GameManager : MonoBehaviour
         
     }
 
-    //Occurs when the player talks to a character
-    public void LoadCharacterScene(int charNum)
-    {
-        CharacterScriptableObject currentChar = characterScenes[charNum];
-        if(currentChar.SceneProgression < currentChar.Scenes.Length)
-        {
-            currentChar.Scenes[currentChar.SceneProgression].LoadDialogue();
-            characterScenes[charNum].SceneProgression++;
-        }
-        else
-        {
-            //End their scenes or something;
-        }
-    }
+
 
     //TODO: This function should load the available characters and position them in the scene 
     public void LoadShopDay()
     {
-
+        foreach(GameObject character in availableCharacters)
+        {
+            Debug.Log("Loading character");
+        }
     }
 }

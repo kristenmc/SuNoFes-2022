@@ -3,6 +3,12 @@
         {
             "scene": "Temp Scene 1",
             "speakerName": "Temp",
+            "speakerExpression": "Neutral",
+            "speakerDialogue": "Hello."
+        },
+        {
+            "scene": "Temp Scene 1",
+            "speakerName": "Temp",
             "speakerExpression": "Mad",
             "speakerDialogue": "I'm mad.",
             "isBranching": "isPlayerChoice",

@@ -7,7 +7,7 @@ public class CharacterScriptableObject : ScriptableObject
 {
     [SerializeField] private int _characterAffinity;
     [SerializeField] private int _sceneProgression;
-    [SerializeField] private DialogueLoader[] _scenes;
+    [SerializeField] private TextAsset[] _scenes;
     
     [System.Serializable]
     public class expressionDict
@@ -29,7 +29,7 @@ public class CharacterScriptableObject : ScriptableObject
         get {return _sceneProgression;}
         set {_sceneProgression = value;}
     }
-    public DialogueLoader[] Scenes
+    public TextAsset[] Scenes
     {
         get {return _scenes;}
     }
@@ -37,4 +37,7 @@ public class CharacterScriptableObject : ScriptableObject
     {
         get {return _characterExpressions;}
     }
+
+        //Occurs when the player talks to a character
+
 }

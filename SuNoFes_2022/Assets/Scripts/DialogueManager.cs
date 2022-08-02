@@ -9,19 +9,29 @@ public class DialogueManager : MonoBehaviour
     static private DialogueManager _instance;
     static public DialogueManager Instance { get { return _instance;}}
     [SerializeField] private Queue<DialogueLoader.Dialogue> dialogueQueue;
-    
+
     [SerializeField] private TextMeshProUGUI displayName;
     [SerializeField] private TextMeshProUGUI displayDialogue;
     [SerializeField] private int playerChoice;
     [SerializeField] GameObject continueButton;
-    
+    [SerializeField] DialogueLoader[] clickableCharacters;
+    [SerializeField] private bool dialogueInProgress = false;
+
+
+#region Choice Button Vars
     [Header("Choice Button Locations")]
     [SerializeField] private float topChoiceY;
     [SerializeField] private float botChoiceY;
     [SerializeField] private float choiceX;
     [SerializeField] private GameObject[] choiceButtons;
     private List<string> availableChoices;
+#endregion
 
+#region DialogueBox Positioning Vars
+    [SerializeField] private Animator dialogueBoxAnimator;
+    [SerializeField] private string dialogueBoxReveal;
+    [SerializeField] private string dialogueBoxHide;
+#endregion
 
     private void Awake()
     {
@@ -45,12 +55,14 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     //Starts and sets up the dialogue system
     public void StartDialogue(DialogueLoader.Dialogue[] dialogue)
     {
+        dialogueInProgress = true;
+        dialogueBoxAnimator.Play(dialogueBoxReveal);
         dialogueQueue.Clear();
         foreach(DialogueLoader.Dialogue sentence in dialogue)
         {
@@ -71,30 +83,7 @@ public class DialogueManager : MonoBehaviour
         DialogueLoader.Dialogue sentence = dialogueQueue.Dequeue();
         displayName.text = sentence.speakerName;
         //#ToDo: speaker expression stuff goes here
-        if(sentence.isBranching == "isPlayerChoice")
-        {
-            availableChoices.Clear();
-            continueButton.SetActive(false);
-            if(sentence.branchingChoice1 != null)
-            {
-                availableChoices.Add(sentence.branchingChoice1);
-            }
-            if(sentence.branchingChoice2 != null)
-            {
-                availableChoices.Add(sentence.branchingChoice2);
-            }
-            if(sentence.branchingChoice3 != null)
-            {
-                availableChoices.Add(sentence.branchingChoice3);
-            }
-            if(sentence.branchingChoice4 != null)
-            {
-                availableChoices.Add(sentence.branchingChoice4);
-            }
-            displayDialogue.text = sentence.speakerDialogue;
-            SetUpChoices(availableChoices);
-        }
-        else if(sentence.isBranching == "isNPCResponse")
+        if(sentence.isBranching != null)
         {
             availableChoices.Clear();
             if(sentence.branchingChoice1 != null)
@@ -113,7 +102,16 @@ public class DialogueManager : MonoBehaviour
             {
                 availableChoices.Add(sentence.branchingChoice4);
             }
-            displayDialogue.text = availableChoices[playerChoice];
+            if(sentence.isBranching == "isPlayerChoice")
+            {
+                continueButton.SetActive(false);                
+                displayDialogue.text = sentence.speakerDialogue;
+                SetUpChoices(availableChoices);
+            }
+            else if(sentence.isBranching == "isNPCResponse")
+            {
+                displayDialogue.text = availableChoices[playerChoice];
+            }
         }
         else
         {
@@ -125,6 +123,8 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         //Add any following occurences here
+        dialogueBoxAnimator.Play(dialogueBoxHide);
+        dialogueInProgress = false;
     }
 
     //Gives an item to a NPC the player is talking to
@@ -156,5 +156,18 @@ public class DialogueManager : MonoBehaviour
         }
         //TODO: check if choice was correct and add or subtract affinity
         ContinueDialogue();
+    }
+
+    public void ResetAllSceneProgression()
+    {
+        foreach(DialogueLoader character in clickableCharacters)
+        {
+            character.ResetSceneProgression();
+        }
+    }
+
+    public bool isDialoguePlaying()
+    {
+        return dialogueInProgress;
     }
 }
