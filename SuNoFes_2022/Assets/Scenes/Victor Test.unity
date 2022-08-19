@@ -2332,6 +2332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nathan
       objectReference: {fileID: 0}
+    - target: {fileID: 2637726891026262817, guid: 2a18ddb10f6a7be42a8fb2c52f8ad018, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 2637726891026262822, guid: 2a18ddb10f6a7be42a8fb2c52f8ad018, type: 3}
       propertyPath: character
       value: 

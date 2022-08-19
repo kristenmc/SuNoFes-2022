@@ -159,13 +159,13 @@ public class DialogueManager : MonoBehaviour
         }
         if(choiceNumber == positiveChoice)
         {
-            //TODO: add affinity
+            currentCharacter.IncrementCharAffinity(1);
             currentCharacter.IncrementSceneProgression(1);
             ContinueDialogue();
         }
         else
         {
-            //TODO: remove affinity
+            currentCharacter.IncrementCharAffinity(-1);
             currentCharacter.LoadDialogue();
         }
     }

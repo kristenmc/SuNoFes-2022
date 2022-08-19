@@ -77,6 +77,11 @@ public class DialogueLoader : MonoBehaviour
     {
         character.SceneProgression += incrementAmount;
     }
+
+    public void IncrementCharAffinity(int incrementAmount)
+    {
+        character.CharacterAffinity += incrementAmount;
+    }
     public void ResetSceneProgression()
     {
         character.SceneProgression = 0;
