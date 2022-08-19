@@ -18,8 +18,7 @@ public class DialogueLoader : MonoBehaviour
         public string branchingChoice1;
         public string branchingChoice2;
         public string branchingChoice3;
-        public string branchingChoice4;
-        
+        public int correctChoice;
     }
     
     [System.Serializable]
@@ -65,7 +64,7 @@ public class DialogueLoader : MonoBehaviour
     {
         if(character.SceneProgression < dialogueScenes.Length)
         {
-            dialogueManager.StartDialogue(dialogueScenes[character.SceneProgression].dialogue);
+            dialogueManager.StartDialogue(dialogueScenes[character.SceneProgression].dialogue, this);
             character.SceneProgression++;
         }
         else
@@ -74,6 +73,10 @@ public class DialogueLoader : MonoBehaviour
         }
     }
 
+    public void IncrementSceneProgression(int incrementAmount)
+    {
+        character.SceneProgression += incrementAmount;
+    }
     public void ResetSceneProgression()
     {
         character.SceneProgression = 0;

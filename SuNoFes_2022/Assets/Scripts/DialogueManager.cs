@@ -12,7 +12,6 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI displayName;
     [SerializeField] private TextMeshProUGUI displayDialogue;
-    [SerializeField] private int playerChoice;
     [SerializeField] GameObject continueButton;
     [SerializeField] DialogueLoader[] clickableCharacters;
     [SerializeField] private bool dialogueInProgress = false;
@@ -31,6 +30,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Animator dialogueBoxAnimator;
     [SerializeField] private string dialogueBoxReveal;
     [SerializeField] private string dialogueBoxHide;
+#endregion
+
+#region Saved Variables
+    [SerializeField] private int playerChoice;
+    [SerializeField] private int positiveChoice;    
+    [SerializeField] private DialogueLoader currentCharacter;
 #endregion
 
     private void Awake()
@@ -59,8 +64,9 @@ public class DialogueManager : MonoBehaviour
     }
 
     //Starts and sets up the dialogue system
-    public void StartDialogue(DialogueLoader.Dialogue[] dialogue)
+    public void StartDialogue(DialogueLoader.Dialogue[] dialogue, DialogueLoader loader)
     {
+        currentCharacter = loader;
         dialogueInProgress = true;
         dialogueBoxAnimator.Play(dialogueBoxReveal);
         dialogueQueue.Clear();
@@ -98,20 +104,17 @@ public class DialogueManager : MonoBehaviour
             {
                 availableChoices.Add(sentence.branchingChoice3);
             }
-            if(sentence.branchingChoice4 != null)
-            {
-                availableChoices.Add(sentence.branchingChoice4);
-            }
             if(sentence.isBranching == "isPlayerChoice")
             {
                 continueButton.SetActive(false);                
                 displayDialogue.text = sentence.speakerDialogue;
+                positiveChoice = sentence.correctChoice;
                 SetUpChoices(availableChoices);
             }
-            else if(sentence.isBranching == "isNPCResponse")
+            /*else if(sentence.isBranching == "isNPCResponse")
             {
                 displayDialogue.text = availableChoices[playerChoice];
-            }
+            }*/
         }
         else
         {
@@ -154,8 +157,17 @@ public class DialogueManager : MonoBehaviour
         {
             button.SetActive(false);
         }
-        //TODO: check if choice was correct and add or subtract affinity
-        ContinueDialogue();
+        if(choiceNumber == positiveChoice)
+        {
+            //TODO: add affinity
+            currentCharacter.IncrementSceneProgression(1);
+            ContinueDialogue();
+        }
+        else
+        {
+            //TODO: remove affinity
+            currentCharacter.LoadDialogue();
+        }
     }
 
     public void ResetAllSceneProgression()

@@ -1,0 +1,41 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Register",
+            "speakerName": "Nathan",
+            "speakerExpression": "Sad",
+            "speakerDialogue": "I-I’m fine, yeah. How about we just forget I said anything? Sorry for weirding you out…"
+        },
+        {
+            "scene": "Register",
+            "speakerName": "MC",
+            "speakerExpression": "Default",
+            "speakerDialogue": "Oh, no. Don’t worry about it! You’re fine."
+        },
+        {
+            "speakerExpression": "Default",
+            "speakerDialogue": "Nathan gives an unsure smile."
+        },
+        {
+            "speakerName": "Nathan",
+            "speakerExpression": "Default",
+            "speakerDialogue": "Okay… Anywayyyys, I’ll check on you every now and then. If you need anything, feel free to ask. I’m going to get back to work."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "Happy",
+            "speakerDialogue": "Nathan scurries off like he’s in a hurry. Is he running away from me??"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "Default",
+            "speakerDialogue": "At the very least, I don’t think I’ll be bored whenever he’s around. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "Default",
+            "speakerDialogue": "I didn’t mean to upset him, though. Maybe I should make it up to him somehow when I get the chance."
+        }
+    ]
+}
