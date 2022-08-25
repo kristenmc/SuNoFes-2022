@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ded684d64df96494e8ed49278e4796ae, type: 3}
-  m_Name: GroceryList
+  m_Name: CoughMedicine
   m_EditorClassIdentifier: 
-  _itemName: Grocery List
-  _itemDescription: 'This is an item (made by Drew''s father) that if the MC makes
-    the correct choices in Drew''s scene one, is given to the MC. The items written
-    on the list: Cough medicine and juice boxes.'
-  _itemID: 0
+  _itemName: Cough Medicine
+  _itemDescription: Grocery list item
+  _itemID: 1
   _itemShippingTime: 0
   _itemCost: 0
-  _itemAffinity: 0
+  _itemAffinity: 1
   _itemImage: {fileID: 0}

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ded684d64df96494e8ed49278e4796ae, type: 3}
-  m_Name: Item_Name 1
+  m_Name: JuiceBoxPack
   m_EditorClassIdentifier: 
-  _itemName: 
-  _itemDescription: 
-  _itemID: -1
+  _itemName: Juice Box Pack
+  _itemDescription: Grocery list item
+  _itemID: 2
   _itemShippingTime: 0
   _itemCost: 0
-  _itemCharges: 1
+  _itemAffinity: 1
   _itemImage: {fileID: 0}
