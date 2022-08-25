@@ -14,7 +14,7 @@ public class ItemScriptableObject : ScriptableObject
     [SerializeField] private int _itemShippingTime;
     [SerializeField] private float _itemCost;
     [Tooltip("Number of uses this item might hold. Most items will have a charge of 1.")]
-    [SerializeField] private int _itemCharges = 1;
+    [SerializeField] private int _itemAffinity = 1;
     [SerializeField] private GameObject _itemImage;
 #endregion
 
@@ -39,9 +39,9 @@ public class ItemScriptableObject : ScriptableObject
     {
         get {return _itemCost;}
     }
-    public int ItemCharges
+    public int ItemAffinity
     {
-        get {return _itemCharges;}
+        get {return _itemAffinity;}
     }
     public GameObject ItemImage
     {
