@@ -10,15 +10,26 @@ public class DialogueLoader : MonoBehaviour
     public class Dialogue
     {
         public string sceneName;
+        //This var only exists for spreadsheet formatting and has no use in code
+        public string startEnd;
         public string speakerName;
+        public string displayName;
         //Probably switch this to an enum
         public string speakerExpression;
+        public string sfx;
         public string speakerDialogue;
         public string isBranching;
         public string branchingChoice1;
+        public int c1pv;
+        public int c1nathanpv;
+        public int c1drewpv;
         public string branchingChoice2;
+        public int c2pv;
+        public int c2nathanpv;
+        public int c2drewpv;
         public string branchingChoice3;
-        public int correctChoice;
+        public int c3pv;
+        public int lineSkip;
     }
     
     [System.Serializable]
@@ -64,7 +75,9 @@ public class DialogueLoader : MonoBehaviour
     {
         if(character.SceneProgression < dialogueScenes.Length)
         {
-            dialogueManager.StartDialogue(dialogueScenes[character.SceneProgression].dialogue, this);
+            //Sending itself as part of the function call is definitely bad practice 
+            //Unfortunately it was the best way to get things to work based off time constraints
+            dialogueManager.StartDialogue(GetCurrentScene(), this);
             character.SceneProgression++;
         }
         else
@@ -85,11 +98,22 @@ public class DialogueLoader : MonoBehaviour
     public void ResetSceneProgression()
     {
         character.SceneProgression = 0;
+        character.CharacterAffinity = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public string GetCharacterName()
     {
-        
+        return character.CharacterName;
+    }
+
+    public int GetSceneProgression()
+    {
+        return character.SceneProgression;
+    }
+
+    //Returns the current scene
+    public DialogueLoader.Dialogue[] GetCurrentScene()
+    {
+        return dialogueScenes[character.SceneProgression].dialogue;
     }
 }

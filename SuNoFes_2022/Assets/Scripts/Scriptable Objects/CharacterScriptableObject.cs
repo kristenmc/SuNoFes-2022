@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Char_Name", menuName = "ScriptableObjects/CharObject", order = 2)]
 public class CharacterScriptableObject : ScriptableObject
 {
+    [SerializeField] private string _characterName;
     [SerializeField] private int _characterAffinity;
     [SerializeField] private int _sceneProgression;
     [SerializeField] private TextAsset[] _scenes;
@@ -19,6 +20,10 @@ public class CharacterScriptableObject : ScriptableObject
     //TODO: add a list of items the character likes
     //TODO: add a list of items the character needs for story progression
     
+    public string CharacterName
+    {
+        get {return _characterName;}
+    }
     public int CharacterAffinity
     {
         get {return _characterAffinity;}

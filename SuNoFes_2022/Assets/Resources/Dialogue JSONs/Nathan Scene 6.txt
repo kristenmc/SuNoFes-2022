@@ -1,0 +1,546 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Shop",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I walk down an aisle and start organizing disinfectant wipes on the shelf. Thankfully, people have calmed down with the hoarding, but it’s clear that this part of the store still gets a lot of traffic."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "There are footsteps behind me. To see who it is, I turn my head. Nathan is walking down my aisle; but he’s in the middle of stretching his arms, and his eyes are closed while he lets out a big yawn."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He opens his eyes once he finishes stretching and staggers back in surprise when he sees me. I can tell that the original reaction was genuine, but he makes it dramatic by clutching his chest in agony. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Man, you didn’t have to jumpscare me like that! You could’ve given me a heart attack!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Why is it my fault? I was just standing here…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan jokingly scoffs, pretending to be offended."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Well, you didn’t have to stand there so menacingly!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "So, I’m scary now? Is that what you’re trying to say? \r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan shrugs."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "You said it, not me."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I guess you’ve got me there."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Anyway, how’s your day going so far?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I’d say it’s going well. Just a normal day."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Good, good! Man, now that I think of it, it feels like just yesterday that you stepped inside this shop for the first time. Ooooh, I’m so proud of how far you've come! "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan sniffles and wipes fake tears from his eyes."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "They grow up so fast…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "If you weren’t here, I don’t know how I’d be managing. Thanks for showing me the ropes and everything. I think I’ve finally settled into the groove of things, and I really like it here."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan beams at me. I think I understand his appreciation for the sentimental now."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Don’t mention it! I’m always happy to help.\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "His expression becomes serious, and he places a hand on my shoulder.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerDialogue": "Happy to help in eight minutes that is. I’m on break."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Then why are you on the floor right now?!!!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I sigh. I don’t think he’ll ever learn what a real break is."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Phone Ringing",
+            "speakerDialogue": "Nathan’s phone rings, and he reaches into his pocket. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "sfx": "Phone Ringing",
+            "speakerDialogue": "Oop. Let me get that. I know you'll miss me, but I'll be back soon."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "sfx": "Phone Ringing",
+            "speakerDialogue": "See, if I wasn’t on break, I wouldn’t be answering this."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "sfx": "Phone Ringing",
+            "speakerDialogue": "Just- just pick up your phone!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "This guy…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan answers his phone and puts it up to his ear."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Hey, Mom. What’s up?\r\n"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "… Oh, no, no! I’m on break right now. Don’t worry. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "…Mm, okay. Yeah, I can run and grab some on my way home."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan’s features gradually turn downward as his mom speaks, but he seems to catch himself right before he responds and plasters a smile onto his face."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "O-oh, really? That’s… I’m happy for her!\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I… I know. Thanks, Mom. It means a lot…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "… Love you, too. If Dad also needs me to pick up something later, shoot me a text."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I’ll see you later… Bye."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerDialogue": "Nathan hangs up and slides his phone back in his pocket. He doesn’t look completely happy.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Well, I guess I have to do some running around after work."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I hope your errand-running goes well."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Are you okay, though? You didn’t look too happy."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan silently looks away from me."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "When he turns back to me, he speaks quieter than earlier."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Um… I’m okay..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "That didn’t sound convincing at all."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I’ll gladly hear you out if there’s something on your mind.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "That offer’s still on the table, huh? Well…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "…I don’t really know what I want to do with my life."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Nathan laughs at himself."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Existential crises are like a universal constant, though. Am I right?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "But..."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "…I don’t get why I can’t just… \r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "He exhales in frustration."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I dropped out of college while my major was still undecided, and I haven’t been doing much since. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I’ve tried so many different things since then I guess, but I keep losing motivation and dropping them. It’s like every other week, I’m starting from nothing again."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I want to move forward and catch up to everyone else my age, but I can’t get myself to just stick to one thing and just WORK."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan takes a deep breath and sharply exhales."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I don’t get it… Why can’t I just be one of those people who can work towards a job they don’t give a shit about and be okay with it as long as they get paid? Life would be so much easier…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I’m tired of being a burden on my parents. I wish I could just move out and get out of their hair, and frankly, "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I hate walking around the house and casually hearing about my cousins and old friends and how successful they already are. It’s so tiring, I just…\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan digs a hand into his hair.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "My mom just mentioned one of my cousins getting into law school. It’s great. I’m happy she’s succeeding, I really am. I just feel awful being here, working a dead end job with minimal pay while everyone I know passes me by. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I should be graduated by now and entering the workforce with a decent-paying job. Now, even if I go back, chances are I won’t finish within four years."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I’m just… a mess… I’m so sorry…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Just a lazy piece of shit. That’s all. My parents seem okay with it for now, but I don’t know when that will end."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan laughs, but it almost sounds broken."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I need to stop. I need to shut up and just finish my break. I’m sorry for dumping all of this on you. You didn’t deserve to sit through all that."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I said I would listen, didn’t I? You’re fine, and more importantly…",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "It’s okay that you don’t know what you want your future to look like.",
+            "c1pv": 5,
+            "branchingChoice2": "Life isn’t a race, so take your time.",
+            "c2pv": 5,
+            "branchingChoice3": "You don’t have to spend your life doing only one thing.",
+            "c3pv": 5
+        },
+        {
+            "startEnd": "Start&End",
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "It’s okay that you don’t know what you want your future to look like. You can take life one day at a time. You don’t need all the answers right this second.",
+            "lineSkip": 2
+        },
+        {
+            "startEnd": "Start&End",
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Life isn’t a race, so take your time. You’re not behind anyone. Not your cousins, your friends, or even me. Just because your journey looks different from other people’s doesn’t mean you’re doing worse.",
+            "lineSkip": 2
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "You don’t have to spend your life doing only one thing. You can be a jack of all trades! I know you’ve put so much effort into many things.",
+            "lineSkip": 7
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "A jack of all trades? …A master of none?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I smirk."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "But oftentimes better than a master of one.\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan snickers.\r"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Talk about cheesy as hell… But yeah, I think I get it."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "You might not feel like you’re doing anything, but you’re working here. A job is a job. It’s not like you’re sitting and doing nothing all day.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I see how you go out of your way every single day to make our customers smile. You’re a hard worker, Nathan, and I know you’ll keep pushing forward however you can."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan takes a slow deep breath and exhales. I watch him relax."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Thank you. You listening means a lot to me."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "As you can probably tell, it’s not something I like talking about…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He softly smiles."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I feel much better now. Don’t worry, I promise I won’t use you to vent in the future. I don’t want to take up your time and energy."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Oh, come on. Stop worrying about that. There’s no time limit for me lending you an ear. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "No time limit? You’re seriously okay with walking around with only one ear?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "I don’t even know where I’d put a third ear. The back of my head? My forehead? That just sounds cursed! But still, I appreciate the gesture."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Nathan! You know I didn’t mean it literally."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan sighs in relief.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Oh, Thank goodness! "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Nathan genuinely laughs. I’m happy to see he’s back to his usual self. \r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Alright, I’m gonna let you keep doing your thing and finish my break."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Wait, before you go, I saw something I thought you might want to get. "
+        }
+    ]
+}

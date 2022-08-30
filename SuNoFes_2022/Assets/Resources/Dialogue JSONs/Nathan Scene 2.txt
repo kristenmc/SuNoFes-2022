@@ -1,0 +1,303 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Register",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "As I’m cashiering, Nathan approaches me with a stack of white cardstock held above his head. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nyooom!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan plops the stack of paper onto the counter."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I’ve got a load of paperwork for ya. I hope you’re ready!\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I look through the pages. There isn’t anything written on them."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "But these are all blank…?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "It’s all written in invisible ink, duh! You need a special pair of goggles to see it."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Something tells me that they’re just blank…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I swear Nathan pouts for a second."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Alright, fine, you got me."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I’m planning on writing some thank you notes for our customers. I thought it would be a nice way to brighten people’s days! I spoke with the boss the other day, and she agreed that it was a good idea,"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "so I went and got some nice paper. I’m gonna need to cut these sheets a bit, though. A printer-paper-sized thank you note is a little overkill."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Huh. Sounds like an interesting idea. \r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Yep, yep. You wanna write a few yourself?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "I think I’ll pass, but thanks.",
+            "c1pv": 0,
+            "branchingChoice2": "Sure! Let me grab a pen.",
+            "c2pv": 2
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Oh, okay. No problem! Let me know if you need anything, then.",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan goes back to writing."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Great! Here’s a few to get started.",
+            "lineSkip": 29
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan passes a few blank cards over to me. Since business is slow, I spend a good amount of time writing notes with Nathan. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "After some time, I look over and realize Nathan has small drawings on many of his. There are dogs, cats, and even cherries that fit the theme of the store."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "On the few where he got a little lazy, there are still smiley faces scattered around the corners. He’s really putting his whole heart into this. It's admirable. Originally, I thought he didn't take this job seriously."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Hey, those are some nice drawings!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Aww, thanks. I’m not much of an artist though, really. It’s just one of those things that I’ve tried and dropped, kinda like photography or baking or video editing… "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan laughs, but it almost seems forced this time."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I tend to bounce around a lot."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "You seem like a very talented person."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "D’awww, you flatter me, but naaah. I’ve just poked around a bunch. I can throw a bunch of new hobby suggestions at ya if you ever need ‘em. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "But, if you want any tips on how to get better at any of them… I’m not too sure I can give any."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Your drawing skills alone say otherwise, in my opinion. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "You’re too kind! I really am just an all-around amateur. Nothing special."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "How did you come up with this writing idea, anyways?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Weeeell, I’m just really a fan of sentimental stuff, ya know? I can’t get enough of that warm, fuzzy feeling you get from making someone smile. If I could think of something more to do for everyone who walks in here,"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I’d be on it in a heartbeat! Just imagine if we could do something like bring puppies into the store for customers to play with. Oooh, that would be the best thing ever!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "They’d be so fluffy and cute. Imagine if they were all little shiba babies… AGH, MY HEART!!! There’s no way I’d let Leo pass up a playdate with his fellow kin!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I’d have to bring him to the store, too, but he’s not allowed in here, but maybe I can sneak him in…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "… Where is he going with this?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Ah… Haha. Sorry, I got a little excited there. How about we keep writing?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan looks up at the clock on a nearby wall, then turns back to the MC."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Whoops, looks like my break is about over. I should get back to the floor soon."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Wait, shouldn’t you take an actual break? Making notes for the store is still work.\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan smiles brightly in reassurance."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I’ll be fine, trust me! Writing these is enough of a break for me. I would’ve been bored out of my mind otherwise."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I have a feeling he’ll just keep pushing back if I tell him to take a better break, so I won't argue."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Well, if you insist. Just don’t work yourself too hard.\r"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I promise I won’t. \r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Once he’s done, Nathan hands me the finished stack of Thank You notes.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I’ll leave these here with you. Don’t forget to hand them out, alright?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "You’ve got it.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Talk to ya later!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "See ya, Nathan!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan is pretty considerate, isn’t he? I just hope he doesn’t run himself into the ground."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Really quick, though, I found something I thought you might like in our ordering system. Here."
+        }
+    ]
+}

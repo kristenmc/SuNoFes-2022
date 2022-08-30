@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 405981dd11084fc4eaa74ef66ad62778, type: 3}
   m_Name: Nathan
   m_EditorClassIdentifier: 
-  _characterAffinity: 0
-  _sceneProgression: 0
+  _characterName: Nathan
+  _characterAffinity: 20
+  _sceneProgression: 3
   _scenes:
   - {fileID: 4900000, guid: 2d9243ef2a4bc5547b293ec1bd8d4bcd, type: 3}
   - {fileID: 4900000, guid: e071268b58cb0274ab1244525214af13, type: 3}
-  _characterExpressions: []
+  - {fileID: 4900000, guid: 249dab948dccfb842b2dc2cadc0084ba, type: 3}
+  - {fileID: 4900000, guid: 6ad3c8ab079ca674f98710281e2ce642, type: 3}
+  - {fileID: 4900000, guid: 8fda6de77d2cd8d42bece3b128246161, type: 3}
+  - {fileID: 4900000, guid: 86131c7578771b846937775030a9ba8b, type: 3}
+  _characterExpressions:
+  - expressionKey: 
+    expressionValue: {fileID: 0}

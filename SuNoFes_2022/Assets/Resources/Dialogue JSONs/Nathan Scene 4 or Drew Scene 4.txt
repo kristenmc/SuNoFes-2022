@@ -1,0 +1,887 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Register",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Huh, it looks like Nathan is talking to Stella. He has a brown tote bag on his shoulder. Is she allowed to sit on the counter?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "It looks like she’s crying, though… I wonder what’s going on."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I decide to see how they’re doing. When I get there, Nathan is trying to cheer her up."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Stella sniffles and continuously wipes her eyes with her fists."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Doo Doo… Where'd you go? "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan grabs a box of tissues off the counter, takes one out, and hands it to Stella. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Don’t worry, little lady. Drewey will be back in no time!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Stella takes the tissues and wipes her face. "
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Do you know where he is?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "In the store somewhere, I’m sure. He’ll come running back here before you know it! Don’t cry!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Hey, you two. Is everything alright over here? \r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan sighs.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Drew went off somewhere and left poor Stella by her lonesome. But you can’t be sad anymore, now that I’m here!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "This guy gives himself too much credit…\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan speaks in a hushed voice, so Stella can’t hear him."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Er, have you seen him around today?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Um… No, I can't recall seeing him…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Well… Then, I’m gonna try to stall until he comes back… Luckily, I’ve got a few tricks up my sleeve."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan clears his throat."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Hey, Miss Stella, how about I show ya a little trick I’ve been workin’ on? "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaSad",
+            "speakerDialogue": "Stella stops wiping her face and looks up at Nathan. "
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaSad",
+            "speakerDialogue": "H-Huh?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "A trick? Like a magic trick? I didn’t know you knew magic, Nathan."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Haha… Actually, I’m just picking it up. I’m hoping it’s something I can finally stick with and get good at, ya know? "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan sets his bag down at his feet and pulls a quarter out of his pocket. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I’m gonna toss this quarter into the air, and you gotta tell me which hand I catch it in, alright, Stella? "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaSad",
+            "speakerDialogue": "Stella nods. This is turning out to be a good distraction for her. \r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaSad",
+            "speakerDialogue": "Before Nathan tosses his coin, I reach for a nearby trash can and place it on the counter for Stella to throw away her tissue. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan clears his throat again, but this time in an overdramatic fashion… He ends up in a coughing fit."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Shi— \r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan, you can’t keep cursing in front o—"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan coughs again, then clears his throat, then takes a deep breath and exhales."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Okay, I’m good now."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "…Are you sure?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan grins wide like a little kid, and gives me a thumbs up."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Yep!\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Man, it’s like he’s always operating at one hundred percent. I wonder what he’s on…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan rests his quarter on his fist, preparing to flick it into the air."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Alright, ready Stella? Tell me what hand I catch this in, okay?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "Stella makes a face like she’s focusing on the quarter with all her might. It’s actually adorable."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "One… Two… Three!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan flicks the quarter into the air. I watch it as it falls and Nathan grabs it with his left hand. He holds both of his fists out, palms facing downward."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Soooo, which hand is it in, kiddo?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Stella points at Nathan’s left hand."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "That one!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan turns his left hand over and reveals his palm.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Hmm… Looks like it’s not there…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Was it his right hand, then? It didn’t look like he used it, though…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "Stella tilts her head in confusion."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "But, you caught it in that one!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan waves his left hand.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "You sure? It’s not here."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "Stella pouts and points at Nathan’s right hand."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "That one!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Nathan lets out a snicker and holds both his arms up, palms facing forward."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Wowie! Well, look at that! It looks like it’s gone!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "It’s not in his right hand, either? Then, where is it? It couldn’t have fallen into his sleeves…\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I look down at the bag by his feet. I can’t see inside, but…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "Stella kicks her feet in frustration."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "You lied! You big meanie!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan makes a braking motion with his hands at me to say \"the plan isn't working.\" He’s noticeably panicking now that Stella has gone from curious to angry."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Whoa, whoa, let’s calm down, here. The trick is that it disappeared! Isn’t that neat? It poofed!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I wonder if there’s a way I can help…",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Look inside Nathan’s bag.",
+            "c1nathanpv": 0,
+            "c1drewpv": 2,
+            "branchingChoice2": "Say nothing.",
+            "c2nathanpv": 2,
+            "c2drewpv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I pick up Nathan’s bag and examine it. The inside mostly contains packing paper. Why would Nathan need to carry trash around?",
+            "lineSkip": 24
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Now that I think about it, I’ve seen these bags before… We sell these, don’t we?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Hey, you can’t just go through my stuff! It’s rude!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "It’s not even your bag, Nathan."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Wh-what?! Pffft, of course it’s my bag!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I feel something flat and round in the bag and take it out. The next thing I do is zip the bag back up and flip it so the barcode sticker on the bottom is facing upwards."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Are you sure about that?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "U-Um…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I place the bag on the counter next to Stella and reveal the quarter in my hand."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "I found THIS in there. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Stella’s eyes grow wide. "
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "It was in there?!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "Mhm. Nathan never actually caught it. He just made it look like he did so we wouldn’t pay attention when it fell into the bag."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "He lied! He’s a big liar!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan smiles wryly."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Okay, you got me. You didn’t have to go and expose me like that, man. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "He sighs.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "It must’ve been a lame trick if you could figure it out that easily. Maybe I’m not cut out for this whole magic thing…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Drew finally appears, and we catch him up on the situation. Stella is still very upset with Nathan."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "Stella kicks the air again."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "He lied! He’s a big fat meanie!\r"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Ugh, way to go, Nathan! Now she’s going to whine about it all day."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I was just trying to show her a fun trick…"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Thankfully after not very long, Drew finally shows up.",
+            "lineSkip": 31
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Hey! What did you do?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan folds his arms defensively."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I was just showing her a magic trick!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "Stella kicks the air again."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "He lied! He’s a big fat meanie!\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan pouts."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I’m not a meanie, I swear!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Drew points at me."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "You! Explain what happened."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "I wish he’d be a little nicer about it, but… I explain the situation to Drew. He gives Nathan a side-eye the whole time."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "The coin went poof! He said it was in his hand!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan uncomfortably rubs the back of his neck."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "… Remind me not to throw plot twists at little kids ever again."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Yeah… I’ll try."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Drew bends down and picks up the tote bag that was in front of Nathan."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Hey, hey! Don’t go looking through my stuff, kid!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Drew starts throwing the packing paper that was in the tote bag onto the floor. I spot the barcode sticker on the bottom of the bag as Drew fumbles with it. Come to think of it, I’m pretty sure we sell those… "
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "There’s so much garbage in here!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Important garbage! Leave it alone!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Who keeps trash with them at all times?!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I–I, uh, raccoon enthusiasts!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I look at Nathan doubtfully but say nothing."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "What the heck? That doesn’t even make any sense!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "The clang of a small metal object hitting the floor interrupts the argument. We all look down and watch as a quarter rolls over to Nathan’s foot."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan picks up the coin and holds it up innocently. He laughs nervously."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Oh, look, a quarter! Wonder where that came from? Hehehe…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "I wasn’t even here, and I figured out that it was in the bag."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "See? Nathan’s a big, big liar!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan sighs and turns to me. He looks genuinely heartbroken."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Looks like I’ve been got, huh?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Hmm...",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "What should I do about this?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Scold Nathan and cheer up Stella.\r",
+            "c1nathanpv": 0,
+            "c1drewpv": 2,
+            "branchingChoice2": "Cheer up Nathan.\r",
+            "c2nathanpv": 2,
+            "c2drewpv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "You know… You really shouldn’t have tricked her. I don’t think you’re allowed to use store merchandise for things like that either.",
+            "lineSkip": 15
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan frowns. He looks disappointed in himself."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "You’re right. I got so caught up in trying to be cool that I just made everything worse. Sorry..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "I take a lollipop out of the display on the counter and hand it to Stella. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Here’s a little something to help cheer you up."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Stella takes the lollipop and stuffs it in her mouth happily. Why didn’t we just give her one in the first place?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Thwanks!\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I’m sorry, Stella... I won’t do it again. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I point at the lollipop in Stella’s hand."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I’m going to go pay for that. Do you have everything taken care of here, Nathan?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Yep. I’ll find a way to make it up. You should head back to the register."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Hey! I want a lollipop too!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Haha… You’ve got it, boss!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Well, Drew sure is taking advantage of the situation, isn’t he? I hope I’m not gonna have to pay for that…"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "It wasn’t a bad trick, though. You got me there for a second, too. If you left with the bag right away, you probably would have avoided getting caught.\r",
+            "lineSkip": 15
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Nathan chuckles."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "You have a point there. Well, I’m glad I did something right. I feel bad for the little lady, though. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "It was just a magic trick, bro. Don’t stress so much…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan approaches Stella."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I’m sorry, Stella. I shouldn’t have played a trick on you like that."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He grabs a lollipop off the display on the counter and holds it out to Stella. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Will you forgive me?\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "All it takes is a lollipop for her to be persuaded. She takes it from Nathan and giggles."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "They high-five and do their handshake. He’s grinning from ear to ear."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Thanks, Stella."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan hands me his quarter. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Can you take care of this for me, please? I don’t want the boss thinking I’m giving away candy for free."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "You’ve got it."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "characterThatTriggeredTheSceneNeutral",
+            "speakerDialogue": "But before I leave, I found something I think you might be interested in getting this.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        }
+    ]
+}

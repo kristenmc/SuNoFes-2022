@@ -1,0 +1,437 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Shop",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "“Ding-ding-ding,” rings the signaling bell above the glass entryway door. While sorting some hand sanitizers onto an aisle, I holler without looking,"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Welcome! Let me know if you need anything!"
+        },
+        {
+            "speakerName": "Dog",
+            "displayName": "???",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "BARK-BARK! BARK-BARK!\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "What the heck? What follows are the clangs of tin rolling along the floor. Abandoning the task at hand, I hurry towards the front of the store. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Greeting me is a floor covered in assorted canned beans, but there is no culprit in sight. Except, a couple inch long tail, waving from the side of the aisle…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Mah goshhhhhhhh!!! Look at that big ol’ fellow! "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "Nathan skids down the aisle towards our fluffy customer. Then, he lays down right in front of the dog in a starfish pose. The dog takes this opportunity to cover Nathan’s face in a mask of wet kisses."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Awwwwww, you’re so sweet! Look! She wuvs me! I wuv you too!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "NATHAN! RUN AWAY! IT’S EATING YOU!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Drew has gone pale, which initially seems impossible given how pale this kid is already. His sister, on the other hand, dives straight into the pile of puppy love."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Puppy!!!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "She can’t stop giggling at the dog’s kisses tickle her."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Drew just stands there in horror. The kid looks like he might cry…",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "*Bend down to pet the dog* Look Drew, it’s not so scary!\r",
+            "c1nathanpv": 1,
+            "c1drewpv": 0,
+            "branchingChoice2": "I think we should take it out of the store… It’s scaring Drew and making a mess.",
+            "c2nathanpv": 0,
+            "c2drewpv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Plus, look at Stella. She’s not scared and she’s having lots of fun.",
+            "lineSkip": 9
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Doo Doo, haha, you’re a baby!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "You’re literally the baby!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Yasss Queen!!! You’re so brave! High five!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan and Stella high five. Somehow this morphs into an elaborate handshake, similar to the one he tried with me when we met."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Okay, fine! I’ll pet it, so you guys stop teasing me. And, cause I’m not scared!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Yeah! You got this, Drewey!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Stop with the stupid nicknames!"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Oh… You’re probably right…\r",
+            "lineSkip": 9
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "I’m not scared! What'chu talkin' about?!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Sure…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Ya, I'm not buying it, kid."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "But, it is making a mess in here. Come on, I’ll take it outside, and you call animal control. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Okay…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "The dog whines and Nathan’s ears droop. I look over my shoulder at Nathan staring down the dog as it is pulled from him. Tears well up in his big puppy dog eyes. Fuck, I think I just broke a grown man's heart…"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Wait, guys! It’s okay, I’m fine. See?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "Drew reaches out his hand to the dog. Excited to receive more love, it covers his palm in kisses. Disgusted, Drew pulls his hand back again."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "EWWWWW! GROSS!!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Aww, it’s just telling ya it loves ya. Come, give it a kiss."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Nathan demonstrates giving the dog a kiss on the nose and laughs when it gives him even more kisses."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "What? NO! You’re crazy!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Hey, kid! That wasn’t very nice. You should look up to your elders.\r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Says the guy on the floor hugging a dog…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "HEY! I’M AN ADULT MAKING ADULT MONEY!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "Out of nowhere, the dog bolts at Drew. Suddenly faced with his all-time worst fear, Drew sprints around an aisle hopelessly trying to lose the dog."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewCrying",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "The kid starts wailing. His brave front has dropped, and he has finally lost it…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewCrying",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "HELP MEEEEE!!!!! AHHHHHHH!!!!!! HELPPPPPPP!!!!!!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "HAHAHAHAHAHA!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "Stella falls to the floor giggling."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewCrying",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "STOP! THIS REALLY ISN’T FUNNY!!!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Sooo… Um-\r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Yes, Nathan?\r"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewCrying",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "HELP MEEEEEEEE!!!!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Would this be a bad time to ask whether I can keep it?\r"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewCrying",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "YES, YOU IDIOT! IT’S A REALLY REALLY BAD TIME!!!",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Well… We should probably check to see if it has an owner…",
+            "c1nathanpv": 0,
+            "c1drewpv": 1,
+            "branchingChoice2": "Sure! You can keep it!",
+            "c2nathanpv": 5,
+            "c2drewpv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Oh… Yeah, you’re right… ",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "But, you can watch it until animal control comes!\r"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Okay…"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "FUCK YEAH! This is the best day ever!\r",
+            "lineSkip": 7
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Language, Nathan! There’s kids!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I feel like I’m being paid to chaperone…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Oops! I still get to keep it though right?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Yes... but take good care of it."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "OKAY! I WILL!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Come on, Theo! Let’s go.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Dog Barking",
+            "speakerDialogue": "The dog somehow recognizes this call and goes up to Nathan, finally letting Drew go."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "How’d you know its name?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Oh, I just made it up right now.\r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "What?!!!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "This guy never ceases to amaze me."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Finally free from the goose chase, Drew dramatically falls to the floor wheezing. Stella then rushes to his side."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "STAY WITH ME, DOO DOO!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "She starts smacking at Drew’s chest, in an attempt at what I guess is CPR? Though, this just makes him cough more. Poor kid can’t catch a break. Not having it, he pushes her off."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "I’m not dead, stupid!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I look over at Nathan kneeling down, engaged in deep conversation with the dog. Nathan isn’t supposed to be off for another two hours! But… I think if I remind him and take away the pup, he might cry. This'll be a well deserved break for him then."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "characterThatTriggeredTheSceneNeutral",
+            "speakerDialogue": "Oh, wait! Before you go, I saw something the other day that I thought you might like to buy."
+        }
+    ]
+}

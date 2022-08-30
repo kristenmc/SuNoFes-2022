@@ -1,0 +1,248 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Shop",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan looks pretty tense over there. I wonder if everything is okay. To find out, I approach him."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "…\r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Hey, Nathan. How’s it going?\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "O-Oh! ‘Sup, Player Name? Sorry, I didn’t see you there."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan smiles, but it looks strained."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I was just looking through that bird app. A lot of my college friends are graduating and landing jobs. I’m happy for them."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "That’s great news for them."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Yeah, it is."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Are you okay, though? Sorry, I don’t mean to pry, but you just looked a little tense."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Oh… Did I? I’m fine. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I guess I’m just tired today. How about you, though? Everything going well on your end? Cash register hasn’t exploded? Toilet’s not shark-infested? Barcode scanner isn’t talkin’ to ya?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan’s voice drops to a whisper.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "The ghost in the tip jar isn’t asking for more sacrifices?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "One: We don’t have a tip jar; and Two, when you say sacrifices, you mean money, right?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan just bites his lip."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "RIGHT?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "There’s a moment of silence, but we both break and share a much needed laugh. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "To answer all your strangely specific questions, yeah, everything is good. Nothing wild going on. Thankfully, things aren’t hectic today."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "True! It’s given me some time to search for a new chew toy for the doggos."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan glances down at his phone again, and his smile twitches."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "It seems like something is bothering him… If I want to see if Nathan is really okay, I need to ask now before the conversation gets too far away from me.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Ask Nathan if he is okay again.",
+            "c1pv": 2,
+            "branchingChoice2": "Take Nathan’s words at face value and comment on his dogs instead.",
+            "c2pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerDialogue": "Nathan, are you sure you’re okay? You don’t have to tell me anything, but I’m here if you need anything.",
+            "lineSkip": 18
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "…\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I’m… hanging in there, but it’s okay. I just need to keep going like I always do. Don’t worry about me, alright. I know you’ve got your own personal stuff to deal with."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Whatever I’m going through doesn’t matter right now. I want to listen to you."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Man, you really are full of kindness. I feel bad that you’re wasting it on me. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "What the heck is that supposed to mean?\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "…I’m just a failure, is all. I’m stuck where I am. I don’t know what to do with my future. I’m just…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "here."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I dropped out of college, so I never finished a degree or anything. Heck, I never even declared a major, but is it really that surprising when I can’t stick to one thing?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Nathan visibly gets more upset with himself and clutches his phone tighter as he continues."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "I'm like a leech. Sure, I have this job, but I'm never gonna be able to move out and take care of myself."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "… I think I’ve said too much, sorry."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Now’s not the time for me to be talking about all of that, anyways. My break’s about done."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan takes a deep breath and recomposes himself before putting his phone away and picking up a box at his feet."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I’ll check on ya later. Right now, I gotta give these glass duckies a new home!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Hey wait, thank you for opening up to me, Nathan. I know it’s not much, but I wish the best for you. And, just holler if you ever need an ear. I’ll be there."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Geez, that sounds like something I’m supposed to say. Thanks, Player Name. I do feel a little better."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerDialogue": "I hope the dogs haven’t caused any trouble at home.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nope! They're such good lil’ beans. I’ve already taken so many pictures of them together. Wanna see?"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "The conversation remained light and ended when a customer needed to be rung up at the register. I couldn’t help but see that there was less pep in his step than usual. I hope he’s okay..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Nathan, I picked something out for you the other day. You wanna buy it?",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        }
+    ]
+}
