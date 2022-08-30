@@ -13,11 +13,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI displayName;
     [SerializeField] private GameObject nameBackground;
     [SerializeField] private TextMeshProUGUI displayDialogue;
-    [SerializeField] GameObject continueButton;
-    [SerializeField] DialogueLoader[] clickableCharacters;
+    [SerializeField] private GameObject continueButton;
+    [SerializeField] private DialogueLoader[] clickableCharacters;
     [SerializeField] private bool dialogueInProgress = false;
-    [SerializeField] DialogueLoader nathanSO;
-    [SerializeField] DialogueLoader drewSO;
+    [SerializeField] private DialogueLoader nathanSO;
+    [SerializeField] private DialogueLoader drewSO;
+    [SerializeField] private bool canGift;
 
 #region Choice Button Vars
     [Header("Choice Button Locations")]
@@ -73,7 +74,8 @@ public class DialogueManager : MonoBehaviour
     //Starts and sets up the dialogue system
     public void StartDialogue(DialogueLoader.Dialogue[] dialogue, DialogueLoader loader)
     {
-        
+        //Check to make sure this isnt a shared scene
+        //If it is and it has already been played, skip this scene
         if(loader.GetCharacterName() == "Nathan")
         {
             if(loader.GetSceneProgression() == 2 && sharedScene1Played)
@@ -243,14 +245,20 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         //Add any following occurences here
+        if(canGift)
+        {
+            canGift = false;
+            //Pull up the gifting UI here
+        }
         dialogueBoxAnimator.Play(dialogueBoxHide);
         dialogueInProgress = false;
     }
 
+    //@Molina TODO:: This should be called by the gifting UI Button
     //Gives an item to a NPC the player is talking to
     public void GiveItem(int itemID)
     {
-
+        currentCharacter.LoadGiftDialogue(itemID);
     }
 
     public void SetUpChoices(List<string> choices)
@@ -321,8 +329,13 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public bool isDialoguePlaying()
+    public bool IsDialoguePlaying()
     {
         return dialogueInProgress;
+    }
+
+    public void SetCanGift(bool var)
+    {
+        canGift = var;
     }
 }

@@ -17,7 +17,7 @@ MonoBehaviour:
     make it so Nathan puts them on and keeps them on for the rest of the game after
     the MC gives them to him.
   _itemID: 11
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 5
   _itemImage: {fileID: 0}

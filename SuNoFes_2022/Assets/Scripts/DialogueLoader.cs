@@ -44,17 +44,30 @@ public class DialogueLoader : MonoBehaviour
     [SerializeField] private DialogueList[] dialogueScenes;
     [SerializeField] private CharacterScriptableObject character;
 
+    #region Gift JSON Vars
+    private CharacterScriptableObject.giftJSONDict[] giftJSONs;
+    
+    [System.Serializable]
+    public class giftSceneDict
+    {
+        public int giftID;
+        public DialogueList giftScene;
+    }
+    [SerializeField] private giftSceneDict[] giftScenes;
+    #endregion
+
     // Start is called before the first frame update
     void Start()
     {
+        dialogueManager = DialogueManager.Instance;
         LoadDialogueData();
+        LoadGiftDialogueData();
     }
 
     public void LoadDialogueData()
     {
         dialogueJSONs = character.Scenes;
         dialogueScenes = new DialogueList[dialogueJSONs.Length];
-        dialogueManager = DialogueManager.Instance;
         for(int i = 0; i < dialogueJSONs.Length; i++)
         {
             dialogueList = JsonUtility.FromJson<DialogueList>(dialogueJSONs[i].text);
@@ -62,9 +75,23 @@ public class DialogueLoader : MonoBehaviour
         }
     }
 
+    public void LoadGiftDialogueData()
+    {
+        giftJSONs = character.CharacterGifts;
+        giftScenes = new giftSceneDict[giftJSONs.Length];
+
+        for(int i = 0; i < giftJSONs.Length; i++)
+        {
+            giftScenes[i] = new giftSceneDict();
+            dialogueList = JsonUtility.FromJson<DialogueList>(giftJSONs[i].giftScene.text);
+            giftScenes[i].giftID = giftJSONs[i].giftID;
+            giftScenes[i].giftScene = dialogueList;
+        }
+    }
+
     private void OnMouseDown() 
     {
-        if(!dialogueManager.isDialoguePlaying())
+        if(!dialogueManager.IsDialoguePlaying())
         {
             LoadDialogue();    
             Debug.Log("obj clicked");
@@ -75,6 +102,14 @@ public class DialogueLoader : MonoBehaviour
     {
         if(character.SceneProgression < dialogueScenes.Length)
         {
+            if(character.SceneProgression != 0 && character.SceneProgression !> character.Scenes.Length - 1)
+            {
+                dialogueManager.SetCanGift(true);
+            }
+            else
+            {
+                dialogueManager.SetCanGift(false);
+            }
             //Sending itself as part of the function call is definitely bad practice 
             //Unfortunately it was the best way to get things to work based off time constraints
             dialogueManager.StartDialogue(GetCurrentScene(), this);
@@ -84,6 +119,21 @@ public class DialogueLoader : MonoBehaviour
         {
             //Play ending scene or something idk
         }
+    }
+
+    public void LoadGiftDialogue(int ID)
+    {
+        dialogueManager.SetCanGift(false);
+        Dialogue[] giftSceneDialogue = giftScenes[giftScenes.Length - 1].giftScene.dialogue;
+        foreach(giftSceneDict gift in giftScenes)
+        {
+            if(gift.giftID == ID)
+            {
+                giftSceneDialogue = gift.giftScene.dialogue;
+                IncrementCharAffinity(ItemManager.Instance.ReturnItem(ID).ItemAffinity);
+            }
+        }
+        dialogueManager.StartDialogue(giftSceneDialogue, this);
     }
 
     public void IncrementSceneProgression(int incrementAmount)

@@ -15,7 +15,7 @@ MonoBehaviour:
   _itemName: Juice Box Pack
   _itemDescription: Grocery list item
   _itemID: 2
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 1
   _itemImage: {fileID: 0}

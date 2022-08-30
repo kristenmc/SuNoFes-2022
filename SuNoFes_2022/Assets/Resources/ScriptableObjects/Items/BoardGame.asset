@@ -16,7 +16,7 @@ MonoBehaviour:
   _itemDescription: A board game box with a cover that resembles some sort of Pikmin
     knockoff called Piknion.
   _itemID: 10
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 2
   _itemImage: {fileID: 0}

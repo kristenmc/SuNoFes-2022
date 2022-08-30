@@ -1,0 +1,21 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "whereSceneHasBeenSetThusFar",
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanWearingShibaEarrings",
+            "speakerDialogue": "Huh? These are… D’awww, these are so cute! Ooh, look at the little shibas! There’s no way I could resist wearing these!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanWearingShibaEarrings",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Hehe, you really know how to make someone’s day, don’t you? Thank you for finding these!"
+        }
+    ]
+}

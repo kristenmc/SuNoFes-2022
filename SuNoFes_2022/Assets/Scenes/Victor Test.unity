@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &48905978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,8 +154,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: []
   itemPlayerInventory: 
-  itemShopInventory: 
+  itemShopInventory: 01000000020000000300000004000000050000000700000008000000090000000a0000000b0000000e0000000f00000010000000
+  itemShopDisplay: []
+  itemShopDisplaySlots: []
   playerBudget: 0
+  playerSalary: 0
 --- !u!4 &48905979
 Transform:
   m_ObjectHideFlags: 0
@@ -1429,6 +1432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drew
       objectReference: {fileID: 0}
+    - target: {fileID: 2637726891026262812, guid: 2a18ddb10f6a7be42a8fb2c52f8ad018, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2637726891026262817, guid: 2a18ddb10f6a7be42a8fb2c52f8ad018, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2548,6 +2555,7 @@ MonoBehaviour:
   dialogueInProgress: 0
   nathanSO: {fileID: 2110499793}
   drewSO: {fileID: 1134554943}
+  canGift: 0
   topChoiceY: 140
   botChoiceY: 40
   choiceX: 0

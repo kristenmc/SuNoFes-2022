@@ -18,7 +18,7 @@ MonoBehaviour:
     in the store because they are so excited. (no need for animation or image of
     this happening)
   _itemID: 3
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 5
   _itemImage: {fileID: 0}

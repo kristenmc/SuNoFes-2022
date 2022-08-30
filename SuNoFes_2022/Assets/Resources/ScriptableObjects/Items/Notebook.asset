@@ -15,7 +15,7 @@ MonoBehaviour:
   _itemName: Notebook
   _itemDescription: An item Elijah is considering buying
   _itemID: 15
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 1
   _itemImage: {fileID: 0}

@@ -11,6 +11,14 @@ public class CharacterScriptableObject : ScriptableObject
     [SerializeField] private TextAsset[] _scenes;
     
     [System.Serializable]
+    public class giftJSONDict
+    {
+        public int giftID;
+        public TextAsset giftScene;
+    }
+    [SerializeField] private giftJSONDict[] _characterGifts;
+
+    [System.Serializable]
     public class expressionDict
     {
         public string expressionKey;
@@ -37,6 +45,10 @@ public class CharacterScriptableObject : ScriptableObject
     public TextAsset[] Scenes
     {
         get {return _scenes;}
+    }
+    public giftJSONDict[] CharacterGifts
+    {
+        get{return _characterGifts;}
     }
     public expressionDict[] CharacterExpressions
     {

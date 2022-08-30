@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ded684d64df96494e8ed49278e4796ae, type: 3}
-  m_Name: Item_Name
+  m_Name: RainaBook
   m_EditorClassIdentifier: 
-  _itemName: 
-  _itemDescription: 
-  _itemID: -1
-  _itemShippingTime: 0
+  _itemName: Raina's Book
+  _itemDescription: In some scenes, you can see Raina holding a book. This is the
+    book she is holding. It is not sellable.
+  _itemID: 6
+  _itemAmount: 1
   _itemCost: 0
-  _itemCharges: 1
+  _itemAffinity: 0
   _itemImage: {fileID: 0}

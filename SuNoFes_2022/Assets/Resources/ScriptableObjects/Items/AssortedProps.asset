@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ded684d64df96494e8ed49278e4796ae, type: 3}
-  m_Name: Assorted Props
+  m_Name: AssortedProps
   m_EditorClassIdentifier: 
   _itemName: Assorted Props
   _itemDescription: These items can be anything sellable. They have the purpose of
     throwing off the player. These do not affect any of the characters. They lead
     to responses like, "I don't need this."
   _itemID: 5
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 0
   _itemImage: {fileID: 0}

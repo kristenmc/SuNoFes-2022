@@ -17,7 +17,7 @@ MonoBehaviour:
     It is a book she has been meaning to get because she heard people raving about
     it on Book Tiktok.
   _itemID: 7
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 3
   _itemImage: {fileID: 0}

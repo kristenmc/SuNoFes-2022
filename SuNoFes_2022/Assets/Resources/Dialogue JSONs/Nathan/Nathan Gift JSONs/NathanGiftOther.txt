@@ -1,0 +1,12 @@
+{
+    "dialogue": 
+    [
+        {
+            "startEnd": "Start&End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Huh? I don't want that, but thanks for thinking of me anyways."
+        }
+    ]
+}

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded684d64df96494e8ed49278e4796ae, type: 3}
   m_Name: BoxofCubanCigars
   m_EditorClassIdentifier: 
-  _itemName: Notebook
+  _itemName: Box of Cuban Cigars
   _itemDescription: An item Elijah is considering buying
-  _itemID: 15
-  _itemShippingTime: 0
+  _itemID: 16
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 1
   _itemImage: {fileID: 0}

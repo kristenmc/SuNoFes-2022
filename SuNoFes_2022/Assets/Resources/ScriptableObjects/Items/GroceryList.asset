@@ -17,7 +17,7 @@ MonoBehaviour:
     the correct choices in Drew''s scene one, is given to the MC. The items written
     on the list: Cough medicine and juice boxes.'
   _itemID: 0
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 0
   _itemImage: {fileID: 0}

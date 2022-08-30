@@ -16,7 +16,7 @@ MonoBehaviour:
   _itemDescription: She has watched the anime for this and is thrilled when receiving
     this.
   _itemID: 8
-  _itemShippingTime: 0
+  _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 5
   _itemImage: {fileID: 0}
