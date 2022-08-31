@@ -26,6 +26,157 @@
 						<ActiveSource Name="Zephrily - Cobalt Coastlands 2 Remix (Legends Arceus)" ID="{D3225360-1191-43E4-88C8-99136EF753FE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Dog Barking" ID="{FD36A3CC-1818-48BB-A31E-2FC1CB6223CB}" ShortID="33952511">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dog_01" ID="{439B7665-1A4A-483C-92B6-2F3D2E3AEFC5}" ShortID="240667299">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dog_01" ID="{28A8527B-DF0D-4432-9EA0-A5D26B644794}">
+									<Language>SFX</Language>
+									<AudioFile>dog_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="110844117"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dog_01" ID="{28A8527B-DF0D-4432-9EA0-A5D26B644794}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dog_02" ID="{11D811DD-C01D-4CF3-8952-60EE6000A8ED}" ShortID="731565610">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dog_02" ID="{8585AE3F-6E2F-42B3-9C77-0C3D4E47D1C6}">
+									<Language>SFX</Language>
+									<AudioFile>dog_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="23982910"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dog_02" ID="{8585AE3F-6E2F-42B3-9C77-0C3D4E47D1C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dog_03" ID="{0D755F78-E4B6-405D-B0E0-646F6222B237}" ShortID="320051982">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dog_03" ID="{F1D9ED24-ACDA-491D-80B8-62F423AA7169}">
+									<Language>SFX</Language>
+									<AudioFile>dog_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="871881560"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dog_03" ID="{F1D9ED24-ACDA-491D-80B8-62F423AA7169}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dog_04" ID="{92235981-DFD8-4506-8AE6-B1C68BB97502}" ShortID="607387830">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dog_04" ID="{C803F716-CE89-40E9-AA29-4DC0FBC2FF9F}">
+									<Language>SFX</Language>
+									<AudioFile>dog_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1029340301"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dog_04" ID="{C803F716-CE89-40E9-AA29-4DC0FBC2FF9F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<Sound Name="Bell Ringing" ID="{52532928-48BE-48BC-97A2-06614AADF583}" ShortID="774441557">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bell Ringing" ID="{6F978848-6DA2-4CB1-A147-19F91CC9FA43}">
+							<Language>SFX</Language>
+							<AudioFile>Bell Ringing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="421020346"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Bell Ringing" ID="{6F978848-6DA2-4CB1-A147-19F91CC9FA43}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Money Sound" ID="{FF3E4C79-3F4F-4CC3-A5AF-EA84EA427EEC}" ShortID="1045751761">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Money Sound" ID="{ECF8D8AD-0152-40DD-9DED-D67DE80E38F3}">
+							<Language>SFX</Language>
+							<AudioFile>Money Sound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="953728689"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Money Sound" ID="{ECF8D8AD-0152-40DD-9DED-D67DE80E38F3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

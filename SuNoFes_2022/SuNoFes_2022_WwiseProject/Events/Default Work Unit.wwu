@@ -14,6 +14,89 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Dog_Barking" ID="{0659FC18-42AF-4D4F-8541-47F515FD382D}">
+					<ChildrenList>
+						<Action Name="" ID="{06C860C3-0CF8-49E8-B998-A9E456D60626}" ShortID="784071897">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dog Barking" ID="{FD36A3CC-1818-48BB-A31E-2FC1CB6223CB}" WorkUnitID="{83E26E37-3229-4915-A994-39A119FE6FAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bell_Ringing" ID="{46364AAC-4BEC-498B-8525-C1AE861AAA30}">
+					<ChildrenList>
+						<Action Name="" ID="{506E2CE6-5797-462A-9B18-7142B120E343}" ShortID="5711652">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bell Ringing" ID="{52532928-48BE-48BC-97A2-06614AADF583}" WorkUnitID="{83E26E37-3229-4915-A994-39A119FE6FAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Money_Sound" ID="{78F9BE3B-412A-4510-940D-92CD3826EE9E}">
+					<ChildrenList>
+						<Action Name="" ID="{41788B46-4925-4B20-A693-2B4AAB5887F2}" ShortID="146012733">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Money Sound" ID="{FF3E4C79-3F4F-4CC3-A5AF-EA84EA427EEC}" WorkUnitID="{83E26E37-3229-4915-A994-39A119FE6FAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sad_Music" ID="{C3F4D085-201B-4C57-96A7-F180B1F451D1}">
+					<ChildrenList>
+						<Action Name="" ID="{344E1340-DFF9-4112-BEC2-20FE60543C59}" ShortID="789055448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sad Music" ID="{2EEBB3B2-4279-4EB7-9973-ACE244CEEC98}" WorkUnitID="{32E5C63A-529A-43A5-BE89-7224CB96FA2B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shop_Music" ID="{33205EEA-D8CB-4A65-8549-B511238A2E2F}">
+					<ChildrenList>
+						<Action Name="" ID="{7E06A762-8D84-4013-B142-D3C2DB2BAB33}" ShortID="1058183194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shop Music" ID="{B531E332-B1DA-4B50-A3DB-DD6F8FF9BEB0}" WorkUnitID="{32E5C63A-529A-43A5-BE89-7224CB96FA2B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Sad_Music" ID="{BDA3C45F-7C3A-4F3E-AC47-E344F5A84F9D}">
+					<ChildrenList>
+						<Action Name="" ID="{7971425E-0091-4417-8CB1-7FC3C21553D8}" ShortID="1041607694">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sad Music" ID="{2EEBB3B2-4279-4EB7-9973-ACE244CEEC98}" WorkUnitID="{32E5C63A-529A-43A5-BE89-7224CB96FA2B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Shop_Music" ID="{55D27098-208C-467C-82D3-AD7B3D6200F9}">
+					<ChildrenList>
+						<Action Name="" ID="{4928ACBC-7155-4EF5-BD3E-A2478B9A71EE}" ShortID="228880526">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shop Music" ID="{B531E332-B1DA-4B50-A3DB-DD6F8FF9BEB0}" WorkUnitID="{32E5C63A-529A-43A5-BE89-7224CB96FA2B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

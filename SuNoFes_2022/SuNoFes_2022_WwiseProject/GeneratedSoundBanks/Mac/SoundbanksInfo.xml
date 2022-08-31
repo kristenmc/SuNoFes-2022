@@ -16,11 +16,73 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2577447107">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2256329488">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2468196366" Name="Play_Bell_Ringing" ObjectPath="\Events\Default Work Unit\Play_Bell_Ringing" DurationType="OneShot" DurationMin="1.716354" DurationMax="1.716354">
+					<IncludedMemoryFiles>
+						<File Id="421020346" Language="SFX">
+							<ShortName>Bell Ringing.wav</ShortName>
+							<Path>SFX\Bell Ringing_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1436986643" Name="Play_Dog_Barking" ObjectPath="\Events\Default Work Unit\Play_Dog_Barking" DurationType="OneShot" DurationMin="0.25" DurationMax="1.649042">
+					<IncludedMemoryFiles>
+						<File Id="23982910" Language="SFX">
+							<ShortName>dog_02.wav</ShortName>
+							<Path>SFX\dog_02_10C4C929.wem</Path>
+						</File>
+						<File Id="110844117" Language="SFX">
+							<ShortName>dog_01.wav</ShortName>
+							<Path>SFX\dog_01_10C4C929.wem</Path>
+						</File>
+						<File Id="871881560" Language="SFX">
+							<ShortName>dog_03.wav</ShortName>
+							<Path>SFX\dog_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1029340301" Language="SFX">
+							<ShortName>dog_04.wav</ShortName>
+							<Path>SFX\dog_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3574127934" Name="Play_Money_Sound" ObjectPath="\Events\Default Work Unit\Play_Money_Sound" DurationType="OneShot" DurationMin="0.581729" DurationMax="0.581729">
+					<IncludedMemoryFiles>
+						<File Id="953728689" Language="SFX">
+							<ShortName>Money Sound.wav</ShortName>
+							<Path>SFX\Money Sound_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4162666262" Name="Play_Sad_Music" ObjectPath="\Events\Default Work Unit\Play_Sad_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="254421818" Language="SFX">
+							<ShortName>Sad_Music_Loop.wav</ShortName>
+							<Path>SFX\Sad_Music_Loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="535333443" Language="SFX">
+							<ShortName>Sad_Music_Intro.wav</ShortName>
+							<Path>SFX\Sad_Music_Intro_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="186839574" Name="Play_Shop_Music" ObjectPath="\Events\Default Work Unit\Play_Shop_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="511214074" Language="SFX">
+							<ShortName>Shop_Music_Intro.wav</ShortName>
+							<Path>SFX\Shop_Music_Intro_D79FB2B7.wem</Path>
+						</File>
+						<File Id="855066281" Language="SFX">
+							<ShortName>Shop_Music_Loop.wav</ShortName>
+							<Path>SFX\Shop_Music_Loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="483409984" Name="Stop_Sad_Music" ObjectPath="\Events\Default Work Unit\Stop_Sad_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2155562184" Name="Stop_Shop_Music" ObjectPath="\Events\Default Work Unit\Stop_Shop_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="379521629" Name="test_music" ObjectPath="\Events\Default Work Unit\test_music" DurationType="OneShot" DurationMin="157.082169" DurationMax="157.082169">
 					<IncludedMemoryFiles>
 						<File Id="390051558" Language="SFX">

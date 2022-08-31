@@ -5,7 +5,14 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{54E232E7-5F94-45B4-864A-4FDF1FC0CEDB}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Money_Sound" ID="{78F9BE3B-412A-4510-940D-92CD3826EE9E}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Shop_Music" ID="{55D27098-208C-467C-82D3-AD7B3D6200F9}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="test_music" ID="{0D309709-776A-4851-8257-0023104F3688}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bell_Ringing" ID="{46364AAC-4BEC-498B-8525-C1AE861AAA30}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Shop_Music" ID="{33205EEA-D8CB-4A65-8549-B511238A2E2F}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Sad_Music" ID="{C3F4D085-201B-4C57-96A7-F180B1F451D1}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dog_Barking" ID="{0659FC18-42AF-4D4F-8541-47F515FD382D}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Sad_Music" ID="{BDA3C45F-7C3A-4F3E-AC47-E344F5A84F9D}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
