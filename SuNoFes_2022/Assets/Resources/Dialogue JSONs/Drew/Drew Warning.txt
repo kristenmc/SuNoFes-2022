@@ -1,0 +1,11 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Shop",
+            "music": "shopMusic",
+            "speakerName": "Drew",
+            "speakerDialogue": "Drew and Stella are thinking of shopping elsewhere from now on, you should talk to them if you want them to keep shopping here."
+        }
+    ]
+}

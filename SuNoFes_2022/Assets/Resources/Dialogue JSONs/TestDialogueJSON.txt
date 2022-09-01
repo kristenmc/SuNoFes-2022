@@ -26,13 +26,5 @@
             "branchingChoice2": "I also No",
             "branchingChoice3": "I also Ok"
         }
-    ],
-    "dialogue_2": [
-        {
-            "scene": "Temp Scene 1",
-            "speakerName": "Temp",
-            "speakerExpression": "Mad",
-            "speakerDialogue": "I'm mad."
-        }
     ]
 }

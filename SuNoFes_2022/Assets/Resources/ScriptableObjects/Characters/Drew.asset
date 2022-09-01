@@ -13,8 +13,18 @@ MonoBehaviour:
   m_Name: Drew
   m_EditorClassIdentifier: 
   _characterName: Drew
-  _characterAffinity: 0
+  _characterAffinity: 4
   _sceneProgression: 0
   _scenes:
   - {fileID: 4900000, guid: a86396cbe8e0c23458c2444a6e7f10aa, type: 3}
+  _warningScene: {fileID: 4900000, guid: 9594406f8086ca241aeefbb328b1c4ac, type: 3}
+  _characterGifts:
+  - giftID: 11
+    giftScene: {fileID: 4900000, guid: a86396cbe8e0c23458c2444a6e7f10aa, type: 3}
+  - giftID: 10
+    giftScene: {fileID: 4900000, guid: 4ad1d808074f1834f898c4292e46e9db, type: 3}
+  - giftID: -1
+    giftScene: {fileID: 4900000, guid: a01d666dd92b52943b22dd64bc762a7f, type: 3}
+  - giftID: -2
+    giftScene: {fileID: 4900000, guid: 80f2e9f375d946740843269e5254d53a, type: 3}
   _characterExpressions: []

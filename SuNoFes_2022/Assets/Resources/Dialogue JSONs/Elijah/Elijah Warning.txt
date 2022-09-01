@@ -1,0 +1,11 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Shop",
+            "music": "shopMusic",
+            "speakerName": "Nathan",
+            "speakerDialogue": "You might not get another chance to speak with Elijah after today, you should consider exchanging some words with him."
+        }
+    ]
+}

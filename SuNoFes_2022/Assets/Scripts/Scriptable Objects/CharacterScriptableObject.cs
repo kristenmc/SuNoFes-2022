@@ -9,6 +9,7 @@ public class CharacterScriptableObject : ScriptableObject
     [SerializeField] private int _characterAffinity;
     [SerializeField] private int _sceneProgression;
     [SerializeField] private TextAsset[] _scenes;
+    [SerializeField] private TextAsset _warningScene;
     
     [System.Serializable]
     public class giftJSONDict
@@ -45,6 +46,10 @@ public class CharacterScriptableObject : ScriptableObject
     public TextAsset[] Scenes
     {
         get {return _scenes;}
+    }
+    public TextAsset WarningScene
+    {
+        get {return _warningScene;}
     }
     public giftJSONDict[] CharacterGifts
     {

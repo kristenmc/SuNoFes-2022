@@ -1,0 +1,11 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Shop",
+            "music": "shopMusic",
+            "speakerName": "Nathan",
+            "speakerDialogue": "Raina doesn’t really wanna shop here much anymore, you should talk to her if you want to change her mind."
+        }
+    ]
+}

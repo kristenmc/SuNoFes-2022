@@ -7,16 +7,16 @@ public class DialogueManager : MonoBehaviour
 {
     static private DialogueManager _instance;
     static public DialogueManager Instance { get { return _instance;}}
-    [SerializeField] private Queue<DialogueLoader.Dialogue> dialogueQueue;
+    [SerializeField] private Queue<CharacterDialogueLoader.Dialogue> dialogueQueue;
 
     [SerializeField] private TextMeshProUGUI displayName;
     [SerializeField] private GameObject nameBackground;
     [SerializeField] private TextMeshProUGUI displayDialogue;
     [SerializeField] private GameObject continueButton;
-    [SerializeField] private DialogueLoader[] clickableCharacters;
+    [SerializeField] private CharacterDialogueLoader[] clickableCharacters;
     [SerializeField] private bool dialogueInProgress = false;
-    [SerializeField] private DialogueLoader nathanSO;
-    [SerializeField] private DialogueLoader drewSO;
+    [SerializeField] private CharacterDialogueLoader nathanSO;
+    [SerializeField] private CharacterDialogueLoader drewSO;
     [SerializeField] private bool canGift;
 
 #region Choice Button Vars
@@ -36,13 +36,15 @@ public class DialogueManager : MonoBehaviour
 
 #region Saved Variables
     private int playerChoice;
-    private DialogueLoader.Dialogue dialoguePointValues;    
-    private DialogueLoader currentCharacter;
+    private CharacterDialogueLoader.Dialogue dialoguePointValues;    
+    private CharacterDialogueLoader currentCharacter;
     private int numSkipBefore;
     private int numSkipAfter;
     private int numChoices;
     [SerializeField] private bool sharedScene1Played = false;
     [SerializeField] private bool sharedScene2Played = false;
+    private string currentlyPlayingMusic;
+    private int elijahChoice;
 #endregion
 
     private void Awake()
@@ -56,11 +58,11 @@ public class DialogueManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        dialogueQueue = new Queue<CharacterDialogueLoader.Dialogue>();
     }
 
     private void Start() 
     {
-        dialogueQueue = new Queue<DialogueLoader.Dialogue>();
         availableChoices = new List<string>();
     }
 
@@ -71,55 +73,58 @@ public class DialogueManager : MonoBehaviour
     }
 
     //Starts and sets up the dialogue system
-    public void StartDialogue(DialogueLoader.Dialogue[] dialogue, DialogueLoader loader)
+    public void StartDialogue(CharacterDialogueLoader.Dialogue[] dialogue, CharacterDialogueLoader loader = null)
     {
         //Check to make sure this isnt a shared scene
         //If it is and it has already been played, skip this scene
-        if(loader.GetCharacterName() == "Nathan")
+        if(loader != null)
         {
-            if(loader.GetSceneProgression() == 2 && sharedScene1Played)
+            if(loader.GetCharacterName() == "Nathan")
             {
-                loader.IncrementSceneProgression(1);
+                if(loader.GetSceneProgression() == 2 && sharedScene1Played)
+                {
+                    loader.IncrementSceneProgression(1);
+                }
+                else if(loader.GetSceneProgression() == 2 && !sharedScene1Played)
+                {
+                    sharedScene1Played = true;
+                }
+                if(loader.GetSceneProgression() == 3 && sharedScene2Played)
+                {
+                    loader.IncrementSceneProgression(1);
+                }
+                else if(loader.GetSceneProgression() == 3 && !sharedScene2Played)
+                {
+                    sharedScene2Played = true;
+                }
+                dialogue = loader.GetCurrentScene();
             }
-            else if(loader.GetSceneProgression() == 2 && !sharedScene1Played)
+            else if(loader.GetCharacterName() == "Drew")
             {
-                sharedScene1Played = true;
+                if(loader.GetSceneProgression() == 1 && sharedScene1Played)
+                {
+                    loader.IncrementSceneProgression(1);
+                }
+                else if(loader.GetSceneProgression() == 1 && !sharedScene1Played)
+                {
+                    sharedScene1Played = true;
+                }
+                if(loader.GetSceneProgression() == 3 && sharedScene2Played)
+                {
+                    loader.IncrementSceneProgression(1);
+                }
+                else if(loader.GetSceneProgression() == 3 && !sharedScene2Played)
+                {
+                    sharedScene2Played = true;
+                }
+                dialogue = loader.GetCurrentScene();
             }
-            if(loader.GetSceneProgression() == 3 && sharedScene2Played)
-            {
-                loader.IncrementSceneProgression(1);
-            }
-            else if(loader.GetSceneProgression() == 3 && !sharedScene2Played)
-            {
-                sharedScene2Played = true;
-            }
-            dialogue = loader.GetCurrentScene();
-        }
-        else if(loader.GetCharacterName() == "Drew")
-        {
-            if(loader.GetSceneProgression() == 1 && sharedScene1Played)
-            {
-                loader.IncrementSceneProgression(1);
-            }
-            else if(loader.GetSceneProgression() == 1 && !sharedScene1Played)
-            {
-                sharedScene1Played = true;
-            }
-            if(loader.GetSceneProgression() == 3 && sharedScene2Played)
-            {
-                loader.IncrementSceneProgression(1);
-            }
-            else if(loader.GetSceneProgression() == 3 && !sharedScene2Played)
-            {
-                sharedScene2Played = true;
-            }
-            dialogue = loader.GetCurrentScene();
         }
         currentCharacter = loader;
         dialogueInProgress = true;
         dialogueBoxAnimator.Play(dialogueBoxReveal);
         dialogueQueue.Clear();
-        foreach(DialogueLoader.Dialogue sentence in dialogue)
+        foreach(CharacterDialogueLoader.Dialogue sentence in dialogue)
         {
             dialogueQueue.Enqueue(sentence);
         }
@@ -135,7 +140,7 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
-        DialogueLoader.Dialogue sentence = dialogueQueue.Dequeue();
+        CharacterDialogueLoader.Dialogue sentence = dialogueQueue.Dequeue();
         if(sentence.lineSkip > 0)
         {
             sentence = LineSkipHelper(sentence);
@@ -144,6 +149,10 @@ public class DialogueManager : MonoBehaviour
                 EndDialogue();
                 return;
             }
+        }
+        if(sentence.scene != null && sentence.scene != "")
+        {
+            //TODO:: Load scene background
         }
         if(sentence.displayName != "Thinking")
         {
@@ -156,50 +165,76 @@ public class DialogueManager : MonoBehaviour
             displayName.text = null;
             displayDialogue.text = "<i>";
         }
-        if(displayName.text == null)
+        if(displayName.text == null || displayName.text == "")
         {
             nameBackground.SetActive(false);
         }
-        if(sentence.sfx != null)
+        if(sentence.sfx != null && sentence.sfx != "")
         {
             //@Kristen TODO:: Add sfx code here based on the string sentence.sfx
             AkSoundEngine.PostEvent("Play_" + sentence.sfx.Replace(" ", "_"), this.gameObject);
-             
+            
+        }
+        if(sentence.music != null && sentence.sfx == "")
+        {
+            //@Kristen TODO:: Add music code here based on the string sentence.music
+            //stop music using the string var currentlyPlayingMusic
+            currentlyPlayingMusic = sentence.music; 
         }
         //#ToDo: speaker expression stuff goes here 
-        if(sentence.isBranching != null)
+        if(sentence.isBranching != null && sentence.isBranching != "")
         {
             numSkipBefore = 0;
             numSkipAfter = 0;
             availableChoices.Clear();
-            if(sentence.branchingChoice1 != null)
+            if(sentence.branchingChoice1 != null && sentence.branchingChoice1 != "")
             {
                 availableChoices.Add(sentence.branchingChoice1);
             }
-            if(sentence.branchingChoice2 != null)
+            if(sentence.branchingChoice2 != null && sentence.branchingChoice2 != "")
             {
                 availableChoices.Add(sentence.branchingChoice2);
             }
-            if(sentence.branchingChoice3 != null)
+            if(sentence.branchingChoice3 != null && sentence.branchingChoice3 != "")
             {
                 availableChoices.Add(sentence.branchingChoice3);
             }
-            if(sentence.isBranching == "isPlayerChoice")
+            if(sentence.isBranching == "isPlayerChoice" || sentence.isBranching == "elijahChoice")
             {
-                continueButton.SetActive(false);                
-                displayDialogue.text += sentence.speakerDialogue;
-                dialoguePointValues = sentence;
-                SetUpChoices(availableChoices);
+                if(availableChoices.Count > 0)
+                {
+                    continueButton.SetActive(false);                
+                    displayDialogue.text += sentence.speakerDialogue;
+                    dialoguePointValues = sentence;
+                    SetUpChoices(availableChoices);
+                }
+                else if(sentence.isBranching == "elijahChoice")
+                {
+                    if(elijahChoice == 0)
+                    {
+                        numSkipBefore = 0;
+                        numSkipAfter = numChoices - 1;
+                    }
+                    else if(elijahChoice == 1)
+                    {
+                        numSkipBefore = 1;
+                        numSkipAfter = numChoices - 2;
+                    }
+                    else
+                    {
+                        numSkipBefore = 2;
+                        numSkipAfter = 0;
+                    }
+                }
             }
         }
         else
         {
-            
             displayDialogue.text += sentence.speakerDialogue;
         }
     }
 
-    public DialogueLoader.Dialogue LineSkipHelper(DialogueLoader.Dialogue sentence)
+    public CharacterDialogueLoader.Dialogue LineSkipHelper(CharacterDialogueLoader.Dialogue sentence)
     {
         if(numSkipBefore > 0)
             {
@@ -259,7 +294,10 @@ public class DialogueManager : MonoBehaviour
     //Gives an item to a NPC the player is talking to
     public void GiveItem(int itemID)
     {
-        currentCharacter.LoadGiftDialogue(itemID);
+        if(currentCharacter != null)
+        {
+            currentCharacter.LoadGiftDialogue(itemID);
+        }
     }
 
     public void SetUpChoices(List<string> choices)
@@ -277,6 +315,10 @@ public class DialogueManager : MonoBehaviour
 
     public void ChooseDialogue(int choiceNumber)
     {
+        if(dialoguePointValues.isBranching == "elijahChoice")
+        {
+            elijahChoice = choiceNumber;
+        }
         playerChoice = choiceNumber;
         continueButton.SetActive(true);
         foreach(GameObject button in choiceButtons)
@@ -287,7 +329,7 @@ public class DialogueManager : MonoBehaviour
         {
             numSkipBefore = 0;
             numSkipAfter = numChoices - 1;
-            if(dialoguePointValues.c1nathanpv == 0 && dialoguePointValues.c1drewpv == 0)
+            if(dialoguePointValues.c1nathanpv == 0 && dialoguePointValues.c1drewpv == 0 && currentCharacter != null)
             {
                 currentCharacter.IncrementCharAffinity(dialoguePointValues.c1pv);
             }
@@ -302,7 +344,7 @@ public class DialogueManager : MonoBehaviour
         {
             numSkipBefore = 1;
             numSkipAfter = numChoices - 2;
-            if(dialoguePointValues.c2nathanpv == 0 && dialoguePointValues.c2drewpv == 0)
+            if(dialoguePointValues.c2nathanpv == 0 && dialoguePointValues.c2drewpv == 0 && currentCharacter != null)
             {
                 currentCharacter.IncrementCharAffinity(dialoguePointValues.c2pv);
             }
@@ -317,14 +359,17 @@ public class DialogueManager : MonoBehaviour
         {
             numSkipBefore = 2;
             numSkipAfter = 0;
-            currentCharacter.IncrementCharAffinity(dialoguePointValues.c3pv);
+            if(currentCharacter != null)
+            {
+                currentCharacter.IncrementCharAffinity(dialoguePointValues.c3pv);
+            }
             ContinueDialogue();
         }
     }
 
     public void ResetAllSceneProgression()
     {
-        foreach(DialogueLoader character in clickableCharacters)
+        foreach(CharacterDialogueLoader character in clickableCharacters)
         {
             character.ResetSceneProgression();
         }
