@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
 public class DialogueManager : MonoBehaviour
 {
     static private DialogueManager _instance;
@@ -163,7 +162,9 @@ public class DialogueManager : MonoBehaviour
         }
         if(sentence.sfx != null)
         {
-            //@Kristen TODO:: Add sfx code here based on the string sentence.sfx 
+            //@Kristen TODO:: Add sfx code here based on the string sentence.sfx
+            AkSoundEngine.PostEvent("Play_" + sentence.sfx.Replace(" ", "_"), this.gameObject);
+             
         }
         //#ToDo: speaker expression stuff goes here 
         if(sentence.isBranching != null)

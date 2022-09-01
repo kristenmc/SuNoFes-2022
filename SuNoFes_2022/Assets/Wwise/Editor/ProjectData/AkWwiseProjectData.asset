@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 2908b99d94a369458b21360869af1f90
     GuidInternal: 
-    m_lastTime: -8585449665014277349
+    m_lastTime: -8585396217162811537
     List:
     - name: Main
       guid: e732e254945fb445864a4fdf1fc0cedb
@@ -94,8 +94,127 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bbfb95164ec6f344833d164135208efa
     GuidInternal: 
-    m_lastTime: -8585449657700602969
+    m_lastTime: -8585396217294166148
     List:
+    - name: Play_Bell_Ringing
+      guid: ac4a3646ec4b8b498525c1ae861aaa30
+      id: 2468196366
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bbfb95164ec6f344833d164135208efa
+      - ElementName: Play_Bell_Ringing
+        ObjectType: 3
+        guid: ac4a3646ec4b8b498525c1ae861aaa30
+      Path: Events\Default Work Unit\Play_Bell_Ringing
+      maxAttenuation: 0
+      maxDuration: 1.716354
+      minDuration: 1.716354
+    - name: Play_Dog_Barking
+      guid: 18fc5906af424f4d854147f515fd382d
+      id: 1436986643
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bbfb95164ec6f344833d164135208efa
+      - ElementName: Play_Dog_Barking
+        ObjectType: 3
+        guid: 18fc5906af424f4d854147f515fd382d
+      Path: Events\Default Work Unit\Play_Dog_Barking
+      maxAttenuation: 0
+      maxDuration: 1.649042
+      minDuration: 0.25
+    - name: Play_Money_Sound
+      guid: 3bbef9782a411045940d92cd3826ee9e
+      id: 3574127934
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bbfb95164ec6f344833d164135208efa
+      - ElementName: Play_Money_Sound
+        ObjectType: 3
+        guid: 3bbef9782a411045940d92cd3826ee9e
+      Path: Events\Default Work Unit\Play_Money_Sound
+      maxAttenuation: 0
+      maxDuration: 0.581729
+      minDuration: 0.581729
+    - name: Play_Sad_Music
+      guid: 85d0f4c31b20574c96a7f180b1f451d1
+      id: 4162666262
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bbfb95164ec6f344833d164135208efa
+      - ElementName: Play_Sad_Music
+        ObjectType: 3
+        guid: 85d0f4c31b20574c96a7f180b1f451d1
+      Path: Events\Default Work Unit\Play_Sad_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Shop_Music
+      guid: ea5e2033cbd8654a8549b511238a2e2f
+      id: 186839574
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bbfb95164ec6f344833d164135208efa
+      - ElementName: Play_Shop_Music
+        ObjectType: 3
+        guid: ea5e2033cbd8654a8549b511238a2e2f
+      Path: Events\Default Work Unit\Play_Shop_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Sad_Music
+      guid: 5fc4a3bd3a7c3e4fac47e344f5a84f9d
+      id: 483409984
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bbfb95164ec6f344833d164135208efa
+      - ElementName: Stop_Sad_Music
+        ObjectType: 3
+        guid: 5fc4a3bd3a7c3e4fac47e344f5a84f9d
+      Path: Events\Default Work Unit\Stop_Sad_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Shop_Music
+      guid: 9870d2558c207c4682d3ad7b3d6200f9
+      id: 2155562184
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bbfb95164ec6f344833d164135208efa
+      - ElementName: Stop_Shop_Music
+        ObjectType: 3
+        guid: 9870d2558c207c4682d3ad7b3d6200f9
+      Path: Events\Default Work Unit\Stop_Shop_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: test_music
       guid: 0997300d6a77514882570023104f3688
       id: 379521629
@@ -170,7 +289,7 @@ MonoBehaviour:
     m_lastTime: -8585449670404339797
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000001100000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
