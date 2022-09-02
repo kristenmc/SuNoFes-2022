@@ -1,8 +1,9 @@
 {
     "dialogue": 
     [
-        {
+         {
             "scene": "Register",
+            "music": "shopMusic",
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerDialogue": "As I’m cashiering, Nathan approaches me with a stack of white cardstock held above his head. "
