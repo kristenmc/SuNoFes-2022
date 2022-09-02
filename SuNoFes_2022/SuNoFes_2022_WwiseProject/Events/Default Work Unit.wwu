@@ -47,7 +47,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Sad_Music" ID="{C3F4D085-201B-4C57-96A7-F180B1F451D1}">
+				<Event Name="Play_sadMusic" ID="{C3F4D085-201B-4C57-96A7-F180B1F451D1}">
 					<ChildrenList>
 						<Action Name="" ID="{344E1340-DFF9-4112-BEC2-20FE60543C59}" ShortID="789055448">
 							<ReferenceList>
@@ -58,7 +58,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Shop_Music" ID="{33205EEA-D8CB-4A65-8549-B511238A2E2F}">
+				<Event Name="Play_shopMusic" ID="{33205EEA-D8CB-4A65-8549-B511238A2E2F}">
 					<ChildrenList>
 						<Action Name="" ID="{7E06A762-8D84-4013-B142-D3C2DB2BAB33}" ShortID="1058183194">
 							<ReferenceList>
@@ -69,7 +69,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Sad_Music" ID="{BDA3C45F-7C3A-4F3E-AC47-E344F5A84F9D}">
+				<Event Name="Stop_sadMusic" ID="{BDA3C45F-7C3A-4F3E-AC47-E344F5A84F9D}">
 					<ChildrenList>
 						<Action Name="" ID="{7971425E-0091-4417-8CB1-7FC3C21553D8}" ShortID="1041607694">
 							<PropertyList>
@@ -83,7 +83,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Shop_Music" ID="{55D27098-208C-467C-82D3-AD7B3D6200F9}">
+				<Event Name="Stop_shopMusic" ID="{55D27098-208C-467C-82D3-AD7B3D6200F9}">
 					<ChildrenList>
 						<Action Name="" ID="{4928ACBC-7155-4EF5-BD3E-A2478B9A71EE}" ShortID="228880526">
 							<PropertyList>
@@ -92,6 +92,31 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Shop Music" ID="{B531E332-B1DA-4B50-A3DB-DD6F8FF9BEB0}" WorkUnitID="{32E5C63A-529A-43A5-BE89-7224CB96FA2B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ringTone" ID="{236914BD-1D7E-4B27-B09F-315CC3E423D3}">
+					<ChildrenList>
+						<Action Name="" ID="{B88B7399-A39A-40EC-AA0F-68ABF4209349}" ShortID="123437525">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ring Tone" ID="{23ED708B-5400-489A-8966-D831760E39E1}" WorkUnitID="{32E5C63A-529A-43A5-BE89-7224CB96FA2B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ringTone" ID="{AFCD6E6C-D08F-4957-9AA1-F642AF9A10F1}">
+					<ChildrenList>
+						<Action Name="" ID="{0AA24894-E0F6-4178-8F91-DDA51DC77CB2}" ShortID="671321797">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ring Tone" ID="{23ED708B-5400-489A-8966-D831760E39E1}" WorkUnitID="{32E5C63A-529A-43A5-BE89-7224CB96FA2B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

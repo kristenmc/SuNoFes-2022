@@ -16,10 +16,12 @@ namespace AK
         static const AkUniqueID PLAY_BELL_RINGING = 2468196366U;
         static const AkUniqueID PLAY_DOG_BARKING = 1436986643U;
         static const AkUniqueID PLAY_MONEY_SOUND = 3574127934U;
-        static const AkUniqueID PLAY_SAD_MUSIC = 4162666262U;
-        static const AkUniqueID PLAY_SHOP_MUSIC = 186839574U;
-        static const AkUniqueID STOP_SAD_MUSIC = 483409984U;
-        static const AkUniqueID STOP_SHOP_MUSIC = 2155562184U;
+        static const AkUniqueID PLAY_RINGTONE = 3452698164U;
+        static const AkUniqueID PLAY_SADMUSIC = 839113379U;
+        static const AkUniqueID PLAY_SHOPMUSIC = 1308834723U;
+        static const AkUniqueID STOP_RINGTONE = 605676670U;
+        static const AkUniqueID STOP_SADMUSIC = 3888223597U;
+        static const AkUniqueID STOP_SHOPMUSIC = 1951569077U;
         static const AkUniqueID TEST_MUSIC = 379521629U;
     } // namespace EVENTS
 

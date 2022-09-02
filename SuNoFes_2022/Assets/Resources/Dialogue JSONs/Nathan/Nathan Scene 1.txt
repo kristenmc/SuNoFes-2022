@@ -1,8 +1,9 @@
 {
     "dialogue": 
     [
-        {
+       {
             "scene": "Register",
+            "music": "shopMusic",
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerDialogue": "This is a cozy little place, and it doesn’t seem too busy so far. Right now, I’m just hanging out behind the cash register. "

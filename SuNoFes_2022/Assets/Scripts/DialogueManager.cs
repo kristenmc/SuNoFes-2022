@@ -171,13 +171,18 @@ public class DialogueManager : MonoBehaviour
         }
         if(sentence.sfx != null && sentence.sfx != "")
         {
-            //@Kristen TODO:: Add sfx code here based on the string sentence.sfx
+            //Add sfx code here based on the string sentence.sfx
             AkSoundEngine.PostEvent("Play_" + sentence.sfx.Replace(" ", "_"), this.gameObject);
             
         }
-        if(sentence.music != null && sentence.sfx == "")
+        if(sentence.music != null && sentence.music != "")
         {
+            Debug.Log(sentence.music);
             //@Kristen TODO:: Add music code here based on the string sentence.music
+            if(currentlyPlayingMusic != null)
+                AkSoundEngine.PostEvent("Stop_"+currentlyPlayingMusic, this.gameObject);
+            AkSoundEngine.PostEvent("Play_"+sentence.music, this.gameObject);
+        
             //stop music using the string var currentlyPlayingMusic
             currentlyPlayingMusic = sentence.music; 
         }

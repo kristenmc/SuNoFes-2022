@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{32E5C63A-529A-43A5-BE89-7224CB96FA2B}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Sad Music" ID="{2EEBB3B2-4279-4EB7-9973-ACE244CEEC98}" ShortID="174013617">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
@@ -222,6 +229,13 @@
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Shop Music" ID="{B531E332-B1DA-4B50-A3DB-DD6F8FF9BEB0}" ShortID="1054364373">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
@@ -429,6 +443,136 @@
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
 									<SegmentRef Name="Shop Music Loop" ID="{18066B9B-AA20-433E-89E5-30B6EDEEBE07}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Ring Tone" ID="{23ED708B-5400-489A-8966-D831760E39E1}" ShortID="468820163">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Nathan Ring Tone" ID="{2EF9416C-72DC-4C25-93BA-45693C033937}" ShortID="512025840">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="25600"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8D5FB44-969E-4BDD-9C28-2B690FC2D955}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Nathan Ring Tone" ID="{E7F16B81-E960-4CA8-A69F-DE0D678D0867}" ShortID="550420746">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nathan Ring Tone" ID="{383CC014-8288-4339-B092-8715911C9D12}">
+											<Language>SFX</Language>
+											<AudioFile>Nathan Ring Tone.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="422730399"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A0CA7802-EC0A-4170-B3EC-5647D8EE9578}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1D601A42-8BFB-4F38-8E2B-530C7770A275}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Nathan Ring Tone" ID="{CBCB5D87-5A60-424D-BA84-7DA01EE68BA8}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="25600"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Nathan Ring Tone" ID="{383CC014-8288-4339-B092-8715911C9D12}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B94E0938-7872-4563-87AB-D5407DE79060}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{4DFA7F20-FB5C-4AD1-8D44-52CC7950145B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="25600"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{8E1D2C09-0099-49CB-A5D0-B1E97C4B3D1D}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{78EB3E46-F38C-4572-B32F-29DE18B50600}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{68DAAB7C-601C-445D-BED8-90686A1D33CD}" ShortID="938528816">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{976FE711-1F92-4D41-95F4-C62DB6D86DCC}" ShortID="645320005">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Nathan Ring Tone" ID="{2EF9416C-72DC-4C25-93BA-45693C033937}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>

@@ -48,11 +48,16 @@ public class DialogueLoader : MonoBehaviour
     [SerializeField] protected DialogueList[] dialogueScenes;
     [SerializeField] private int currentScene = 0;
 
+    void Awake()
+    {
+        LoadDialogueData();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         dialogueManager = DialogueManager.Instance;
-        LoadDialogueData();
+        
     }
 
     // Update is called once per frame
