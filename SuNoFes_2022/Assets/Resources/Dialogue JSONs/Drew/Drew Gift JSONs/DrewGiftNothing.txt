@@ -1,0 +1,16 @@
+{
+    "dialogue": 
+    [
+        {
+            "music": "whicheverMusicHasBeenSetThusFar",
+            "startend": "Start&End",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "item": "Don't Sell Anything",
+            "pointValue": 0,
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Okay then… See ya!"
+        }
+    ]
+}

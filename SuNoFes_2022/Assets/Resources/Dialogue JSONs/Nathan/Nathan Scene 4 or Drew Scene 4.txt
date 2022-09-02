@@ -3,6 +3,7 @@
     [
         {
             "scene": "Register",
+            "music": "shopMusic",
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerExpression": "nathanDefault",
@@ -481,6 +482,7 @@
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerExpression": "drewNeutralHappy",
+            "sfx": "Bell Ringing",
             "speakerDialogue": "Drew finally appears, and we catch him up on the situation. Stella is still very upset with Nathan."
         },
         {
@@ -513,6 +515,7 @@
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerExpression": "drewNeutralHappy",
+            "sfx": "Bell Ringing",
             "speakerDialogue": "Thankfully after not very long, Drew finally shows up.",
             "lineSkip": 31
         },
@@ -745,7 +748,7 @@
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerExpression": "stellaExtraHappy",
-            "speakerDialogue": "Stella takes the lollipop and stuffs it in her mouth happily. Why didn’t we just give her one in the first place?"
+            "speakerDialogue": "Stella takes the lollipop and giggles happily. Why didn’t we just give her one in the first place?"
         },
         {
             "speakerName": "Stella",
@@ -875,6 +878,7 @@
             "startEnd": "End",
             "speakerName": "MC",
             "speakerExpression": "nathanDefault",
+            "sfx": "Money Sound",
             "speakerDialogue": "You’ve got it."
         },
         {

@@ -1,0 +1,238 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Register",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "This is a cozy little place, and it doesn’t seem too busy so far. Right now, I’m just hanging out behind the cash register. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "It’s odd, though. There’s apparently supposed to be someone else working with me today, but I haven’t seen them at all."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "A figure pops out from under the counter with a grin on his face."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "???",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "BOO! Hehe, did I scare you?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Er, not quite."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "???",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Aww, man. I really thought I had ya there for a sec!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Judging by the apron, he must work here, too. He must have been here earlier than me to open the store, but how did he manage to avoid me for two whole hours?!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Anyway, the name’s Nathan."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Hello, it’s nice to meet you, Nathan."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Likewise! I look forward to working with you."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Hmm, no, that sounds way too serious. How about this: I look forward to being partners in crime! "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Partners in crime?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Since it’s just you and me under the manager, I think it’s fair to call us partners, don’tcha think? Unless that’s too overbearing. Haha, sorry."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I guess that makes sense…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "This guy is kind of off the rails, isn’t he?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Why were you hiding behind the counter, by the way?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "To make a good first impression, of course! I don’t want you thinkin’ I’m as stiff as a board or somethin’."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "And... if you don’t mind me asking, why is your hair like that?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "My hair? Well, don’t ya think it makes me look like an onion? ",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Haha, like an onion, huh?",
+            "c1pv": 2,
+            "branchingChoice2": "Um, sure…? Are you okay?",
+            "c2pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Yeah! And I popped out from under the counter like an onion being pulled out of the ground. It works, right? ",
+            "lineSkip": 15
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Hmm… I think I see it."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I promise I don’t normally wear my hair like this, honest. I just wanted to see if I could get a good laugh out of you."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Well, consider your mission a success. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "For sure! Anyways, you won’t have to worry about work being boring with me around. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I’ll make sure to check up on ya every once in a while. Here’s to a great first day. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan holds out his hand for a fist bump."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Yeah!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I accept the fist bump, but then Nathan proceeds to perform an elaborate handshake which apparently he thought I would know. I just stand there and let him do his thing…"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "You’re cool, man! If you need anything, feel free to holler. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I smile awkwardly."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Will do. Um, bye!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan leaves to check on customers and tidy the store."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I have a good feeling about working with Nathan. I should probably check in with him every once in a while."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "I-I’m fine, yeah. How about we just forget I said anything? Sorry for weirding you out…",
+            "lineSkip": 8
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Oh, no. Don’t worry about it! You’re fine."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Nathan gives an unsure smile."
+        },
+        {
+            "speakerName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Okay… Anywayyyys, I’ll check on you every now and then. If you need anything, feel free to ask. I’m going to get back to work."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan scurries off like he’s in a hurry. Is he running away from me??"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "At the very least, I don’t think I’ll be bored whenever he’s around. "
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I didn’t mean to upset him, though. Maybe I should make it up to him somehow when I get the chance."
+        }
+    ]
+}

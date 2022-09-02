@@ -1,0 +1,12 @@
+{
+    "dialogue": 
+    [
+        {
+            "startEnd": "Start&End",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSadSmiling",
+            "speakerDialogue": "Aww, okay... Bye then..."
+        }
+    ]
+}

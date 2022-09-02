@@ -1,0 +1,113 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "outsideStoreFront",
+            "music": "noMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Today, I’m starting my new job."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Once COVID-19 hit, I was one of the many who got laid off... This new job is just a last resort, so I can pay back my landlord, but -"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I have hope."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "That in this commonplace nine to five, there will be others. Longing for someone to say hi or ask about their day. And, that we can help each other move forward. Because..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "There are riots in the streets. Voices I once heard everyday only reach me while I'm plugged in. I miss the ones who never answer. I miss the ones who can no longer answer..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I want there to be somewhere to go and someone to meet there. I want to remember people’s smiles, but will we ever take off our masks?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "When can I breathe easily again? When can I connect empty \"I love you's\" or \"I hate you's\" to an emotion that cannot be delivered?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I’m stuck in a world that is waiting for our old normal - to see one another again - to hold each other. To mourn these past months. Then maybe... Just maybe... recover. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "But, I'm scared because we still keep getting older; and, I don’t want any more wasted time."
+        },
+        {
+            "scene": "Register",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "On the counter, there is a piece of paper. Oh, it must be from Mia!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She sent me an email earlier saying she was going to be in the hospital for a while. Man, I hope she'll be alright..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I set down my things behind the counter, then read the note,"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "\"Hey, it's Mia! "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I'm sorry that I can't be there to help you on your first day. But based on how well you did during your training, you should be just fine!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I know that this is just a general store. For me though, I've always seen it as a great way to help out the community. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "There are some really cooky characters that you'll meet on the job, as well as the best people you will ever meet. Trust me on that! Haha!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "As you can tell, I love running this store, and I hope you will too."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "You are going to be a great addition to our store, so good luck! And, thanks!\""
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I put down the note, smiling. She's so sweet."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Now, let's get to work! I should probably go up to someone and ask if they need help."
+        },
+        {
+            "speakerDialogue": "Click on the person you want to talk to. You will only be able to talk to 2 customers each day, so choose who want to talk to wisely. But, you will get the chance to meet all the regulars on your first day."
+        }
+    ]
+}

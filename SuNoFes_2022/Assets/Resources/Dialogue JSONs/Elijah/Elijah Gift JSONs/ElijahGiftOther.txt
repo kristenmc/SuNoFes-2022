@@ -1,0 +1,21 @@
+{
+    "dialogue": 
+    [
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "item": "Item That Has No Effect",
+            "pointValue": 0,
+            "speakerDialogue": "I don't want that, but thanks anyways."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Elijah gives a faint wave before disappearing from view."
+        }
+    ]
+}

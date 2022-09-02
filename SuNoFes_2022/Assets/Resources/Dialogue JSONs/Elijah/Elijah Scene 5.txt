@@ -1,0 +1,439 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Shop",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Oh hey, is that Elijah again? It’s been a hot minute since I’ve seen him."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Hey."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He’s got one of our fancier bottles of Apple Cider in hand."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Treating yourself today?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Heh, yeah, you could say so."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Haven’t been here for a little bit, how’s business?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Could be better.",
+            "c1pv": 1,
+            "branchingChoice2": "Just, Peach-y! Eh? Get it?",
+            "c2pv": 2,
+            "branchingChoice3": "Too many cops coming by for my liking.",
+            "c3pv": 2
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah, I feel that.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Business isn’t terrible, but some days are easier than others."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "And the easy days are harder to come by, nowadays."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Get it? Like how we had that convo about peaches a little while back?",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Heh, yeah. Still got that great sense of humor."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "It’s all that’s getting me through this life."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Oh I feel you there."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Oh, fun.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Yeah, they’re a real nuisance."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Glad I haven’t been here when they have. Anyways…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I'm sure you're used to this by now, but can I share something else with you?",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "What’s up?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Thanks. Been thinking a lot since last time."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Felt like a bit of a sad sack, but…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I feel like something’s gotta change."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Let me put this another way:"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I just found out I stand a chance - a *chance* - of getting accepted for a Master’s program at Columbia University."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Oh wow!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Coworker put me in touch with one of his pals. Dude can’t just put me in automatically, but they say my experience gives a fighting chance."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Got to fill out the paperwork and all, but it might be worth it."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Course, I only have so much in savings. Gotta move back into the city, pay $1250 or something for a shoebox, gotta pay tuition too. I think."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "It’s a long story, but even if I asked for help from my folks, money’s gonna be pretty damn tight."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Still, congrats, man!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Thanks, but…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I’m excited. But, I don’t know if it’s worth that risk."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "College was hard enough the first time around."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Got no clue what I should do.",
+            "isBranching": "elijahChoice",
+            "branchingChoice1": "Go for it!",
+            "c1pv": 5,
+            "branchingChoice2": "Play it safe.",
+            "c2pv": 5
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "You… you think so?",
+            "lineSkip": 15
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Listen, my man, you’ve worked your butt off to get where you are today!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I get how bad it is out there."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "But you CAN make a change for the better - for YOU!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Grad school is tough! But, it can let you choose a better path for yourself!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "The world sucks! But if you can make it - think of all the good you can do for others!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Are you saying,"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I gotta be selfish before I can do good?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I’m saying you gotta help yourself first!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Put yourself in a better place before you can help lift up others!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Heh, uh…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Listen, I appreciate your enthusiasm for this…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "He pauses in thought for a good 10-15 seconds before continuing."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I… kinda get what you’re diving at. I gotta think it over some more."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Safe… as in, I shouldn’t?",
+            "lineSkip": 23
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I think you need to build a solid foundation for yourself."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "It sounds like you’ve gone through a lot of tumultuous things."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "… I think we’re all in for some rough times, right now."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I don’t want you giving up on any dreams, but…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I don’t want you to take a huge leap of faith…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "… Only for the rug to be pulled out from under you."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Sorry, I’m getting my analogies mixed up…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "But I think you need to really focus on helping yourself first before you can think about putting yourself through such a challenging program."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Is that… y’know, I kinda see your point."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I mean, look at me. I’m just a store clerk, and I’ve met some lovely people through this job."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I’ve had my own struggles trying to make it in life, but…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Seeing what other people are going through…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "… And how we can all lend each other a helping hand…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "… Makes me realize you don’t have to do anything flashy to help others."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Just being there, listening to what other people have to put up with. Sometimes, that’s enough."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Take what I say with a grain of salt, but…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I think you need to do what you need to do to get yourself in a better place, not just physically or financially."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "He’s stuck in thought… It looks like he’s fighting back a tear."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I… kinda see your point."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I just don’t know what I need to do."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "But, I do know that I need better than how my life is right now."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I’ll, uh, I’ll be back.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He sets his items down, and walks for the door."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Hey wait, your ite-"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "I guess I can see if he wanted to buy that another time... Maybe I'll put aside some stuff for him and ask later."
+        }
+    ]
+}

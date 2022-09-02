@@ -1,0 +1,41 @@
+{
+    "dialogue": 
+    [
+         {
+            "scene": "Shop",
+            "music": "noMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Phew, that was a long day. I guess I should start closing up shop and preparing for tomorrow."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "What did Mia say to do in training?"
+        },
+        {
+            "speakerDialogue": "When the store closes, you will be able to order items that you can sell to customers."
+        },
+        {
+            "speakerDialogue": "The list on the left shows the items that you can purchase."
+        },
+        {
+            "speakerDialogue": "On the top of the screen, is the amount of money that you have budgeted towards ordering items."
+        },
+        {
+            "speakerDialogue": "If you click on an item, the description will appear in the box on the right."
+        },
+        {
+            "speakerDialogue": "Under the description, is how much the item costs to order."
+        },
+        {
+            "speakerDialogue": "Pressing the purchase button, while you have enough money for the item, will add the item to your inventory."
+        },
+        {
+            "speakerDialogue": "When you purchase an item it will disappear from the items list on the left."
+        },
+        {
+            "speakerDialogue": "Then you can press the \"Open Shop\" button to exit the ordering menu and advance the game to the next morning."
+        }
+    ]
+}

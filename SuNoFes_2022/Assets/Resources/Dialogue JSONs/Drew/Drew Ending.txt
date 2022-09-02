@@ -1,0 +1,142 @@
+{
+    "dialogue": 
+    [
+       
+        {
+            "scene": "Register",
+            "music": "shopMusic",
+            "pvToUnlock": 13,
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "I’m wiping down the counter with cleaning spray when the bell on the door rings. I look up and it’s Drew. About to wave, I am confused when he rushes quickly to the counter and holds out an envelope."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Take it!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "O-Okay?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I take the envelope, awaiting an explanation."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Okay, bye!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "The bell rings again."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Wait, what? Bye, um."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "What the hell? He was out the door before I even realized! That kid better sign up for the NBA one day."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "It takes a few moments for me to accept the odd greeting and turn my attention to the mysterious envelope. I open it to see a letter, which reads..."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "The Letter",
+            "speakerDialogue": "\"Hewwooo! This is Stela + Doo Doo! Thank 4 lots uf fun! We ❤ u! U the best evah! Da-da is al beter! We can al play toogethah now! I want to rite tis al by my self. Doo Doo let me! Come on play wit us soooon!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "The Letter",
+            "speakerDialogue": "Luv, Ur Best Fwends,"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "The Letter",
+            "speakerDialogue": "Stela + Doo Doo"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "The Letter",
+            "speakerDialogue": "P.S.  Sorry, she wanted to write this really badly. It looks really stupid now. But seriously, thank you. I hope we can see you again soon. - Drew\""
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I turn the page over, and it says in much nicer handwriting,"
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Letter",
+            "speakerDialogue": "\"Hi! Thank you for all that you’ve done for my kids. And, I'd like to apologize. For the past few months, it’s been really hard on us since their mother died."
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Letter",
+            "speakerDialogue": "Honestly, I wasn’t being the best father... Drew ended up having to be mature to make up for what I was lacking. He was so strong when I couldn’t be. And, from everything Stella and Drew have been saying about you, you helped out a lot."
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Letter",
+            "speakerDialogue": "Thank you for supporting them and looking out for them. You've proven that there really are good people everywhere. And, I’m lucky that my kids found one of them."
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Letter",
+            "speakerDialogue": "Seeing Drew step up and be such a good brother and son, helped me realize that I needed to get help. I promise that you don’t need to worry about them because I am ready to be a father that their mother would be happy to have left them with."
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Letter",
+            "speakerDialogue": "But still. If it isn’t too much, please keep looking out for them. We’d love for you to stay in our lives."
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Letter",
+            "speakerDialogue": "From, Their Dad\""
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "My nose gets itchy; and I look at the ceiling to fight my eyes from spilling. And, I realize that I’m smiling. I don't know how long I’ve been smiling, but I can’t seem to stop."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Facing forward once again, I see Drew and Stella peeking through the door at me. They duck away from the glass when I spot them. I walk up to the door, open it, and Drew yells,"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "He caught us! Let's go, Stella!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "They flee the store entryway, and I yell after them,"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Thank you!!!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Across the street, they turn around for a brief second waving. Then, they keep on going and growing."
+        }
+    ]
+}

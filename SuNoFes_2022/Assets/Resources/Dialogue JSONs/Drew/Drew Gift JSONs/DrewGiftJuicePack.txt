@@ -1,0 +1,22 @@
+{
+    "dialogue": 
+    [
+        {
+            "startend": "Start",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "item": "Juice Pack",
+            "pointValue": 1,
+            "speakerDialogue": "Oh yeah! This was on that grocery list I gave you! Thanks for getting it for me. Ooh, and this is Stella’s favorite flavor! Here's my money."
+        },
+        {
+            "startend": "End",
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Yummy!"
+        }
+    ]
+}

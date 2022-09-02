@@ -1,0 +1,56 @@
+{
+    "dialogue": 
+    [
+        {
+            "startend": "Start",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewVeryHappy",
+            "item": "Rocket Launcher",
+            "pointValue": 3,
+            "speakerDialogue": "THIS IS AWESOME! And, it’s on sale!!! Look, Stella!",
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "WOAH!!!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She immediately takes it out of the box and starts trying to set it up."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "We haven’t even bought it yet!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Haha, that’s alright. Here, let me ring you guys up.\r\n"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Stella jumps on the launch pad and the rocket shoots straight into Drew’s face."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "STELLA!!!!!"
+        },
+        {
+            "startend": "End",
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "sfx": "Money Sound",
+            "speakerDialogue": "BULLS-EYE!"
+        }
+    ]
+}

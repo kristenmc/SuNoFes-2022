@@ -1,0 +1,28 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "whereSceneHasBeenSetThusFar",
+            "startEnd": "Start",
+            "music": "whicheverMusicHasBeenSetThusFarInTheScene",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "item": "Don't Sell Anything",
+            "pointValue": 0,
+            "speakerDialogue": "Thanks. Uh… Stay safe, I’ll see you around."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "You as well."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Elijah gives a faint wave before disappearing from view."
+        }
+    ]
+}

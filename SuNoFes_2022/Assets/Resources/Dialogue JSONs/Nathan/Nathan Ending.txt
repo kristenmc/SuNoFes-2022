@@ -1,0 +1,300 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Shop",
+            "music": "shopMusic",
+            "pvToUnlock": 15,
+            "speakerDialogue": "You've unlocked Nathan's Ending:"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Tonight is one of those nights when both Nathan and I are closing the store. By this point, the customers are gone, but we still have some cleaning to do."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I move our latest batch of thank you notes out of the way and wipe down the counter by the register. \r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I’ve noticed that Nathan’s doodles look more detailed than they did the first time he showed the notes to me. He must really be picking up art again. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "As I finish cleaning the counter, Nathan walks towards me from the aisle. He’s carrying a mop in his hand. \r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Lookin’ good over here? "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Yep! Just about done. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Ayy, I should’ve timed that. That’s gotta be world record time!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "World record…?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Yeah! For the store cleaning co-op speedrun!\r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Don’t tell me you’ve actually made some sort of leaderboard."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan shakes his head.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Nah, I’m just messing around. \r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "For real, though, I did want to talk to you about something. \r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Hmm? What’s up? "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "…You remember a few months ago when I was freaking out about what to do with myself? \r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I nod.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Well, I decided to relax a bit, and take things slow. Frantically trying to find the one thing that clicked with me wasn’t working out.\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I started going back to some of the things I’ve done before. I realized that there are a bunch of things that I genuinely enjoy. It’s just that if I stick to only one for too long, I’ll burn out. \r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "So, I’ve started working on projects of all different kinds. Right now, I’m actually doing a little freelance video editing, and I recently made some stream emotes for someone."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Maybe having a bunch of interests will slow the learning process down some, but I think I can make it work… \r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Ah, that explains why you’ve been working fewer hours lately, huh? "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Haha, yeah. Worst case scenario, I pick up more work here again and try a different approach. \r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "And you know what? I’m okay with that."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I guess what I’m trying to get at is that I took your advice to heart, and it helped me more than you could imagine."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "So, thank you, from the bottom of my heart."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Before I can respond, Nathan laughs. "
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyLaughing",
+            "speakerDialogue": "Whew! That’s a lot of serious talk, huh? Didn’t mean to bring down the mood or anything. I just wanted to get that off my chest. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "I’m happy I could help. I hope freelancing works out for you!\r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Thanks."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Nathan hums and makes a face as though he’s thinking. \r"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Feel free to pass if it’s too personal, but is there somewhere specific you see yourself being after this? \r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "‘This’?"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Working here, I mean.\r"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Hmm…",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "There is.",
+            "c1pv": 0,
+            "branchingChoice2": "I'm not sure.",
+            "c2pv": 0,
+            "branchingChoice3": "I have no clue.",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Wherever you’re headed, I wish the best for you, too. I know you’ll do great. \r",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Thanks, Nathan."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Promise me that you’ll take your own advice, okay? You’ll get to where you need to be.",
+            "lineSkip": 6
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan gives one of his trademark bright smiles."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "And if you ever need someone to talk to, I’ve got your back!\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I smile back. He’s right. I just need to keep moving forward. \r"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Thanks, Nathan.\r"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Promise me that you’ll take your own advice, okay? You’ll get to where you need to be.",
+            "lineSkip": 6
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan gives one of his trademark bright smiles."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "And if you ever need someone to talk to, I’ve got your back!\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "I smile back. He’s right. I just need to keep moving forward. \r"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Thanks, Nathan.\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Nathan holds his hand out for a fist bump. By this point, I’ve gone through the motions for his handshake a decent number of times. And, I still don't get it, but I can’t help but smile throughout.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Let’s keep doing our best."
+        }
+    ]
+}

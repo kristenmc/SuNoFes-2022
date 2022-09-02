@@ -1,0 +1,165 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Shop",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Hoping to help her out, I walk up to a woman in the store. Wow, she is strikingly beautiful, but I think she "
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Hello! Did you need help looking for something?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She jumps upon hearing my voice. Oh shoot, I think I startled her."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Oh- Um, no. Thank you, but I’m alright."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She’s so polite! She smiles while talking, but something seems off about it."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I’m about to turn away and let her continue her search, when she blurts out…"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Actually! Wait! I actually can’t find the flour."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Oh here! Let me grab some for you."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I step away to grab a bag off the other shelf and then return."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Does this work?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Yes, that’s good. Thank you."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She starts to turn away while I say something next.",
+            "branchingChoice1": "Are you baking something?",
+            "c1pv": -1,
+            "branchingChoice2": "Are you ready to pay?",
+            "c2pv": 1,
+            "branchingChoice3": "I just wanted to let you know that you’re very pretty.",
+            "c3pv": -3
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Something like that.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Could I pay?"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerDialogue": "Oh, alright…"
+        },
+        {
+            "startEnd": "Start/End",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Yes. Thanks.",
+            "lineSkip": 2
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She looks really uncomfortable… Oh shit, that was definitely too forward.",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "…"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "I need to pay…"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerDialogue": "Okay, um, follow me."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I ring up the flour at the counter and she pays. Hoping to find a topic to break this painful silence, I try to make conversation again while I bag her items.",
+            "branchingChoice1": "You got plans for the weekend?",
+            "c1pv": -1,
+            "branchingChoice2": "How’s the pandemic been treating you?",
+            "c2pv": 1,
+            "branchingChoice3": "What’s your name?",
+            "c3pv": -3
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Not really.",
+            "lineSkip": 2
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "I’ve been okay.",
+            "lineSkip": 2
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She doesn’t answer.",
+            "lineSkip": 2
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She smiles and takes the bag from me."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Good-bye!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Then, she’s gone."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "That was… odd. I didn’t even get her name."
+        }
+    ]
+}

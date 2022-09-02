@@ -1,0 +1,340 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Shop",
+            "music": "sadMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I’m on my knees methodically re-labeling the shelves when I feel a sudden tap on my shoulder. I jump and turn around quickly."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Oh, Drew! You scared me!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Normally, Drew comes in with his sister, but this time he’s all alone. And, he isn’t trying to stand tall. Right now, he looks so small."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Yes, he's a little kid, so he should be small, but he seems..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "weaker somehow. His hands are fidgeting with his shirt and he’s avoiding looking me in the eye. A black coat covers his gray dress shirt, and under his black pants are fancy, polished shoes."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Drew, where’s Stella?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "She’s at home…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Did… you want me to get something for you…?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "No…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Then, what's going on?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Is something wrong at home?",
+            "c1pv": 0,
+            "branchingChoice2": "Why are you dressed up like that?",
+            "c2pv": 1
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "No, nothing is wrong there.",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "I guess that’s not it…"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Because we are going to go visit mom…",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Why are you visiting her?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "It’s two months since she- She went away…"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Do you wanna tell me about it?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Mama, she-",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "music": "noMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "His voice cracks. And I can tell that if he talks, it'll begin to crack a bunch, so he has to take pauses between his words to try and control it."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "She-"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Got sick with covid and- Dad and me and Stella gotta go visit her today, but-"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "But I don’t wanna…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "You know... I think your mom would like it if you visited. It would make her happy."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "No! I can’t!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "I don’t wanna go if- if I can’t see her. I-"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "I don’t think- I don’t think I can be strong in front of Stella… or dad if I go. But... I have to be stronger! Mom wanted me to be before she…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Come on... What do I say?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Then, how about you stay here for a little bit?",
+            "c1pv": 5,
+            "branchingChoice2": "You’re strong! You got this!",
+            "c2pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "If- If you want to be strong when you get there, then…",
+            "lineSkip": 15
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "All those feelings that you’re afraid will get out in front of your dad or sister. You can let them out here. I won’t think you’re any less strong."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "The skin around his eyes scrunch up and he grips tighter around the bottom of his dress shirt."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Your dad can rely on you to take care of your sister and bring things home at such a young age. You impress me everytime I see you, and that is how I know you are strong."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "But, you don’t have to be that strong all the time, Drew. A part of growing up is understanding that we have to ask for help sometimes and get emotional. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "So, the next time I see you, I won’t think you’re any less strong. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "I promise."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "..."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "..."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewCrying",
+            "speakerDialogue": "Can I- Can I hug you?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewCrying",
+            "speakerDialogue": "I haven’t felt sick and just used hand sanitizer; so if you feel comfortable with it, then yes. Of course."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I hold out my arms. He collapses once his face is hidden in my apron. And, I let the fabric get damp against my chest. This kid has been handling so much. For so long…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I’m sorry that I never noticed. I will never understand, but I just wish a child didn’t have to carry this much weight when he’s trying so hard to grow."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Tomorrow, he may have to be strong- for his sister and his dad. Actually, he has to be the moment he leaves. But from now on, I’ll try to make this store a safe space where he doesn’t have to be all grown up."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "NO! I’m not strong enough!",
+            "lineSkip": 6
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "I’m never gonna be strong enough!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewCrying",
+            "speakerDialogue": "Drew rolls up into a ball on the floor, rocking back and forth, sobbing and shaking."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "This kid has been handling so much. For so long… Why didn’t I see it before? I’m sorry. I will never understand, but I just wish a child didn’t have to carry this much weight when he’s trying so hard to grow."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Tomorrow, he may have to be strong- for his sister and his dad. Actually, he has to be the moment he leaves. But from now on, I’ll try to make this store a safe space where he doesn’t have to be all grown up."
+        },
+        {
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I see Drew again later in the day, after his visit. Despite having gone through what he was so afraid to do before, he seems relieved.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "He walks up to me, holding Stella’s hand."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Stella wanted to say hi before we went home. She is jealous that I got to see you earlier, and she didn’t."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "She gets all red."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "No! I’m not!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Yes you are."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I smile."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Well, I’m happy to see you too, Stella. Oh, Drew! I didn't tell you earlier, but I saw something in store that I thought you might like."
+        }
+    ]
+}

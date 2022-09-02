@@ -1,0 +1,490 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Register",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Oh hey, it’s Elijah again."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Howdy."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "How can I help you today, sir?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Uh… yeah, can I get a pack o’ Parker & Simpsons, please?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Sure thing."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Thank you."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "He wastes no time taking the wrapper off and popping a cig out of the box."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Y’know, I know these things’ll kill me n’ all, but…"
+        },
+        {
+            "music": "sadMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "He shoves the box in his pocket, and fidgets with the lone cigarette in his hand."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "… The way things are playing out, I don’t know if I wanna stick around.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "What do you mean?",
+            "c1pv": 1,
+            "branchingChoice2": "Oh brother, do I hear that.",
+            "c2pv": 1,
+            "branchingChoice3": "I don’t gotta call someone, do I?",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start&End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I mean, just with everything going on in the news…",
+            "lineSkip": 2
+        },
+        {
+            "startEnd": "Start&End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Heh, yeah you get it. Appreciate that, just…",
+            "lineSkip": 2
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "What? Oh, no, no, you don’t gotta worry about me doing… ",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "… anything stupid."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I just mean…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It’s real bad out there. As if the pandemic and global warming weren’t enough, we gotta deal with the damn cops. And all those bootlicker psychopaths.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "You seen the news, right?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Yeah, I’ve seen what’s going on.",
+            "c1pv": 1,
+            "branchingChoice2": "Work has kinda kept me outta the loop.",
+            "c2pv": 0,
+            "branchingChoice3": "I spend a lot of time arguing with people online about this.",
+            "c3pv": 1
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Yeah.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I can barely put into words how disgusted I am."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Just…"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Hmm…",
+            "lineSkip": 9
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I get what it’s like with work, but…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Sounds like one hell of a bubble you’re living in."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I just know there’s a lot of protests going on over that guy who got killed."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Oh, it’s grown to be so much more than that."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And, I don’t care what anyone says."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "No one deserves to get killed like that."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "He scans the room for a moment before turning his attention back to me."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Ah. So you must’ve seen plenty already.",
+            "lineSkip": 10
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I’ve had to delete all my socials just to keep sane."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I can barely stomach the news as is, I don’t wanna hear reports of peaceful protestors being knocked to the ground, arrested, or gassed."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I refuse to shut up about this, I want these people to know they’re not gonna be unchallenged."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Y’know, I respect you for putting up with that, just…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Don’t overexert yourself, okay?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Those people aren’t worth your time and effort."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "He strokes his jaw, contemplating what to say next."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "But you get what it’s like."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It’s bad enough being black in this sick country, but these people just gotta twist the knife. It’s not enough to be racist, they gotta be the most virulent and evil racists possible.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And they’ll beat you for anything. They’ll shove you to the ground just for asking a damn question. Hell, if you ain’t white, they’ll just shove you for breathing."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "My family and I have been living in fear all our lives of a cop icing us just for looking at ‘im the wrong way. Or maybe he’s got a quota to fill."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Either way, cops want us dead, and they wanna be as sadistic about it as possible."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And you gotta remember. What we’re seeing now outta these pigs, that’s the rule, not the exception.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "ACAB",
+            "c1pv": 2,
+            "branchingChoice2": "It’s absolutely terrible.",
+            "c2pv": 1,
+            "branchingChoice3": "Surely not all cops, right?",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I can barely stand to serve the cops that come in here.",
+            "lineSkip": 8
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Well no one can fault you for that, but…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I don’t care how crap my pay is."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "If any of those pigs gave you trouble, I’d chip in to your legal defense."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Thanks man, same for you."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Hell yeah."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "His brief moment of joy dissipates from his face, as he remembers how evil and unjust this world is."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Yep. Sure is.",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Hell, I don’t wanna get outta bed if I gotta keep waking up to THIS."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "He shoots me a quizzical look.",
+            "lineSkip": 8
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "You say that, but growing up Black, you learn pretty quickly that is, in fact, ALL cops."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Ain’t no exceptions."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Yes, but there are also colored and minority groups within the police force. I’ve also seen cops, who point out or condemn police brutality.\r"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "All the “good” cops either get beat outta the system, or turn rotten too."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Look up a guy named Adrian Schoolcraft if you don’t believe me."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And also lemme say…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Being black and trans is whole other matter...",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I trust you knowing."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Hey, speaking of…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "New Paltz is one of the better towns to live in around here; but every once in a while, I still get some whites looking at me funny."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And y’know, we had a couple marches the past few months... They were small, but about as peaceful as you can get. Cops still tracked us every step of the way. "
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Some shops closed for the day. Saw at least one dude with a baseball bat. Someone threw a beer bottle at the crowd. Missed us, but seriously coulda done some damage."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "This place is supposed to be way more liberal. It makes me sad how much danger you have to put yourself in to make a difference."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It’s really unfortunate…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Yeah, that’s putting it mildly."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Man, we've been going on for a while, but I just came for these cigs. Do you need to see my ID or …"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Nah, you’re good."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Alright, uh… and hey, thanks."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Elijah places the cigarette in his mouth, ready to light it once he's out the door."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "It’s nice to get this off my chest, y’know?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Totally understand. And, you're welcome to come back and do so any time, sir. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Oh, I forgot to mention this earlier. I was just so caught up in our conversation. But, I thought you might wanna buy this."
+        }
+    ]
+}

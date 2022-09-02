@@ -1,0 +1,17 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "whereSceneHasBeenSetThusFar",
+            "music": "shopMusic",
+            "startend": "Start&End",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "item": "Cough Medicine",
+            "pointValue": 1,
+            "sfx": "Money Sound",
+            "speakerDialogue": "Oh cool! This was on that grocery list I gave you! Thanks for picking it for me. This will make my dad feel a bit better. Sure, I’ll buy it.\r"
+        }
+    ]
+}

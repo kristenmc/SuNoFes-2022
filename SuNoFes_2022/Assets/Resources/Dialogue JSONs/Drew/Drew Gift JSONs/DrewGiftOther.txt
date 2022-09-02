@@ -1,0 +1,15 @@
+{
+    "dialogue": 
+    [
+        {
+            "startend": "Start&End",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "item": "Item That Has No Effect",
+            "pointValue": 0,
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "No, thanks. I don't want that. Well, see ya!"
+        }
+    ]
+}

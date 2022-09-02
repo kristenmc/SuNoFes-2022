@@ -1,0 +1,549 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Shop",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "I see a young boy of maybe nine or ten walk into the store. He walks in with his chest puffed out, like the classic Superman pose, and he’s on his tippy toes. It is hard to tell if he’s confident or just trying to look taller. Expecting a parent to follow, I wait to greet the family…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Five minutes pass and this little boy is still wandering alone from aisle to aisle, gripping a basket nearly half the size of his frame. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "He seems to be referencing a piece of paper from his pocket. First, he points at an item on the list then walks around following his pointer finger, like it's a compass. He had been doing this for a while before stopping with a confused expression on his face."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Hello there! You seem a little lost. Need any help?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Who are you?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "I work here. See my uniform?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Yeah, dummy. I’m not blind. But, the weird smiley guy is the one who works here. You’re a faker."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "No! No, I’m not!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Yes, you are! If you aren’t lying, then you must be pretty smart about selling stuff."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "I mean... I just started working here today…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Faker."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Okay okay! I am smart enough, I guess."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Prove it!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Okay well, if you hand me that list, I could get the items on it for you-"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "No! I don’t trust you."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Well, then what am I supposed to do?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "The kid stops to think for a moment."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "When he comes up with his solution, I can almost see a light bulb ignite above his head. This kid is so easy to read…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "If you really know what you’re doing, then I’ll quiz you!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "I don’t get paid enough for this…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Okay fine... Go ahead."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Alright! Question one! Um… How much does this cost?!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "He picks up a box of cereal off the shelf. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "A quick glance at the shelf tells me it's $3.99..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Uh, three ninety-nine."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "He follows my eyes to the label."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "You cheater!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "You shouldn’t have asked me that then…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Okay, that doesn’t count! Here's another one."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Question two: What is 23 times 4?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "92!",
+            "c1pv": 0,
+            "branchingChoice2": "96!",
+            "c2pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Oh, um. You’re probably right…",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "He looks away embarrassed… If he didn’t know the answer, why did he ask?!"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Oh, um. You’re probably right…",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "He looks away embarrassed… If he didn’t know the answer, why did he ask?!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "I’ve got it! Here, this question will prove whether you’re a faker! ",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Question three: What’s the name of the boss?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Moira",
+            "c1pv": 0,
+            "branchingChoice2": "Mia",
+            "c2pv": 1,
+            "branchingChoice3": "Leah",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "I knew it! You ARE a faker! Fakerrrrrr!",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "I probably should have known that… Kid has a point."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Now, you don’t get this list. I’ll get it all myself!"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Oh- I guess you weren’t lying.",
+            "lineSkip": 9
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Finally!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Now, will you let me help you?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "He still looks a little reluctant, but he still holds out the list to me."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Yeah… I guess. Here, take it."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "objectOnScreen": "List",
+            "speakerDialogue": "It reads, cough medicine, juice, and peanut butter,"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Thank you, I guess."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "His stubbornness is kinda adorable."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Yeah, of course! Just doing my job."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "I knew it! You ARE a faker! Fakerrrrrr!",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "I probably should have known that… Kid has a point."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Now, you don’t get this list. I’ll get it all myself!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "???",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Doo Doo!",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "An adorable little girl, about three or four years old, with the chubbiest cheeks comes running from the other side of an aisle. Why didn’t I see her before? Once she sees me, she ducks quickly behind the other kid."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Stop calling me that!",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Aww hello, little princess! Is this your big brother?",
+            "c1pv": 0,
+            "branchingChoice2": "Hi! What’s your name?",
+            "c2pv": 1,
+            "branchingChoice3": "Guess what I have behind the counter…",
+            "c3pv": 2
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Stella",
+            "displayName": "???",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "HEY! I’m a Pokitman twainer! I don’t wanna be a pwincess!!!",
+            "lineSkip": 7
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "She starts crying hysterically. She takes off her mask and uses it as a tissue."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Stella! Put that back on right now or you’ll get covid! Put it on!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Following the boy’s orders, she puts the booger-covered mask back on but continues to cry."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "???",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "She isn’t into girly kinda stuff."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "I'm sorry! I didn't know!"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Stella",
+            "displayName": "???",
+            "speakerDialogue": "…",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "???",
+            "speakerDialogue": "…"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I don’t think she’s gonna respond. Must be shy…"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerDialogue": "A bunch of stickers! I was just gonna throw them away since nobody wanted them…",
+            "lineSkip": 13
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I pretend to walk away to throw the stickers out."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "???",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "WAIT!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "The little girl pops her head out from behind the boy, no longer scared. Why doesn't this kid know not to take things from strangers?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "???",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "I want stickars, pwease…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Aww her voice is so cute!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Alright. Here you go!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "I tear off about five stickers from the roll. If they ever come back, I’ll be sure to give her more."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "???",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Ooooh!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "She starts tearing the stickers off their backing and placing them on her arms. She takes one with a shiba on it and walks up to Nathan, putting it on his shoe."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Aww, thank you, little miss!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "He walks away beaming… For an adult, this guy is too easily pleased."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Her name is Stella and I’m Drew. And, we’ll probably see you again. We come here a lot to buy stuff for our dad since he hasn’t felt so good for awhile…",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "No! Your name is Doo Doo!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Stella falls to the ground laughing."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "No, it’s not! Get up right now!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "We used to come with our mama. I miss mama. Doo Doo, I want mama!!!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "She suddenly starts crying. Fuck, I’m new here so how I am supposed to know where the tissues are?! There’s none on the counter-"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Ugh, stop crying!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Come on, Stella! Let’s just go home."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Oh, wait! You forgot to buy-"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Drew takes Stella by the hand and leads her out of the store in a hurry."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I hope she’s alright. Seems like being better with kids is a part of the job..."
+        }
+    ]
+}

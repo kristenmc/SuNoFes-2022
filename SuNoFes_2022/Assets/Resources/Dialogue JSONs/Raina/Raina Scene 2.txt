@@ -1,0 +1,149 @@
+{
+    "dialogue": 
+    [
+       {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Oh, she’s back! This time I’ll try to talk to her a bit more."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Hey! It’s you again!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She looks towards my voice. And, from her furrowed brows, I think she looks genuinely scared. She drops her basket on the ground and runs right out of the store."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Wait!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell",
+            "speakerDialogue": "And… she’s gone. Did I do something wrong?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "You didn’t do anything wrong."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I look over my shoulder startled. Oh, it’s just Elijah. Can he read my mind?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Did I say that out loud?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "Nah, I could just tell what you were thinking."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Oh."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "WHAT?????"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "Raina is actually a really nice girl."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Oh, so her name is Raina."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "Yeah, she has been shopping here for a long time. I used to talk to her every time I came into the store since she was so friendly.",
+            "branchingChoice1": "Does she not like me, then?",
+            "c1pv": 0,
+            "branchingChoice2": "I really didn’t get that vibe from her.",
+            "c2pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "Nah, that’s not it.",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerDialogue": "Then what?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "Raina has been jumpy for a while now. She seems to not want to talk much to anyone which sucks because I miss talking to her. It was a part of my day that I looked forward to."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "But, new people seem to really get on her nerves."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "I hope I can change her mind and get to know that other side of her."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "I- I wouldn’t keep your hopes up, but I’ll let her know that you're chill next time I see her."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "You don’t have to do that, my man."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "Don’t worry about it.",
+            "branchingChoice1": "I just… I feel like she’s going through something.",
+            "c1pv": 0,
+            "branchingChoice2": "Thank you, Elijah.",
+            "c2pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "How you know?",
+            "lineSkip": 6
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "I just get a feeling."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "No one should have to do that alone."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerDialogue": "You’re a pretty good person, you know that?"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerDialogue": "Nah, I’m just a normal person trying to get by."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "The next time you see Raina, you mention that you wanted to sell her something the other day."
+        }
+    ]
+}

@@ -1,0 +1,410 @@
+{
+    "dialogue": 
+    [
+       {
+        "scene": "Register",
+        "music": "shopMusic",
+        "speakerName": "Elijah",
+        "displayName": "???",
+        "speakerExpression": "elijahNeutral",
+        "sfx": "Bell Ringing",
+        "speakerDialogue": "Oh hey again, nice to see you. Been a little while."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Nice to see you too…",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "...Elijah!",
+            "c1pv": 1,
+            "branchingChoice2": "...Elijah Mercedes McClain!",
+            "c2pv": 1,
+            "branchingChoice3": "... Jean Jacket!",
+            "c3pv": 1
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yep, that’s m-",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Hey wait, I don’t think I ever gave my name, you remembered it from my license? That’s cool."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yep! I take a special note of every customer who comes in. We’ve had some real characters lately."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Heh, I guess you remembered my name from my license. I gotta say, that does have a nice ring to it, wouldn’t you say?",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "For sure, it really rolls off the tongue.\r"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Jean Jacket? Gotta say that one doesn’t get old. You’re actually not the first to call me that. I’ve been wearing this bad boy for a while, I really dig it.",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Oh good! It looks really nice on you."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Name’s Elijah, by the way, but Jean Jacket is fine."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I will remember next time, haha."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Believe it or not… me telling you about my move from Georgia is the nicest convo I’ve had in months.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Really?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah. Don’t get the chance for a whole lotta small-talk these days. Covid and all that.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "God I feel you there. This just sucks.",
+            "c1pv": 2,
+            "branchingChoice2": "You’d be surprised how much small talk I’ve been making lately.",
+            "c2pv": 1,
+            "branchingChoice3": "Don’t you have online friends to chat with?",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Tell me about it. Can’t nobody live their life like this.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It’s absolutely miserable and no one in power’s doing anything about it."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Exactly!"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Heh, guess that comes with your line of work. Me? I’ve been pretty cooped up dealing with work.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah, I’ve met some real colorful characters lately."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Mhmm, I get where you're coming from."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I got some, but… Look, I hate to be a boomer, but we really need that face to face talk, y’know? We can’t just keep chatting with people through a screen.",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And plus all my friends are so caught up with their own problems, and just the way things are going already got ‘em down, and…"
+        },
+        {
+            "music": "sadMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "He sharply exhales.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Y’know how many people this thing’s killed in the States alone? Well, over a hundred thousand, and things are only getting worse. They already have in more ways than one."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Rich folk doing just fine working from home, but they got the nerve to say they’re suffering too. “We all in this together,” they tell us over some smarmy vid. Just disgusting."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Meanwhile, honest working folk like you are the ones getting killed by this thing. Most those 100k were frontline workers - nurses, fry cooks, teamsters, you name it.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "I've been getting by so far.",
+            "c1pv": 1,
+            "branchingChoice2": "I'm just peachy. Get it, peaches, from -ah forget it",
+            "c2pv": 2,
+            "branchingChoice3": "You want my job? You can HAVE my job!",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Yeah, I can imagine. It's gotta be rough.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "It’s mostly alright, but some days are better than others."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Ain’t it the truth?"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Heh, see that’s what I like about you. You got a sense of humor.",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I try my best."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I’ll bet. Well you’re in the right town for it, there are some real colorful types in New Paltz."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Oh, absolutely."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Ah, yeah, no thanks. But I get you, it’s rough.",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I wasn’t kidding, we could switch places right now. Let’s do this."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah, no thanks..."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Haha, feel free to sleep on it."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I might’ve said something about working at SUNY New Paltz before, I can’t remember.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I’m halfway between substitute teacher and archivist. It’s not a great job, but it pays the bills."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Oh man, I’ve seen how bad it is for those kids."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I would’ve loved to not have to go to school growing up. It sucks, but…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "These kids are just stuck at home, all their interactions are through the computer. That can’t be healthy."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I’m a friggin’ adult and I get how much it sucks to have your whole social life stuck on a screen."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I can’t imagine how bad it’s gotta be for these kids, to not be able to run around all willy nilly."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And oh god, don’t get me started on what it’s like to be a teacher.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Actually I’d love to hear your thoughts.",
+            "c1pv": 2,
+            "branchingChoice2": "I get the idea, it sucks.",
+            "c2pv": 0,
+            "branchingChoice3": "[stay silent]",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Alright! In that case, it sucks!",
+            "lineSkip": 6
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Being a teacher was bad enough with all these budget cuts and, well, kids."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Now you gotta make sure they wear their masks, make sure you don’t get sick, and, oh yeah…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "MAKE SURE SOME ASSHOLE DOESN’T SHOOT YOU."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It’s absolutely miserable. And covid has just pushed all that to the point of breaking."
+        },
+        {
+            "startEnd": "Start&End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It’s just absolutely miserable, but you knew that already.",
+            "lineSkip": 2
+        },
+        {
+            "startEnd": "Start&End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It’s just absolutely miserable, but you knew that already.",
+            "lineSkip": 2
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And y’know what? Our politicians don’t care.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "And I’m not getting started on Trump, I hate that guy so much, but he’s not the only one making our lives miserable."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "… Sorry for this huge rant. I should get going. Just ring me up, will you?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Sure thing."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Man, poor guy’s going through a ton…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Sorry to keep you, but I got something for you if you wanna buy it. "
+        }
+    ]
+}

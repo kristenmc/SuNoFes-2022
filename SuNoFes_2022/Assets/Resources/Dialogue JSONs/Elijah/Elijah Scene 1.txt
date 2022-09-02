@@ -1,0 +1,350 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Register",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "This man is absolutely bejeaned. Jean jacket, jean pants. I bet he’s got a jean soul."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "???",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yo."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Evening! Did you find everything okay?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "???",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah, just getting my usual."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Looks like his ‘usual’ is a six pack of Blue Moon Belgian White."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "???",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Can you pass me a pack of Parker & Simpsons too?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Uh, yeah, sure, uh-"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Do we even carry this brand? Crap, I’ve never sold cigs before. Those are cigs, right?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Grab the first pack of cigarettes you see.",
+            "c1pv": 0,
+            "branchingChoice2": "Really look hard and long for Parker & Simpsons.",
+            "c2pv": 1
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Clearly this man asked for a pack of Marlboro, and I shall oblige.",
+            "lineSkip": 6
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Here you go, sire!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "???",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Uh, I asked for a pack of Parker & … y’know, forget it, I’ll just take these for. Wait, did you call me “sire”?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "OH, uh, whoops! Guess I did; sorry."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "???",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Uh… huh, no sweat."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I have no idea what this brand even looks li- wait there it is! A-ha!",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Here you go, sir!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "???",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Sweet, thanks."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Even under the mask, you can tell he’s grinning. Huh, wonder why."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "???",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah, that’ll be all.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Okay! I just need to see some ID.\r"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "The man sets his merch on the counter, reaches into his wallet, and hands over his driver’s license."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Elijah Mercedes McClain. Born April 21st, 1989. 31 years old. This license was issued a mere month ago."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Huh cool, you just got your license or …?\r"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Actually yeah, sort of! This is my first proper New York license, the last one was Georgia.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Really? I got an aunt who lives in Georgia!",
+            "c1pv": 1,
+            "branchingChoice2": "I once drove around Georgia in search of the finest peaches.",
+            "c2pv": 2,
+            "branchingChoice3": "Ah, good ol' Georgia, my favorite country in the Caucasus.",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Oh nice! My whole family’s from there, I’m a true Southern boy.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "What made you move all the way to New Paltz?"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I actually went to school at NYU down in the city, and found my way up here. It’s a long story."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Heh, sounds rad, they’re so good. My family’s got a massive peach tree, we always loved picking its fruits in May and June.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "They’re so good, I could absolutely go for a peach right now."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Gotta say, the peaches up here are alright, but they’re not Georgian."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Huh? No no, I mean, the state, not the country.",
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Oh, right. Absolutely.\r"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Y’know … not used to getting called sir, but that’s for a couple different reasons. It’s nice.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Oh cool, I’m glad!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I know it’s a small thing, but y’know, with everything going on, it’s nice to have little moments of joy like these."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Ain’t that the truth."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Y’know, I’ve been coming here for a little while now, I haven’t seen you around before. Are you new?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Oh yeah! I actually just started!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Mia needed a new clerk, she’s out dealing with some health issues."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Oh god, it’s not Covid, is it?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Oh, no. I think she said it was lymphoma."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Oh god, good luck to her. My mom’s had lymphoma twice now. At least they’ve gotten better with treating it. I hope your boss gets better."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Thank you, and I hope your mom’s doing okay too. Sorry about her lymphoma, that sounds like hell to go through.."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It was way worse the first time around from what I remember, but that was back in 2007. She’s way better now, but I feel a lil bad I can’t be there for her some days."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "You said she’s down in Georgia, right?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah, all the way down in Macon."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I came up to New York City to go to school, years ago, and then found my way up here in New Paltz. Nice town for the most part. White as hell, though."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I still visit the south from time to time, but I have a job up here at SUNY New Paltz as an adjunct. I always wanted to live in New York City, but … the prices there are insane, and traveling from here to Georgia and back is expensive, "
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "so I kinda found my way up here instead."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah the prices are absurd down in The City. Have you considered moving back home to Georgia, with your folks?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I have, but … I’d rather not, if I can help it."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I got to live my own life, up here … even if it’s been kinda slow-going. "
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It’s not a pride or shame thing, it’s just…  We haven’t always gotten on easy."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I’m sorry to hear."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Thanks. Y’know, you seem pretty nice. I should probably let you get back to work. I’ll catch you later, thanks again for the chat."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "No sweat! See you later."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Elijah grabs his six-pack of beers off the counter, stuffs the cigarettes in his pocket, and heads for the door. Good talk, I’d say."
+        }
+    ]
+}

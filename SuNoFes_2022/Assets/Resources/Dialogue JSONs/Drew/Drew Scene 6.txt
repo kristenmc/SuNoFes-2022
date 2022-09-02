@@ -1,0 +1,609 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "ChristmasScene",
+            "music": "noMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Shit! I think they’re coming!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanDefault",
+            "speakerDialogue": "Nathan! Quick! Hide!"
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Oh my god! Oh my god! They’re gonna love this!!!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Shut the hell up!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He imitates zipping up his lips, then tip-toes behind an aisle. What an idiot… But maybe, I'm one too. Ahhh! I can't stop smiling."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I hide behind the register. This isn’t much of a surprise, but I really hope they like it…"
+        },
+        {
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "..."
+        },
+        {
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "speakerDialogue": "SURPRISE!!!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Yes! Stella and Drew successfully look surprised. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Once she realizes it’s there, Stella runs towards the Christmas tree. Drew just stands still, looking around baffled."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "What’s going on? Why is the store all decorated?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Because… We at Mia’s wanted to give you kids a Christmas to remember!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "It isn’t even Christmas yet though."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "So what! It’s never too early or too late for Christmas."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "Ain’t that right!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Plus, I remember you saying that you guys couldn’t have Christmas a while back, so I thought this would be a nice surprise!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Once it sinks in, Drew starts smiling and blushing profusely. He gets a little teary-eyed, but seems to recover from his feels pretty quickly. He probably doesn’t wanna cry in front of Stella."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Thanks… Thank you."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "I'm still smiling... My cheeks hurt."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Anything for our best customers."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "LOOK, DOO DOO! THE TWEE!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "She looks up at the tree that towers over her small frame with her jaw hanging. Her mask looks like it might come off again..."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "WHERE ARE ALL THE PWETTY THINGS ON IT?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "The ornaments and lights?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "The what?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Nevermind. Well, I thought putting them up could be a cool activity for us all to do together!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "I get to help?!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Of course!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Yeah!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She excitedly jumps up and down over and over again. Before she has the chance to knock over the tree, I take out the box of ornaments and lights from under the counter and bring it over."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "First, I wrap some lights around the tree. Then, I hand Stella one of the non-breakable ornaments."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Here you go, Stella. Now, how about you hang the ornaments I give you on the bottom of the tree. Drew, you can do the ones in the middle; and I can do the ones on top."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "What about me?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "nathanHappyGrinning",
+            "speakerDialogue": "You need to be running the store!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He walks away, dragging his feet and whispering under his breath."
+        },
+        {
+            "speakerName": "Nathan",
+            "displayName": "Nathan",
+            "speakerExpression": "nathanSad",
+            "speakerDialogue": "Meanie… Where’s your holiday spirit…?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I heard that…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Okay, kids! Ready to get started?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "YEAH!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Alright!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Together, we spend some time putting ornaments up on the tree, while listening to Christmas music. Stella clumps her ornaments into one big mess, so I discreetly spread them out each time she turns away. Drew actually does a great job with his."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "We talk about their school, Stella’s grades (which she thinks are great, but are honestly kind of sad for preschool), and Drew’s rad skills on the basketball team. Seriously from the video he showed me, this kid is really fast!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "And, laugh at Nathan, who Stella catches trying to open a box of cookies on the shelf..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "The kids both look so happy. It’s really nice to see Drew looking so relaxed. Such a difference from yesterday, and even the day we met."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Hey."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Oh- hey! What?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "I must've gotten lost in my thoughts just then. Whoops."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "What’s this?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He holds up an ornament made out of popsicle sticks and macaroni. It has a picture in the middle of it."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Oh that’s…",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "me and my little sister.",
+            "c1pv": 1,
+            "branchingChoice2": "me and my mom.",
+            "c2pv": 1
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerDialogue": "I forgot to take that out of the box.",
+            "lineSkip": 15
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "The ornament brings back memories of us doing somersaults on the couch when our parents took that photo. We were such goofballs."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "You know, you and Stella remind me of me and my sister at your age."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "She took all my toys and broke them, never did her chores right, and blamed so much on me. She was such a brat. But even so…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "I love her very much."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Did you just call Stella a brat?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "No wait–That's not what I meant!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "This kid is making me look like an asshole!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Don’t worry, haha. I understand."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "She is really stupid, but…"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Whaaaat? What you guys talking bout?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Drew pats Stella on the head, smiling."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "Don’t worry about it."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "The kid’s really growing up."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerDialogue": "I forgot to take that out of the box.",
+            "lineSkip": 17
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "I can't remember smiling for this photo, but I do remember the taste of her brownies. I loved how she mixed in so many chocolate chips. They really do taste better that way."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "... I was close with her then."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Are you not anymore?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "My parents got a divorce when I was young, so she moved on from us, I guess."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Drew starts to look uncomfortable all of a sudden."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "What is it?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Oh shoot… Maybe I shouldn’t be talking about my mom in front of the kid. God, I’m so stupid."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Well… I just think you should try harder to find her."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Just… I know being close with your mom is… important."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": " I would- I would want mine in my life again if I could."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "The kid’s really growing up. I smile."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "Since when did you become the adult giving such good advice?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Nevermind."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "No- no! I think you’re right. Thank you, Drew."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewVeryHappy",
+            "speakerDialogue": "He smiles, but tries to look away to not make it so obvious that he's proud of himself."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "It’s done! It’s all done!",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "We’ve successfully put up all the ornaments, and now, Mia's got a properly decorated Christmas tree."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Yeah, it is! Good job guys!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I give high-fives all around."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "The bell rings, signaling a new customer. I’m about to glare down Nathan to go and help when Stella starts running to them."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Da-da!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She collides into his legs, wrapping her arms around them in a big hug. Then, he picks her up. This is the first time I’ve met their dad!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "Hey, dad!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He looks over to me, and for some reason, I'm scared at first. But, the nerves go away once he smiles."
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Kids' Dad",
+            "speakerDialogue": "It’s great to finally meet you! I’m Drew and Stella’s father."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Same here! I'm just a friendly cashier."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "They must have told him about me."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "We were surprised and then I saw a biiiiig Christmas tree, but it wasn’t pwetty yet. So, we made it pwetty togethah. Didn’t we do a good job?"
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Kids' Dad",
+            "speakerDialogue": "Wowww! You did! I’ve got another holiday surprise waiting for you at home. Are you ready to go?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Yeah!!!"
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Kids' Dad",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Why don’t you say thank you first?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He puts her down, and she shares the love, also giving me a big hug."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "THANK YOUUU!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Yeah, thanks."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Of course!"
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Kids' Dad",
+            "speakerDialogue": "Thank you for doing all this for my kids. It was really kind of you."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I'm blushing but try to play it off..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Haha really, it’s nothing."
+        },
+        {
+            "speakerName": "The Kids' Dad",
+            "displayName": "The Kids' Dad",
+            "speakerDialogue": "Come on. Let’s go!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Okay!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Stella and her dad walk out of the store, waving goodbye. Drew lingers a little longer though."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "What you waiting for, kid?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He suddenly runs up to me and gives me a hug."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "Thank you-"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "His voice cracked a bit at the end. My cheekbones are hurting again."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Aww, thank you for coming!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Stella and her dad wait patiently outside. When Drew turns to join them, I remember to mention…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Oh hey! This is my last chance to get you something before you go."
+        }
+    ]
+}

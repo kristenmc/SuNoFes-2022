@@ -1,0 +1,142 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Register",
+            "startEnd": "Start",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "item": "Cigars",
+            "pointValue": 2,
+            "speakerDialogue": "Elijah, since you’ve been so pleasant to chat with, I picked something out for you …"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Whoa whoa whoa, what is this?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Cuban cigars!\r"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "C-cuban cigars? Aren’t those illegal?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Don’t even worry about it!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "This is … wow, this is so kind! Thank you so much! I’m touched as all hell. "
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I’d love to buy this! And, y’know what? You got a few minutes? I’d love to share these with you."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Oh wow, I’ve … I’ve never had cigars before, but sure!"
+        },
+        {
+            "scene": "outsideStoreFront",
+            "music": "noMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Elijah pulls out his lighter and ignites one of the cigars. He takes a long drag, and exhales. A wide smile beams across his face.\n"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Oh now THAT’S the stuff. If I ever make it big, I’m treating myself to these regularly.\r\n"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I’m glad I chose wisely."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Y’know … you’re pretty swell. You’re the first friend I’ve made in like three years. This sure as hell counts for something."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I like to think of this as more than just any ol’ job, y’know? It’s been nice to meet a bunch of different people on this job. You included."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Thanks, pal. Things are still pretty bad out there, but… At least these past few convos have helped me see a bigger picture."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Things haven’t gone so well before. But y’know…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Nights like this make me think things might not have to be always terrible. It’s not like we’re curing racism or getting rid of the police anytime soon."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "But if I can live for just these moments… With people like you… I won’t dread the future as much anymore."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He takes a long drag of his cigarette, and stares into oblivion."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I should get going. Thanks so much again for these cigs."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "My pleasure, friend.\r"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "It’ll be a bit before I come back here. Got some stuff to sort out. But… Hope I’ll see you around, some."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "See you, my man!\r"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "We exchange a bodacious fist-bump before he takes his goods and saunters off into the summer night."
+        }
+    ]
+}

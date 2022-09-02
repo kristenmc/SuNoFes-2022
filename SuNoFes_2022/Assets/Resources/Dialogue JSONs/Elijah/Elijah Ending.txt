@@ -1,0 +1,217 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Register",
+            "music": "shopMusic",
+            "pvToUnlock": 20,
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "God, I hope I didn’t scare off Elijah with what I said the last time…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Oh wait, there he is!!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Hey. I, uh, came back for those items I left behind last time…"
+        },
+        {
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "And listen friend, I’ve been thinking."
+        },
+        {
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "He called me his friend!!!"
+        },
+        {
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "After what you said, I’ve decided…",
+            "isBranching": "elijahChoice"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "… I’M GOING TO GRAD SCHOOL BABY!!!",
+            "lineSkip": 15
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "WOOO!!!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Listen listen, all that stuff about working on myself..."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "… I realized I need this change."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I can’t let myself get stuck here forever."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "The world may be on fire, but I refuse to be browbeat!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I’m taking that damn leap."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Like you said, I gotta do this for me, so that I can finally help others."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Like a wise philosopher once said…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Only shooting stars break the mold."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "That’s what I’m talking about!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I’m gonna hunker down the next few months, get an application prepared…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "And I’m getting into that damn uni, if it kills me."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "But really, thank you, I really appreciate your encouragement."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I’m going to pass on grad school.",
+            "lineSkip": 17
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Oh, really?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yeah. What you said about helping myself first…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "… I realized I need some damn stability in my life."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Grad school would’ve been too much of a risk,"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "and I can’t take that kinda chance when everything else is in disarray."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "So. I’m going to stay here."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "And build a foundation, get some support, like you said."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I’m really happy to hear that."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I know it’s a lot to deal with, but…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I think you need to build yourself up, even if it’s slow and painful."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Yeah… you're right."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I think it’s time I start planning for the long haul."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Gotta hunker down. Get that bag. And some friends, too!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I’ve been stuck in my ways for so long, I think maybe this was the change I needed all along."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Thank you. I really appreciate your support."
+        }
+    ]
+}

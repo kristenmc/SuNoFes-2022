@@ -1,0 +1,731 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Register",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "My favorite duo is back again! I wave at them, but they don’t see it. They seem to be distracted by something important, so I let them do their own thing. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Drew pulls Stella into the store holding her hand, then takes out a list from his pocket. He tells Stella what they have to get, like a general giving orders to a soldier. Well, a soldier pulling off her mask to pick her boogers…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Stella! Put on your mask!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "But! It’s itchy!! I don’t wanna…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "If you don’t do it, I’ll make you go on timeout!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "We have a timeout in the store? And, can a kid give another kid a timeout?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Okay, sir!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Stella puts the mask back on, but it’s crooked; then she salutes him. She wants so badly to make her brother proud. How cute!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Put your hand down! You’re so embarrassing!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Alrighty, sir! Doo Doo sir!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Stop giving me weird names!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "He takes a deep breath, trying to calm himself down."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Just… Go get some eggs, okay?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Okie dokie! Roger that!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She walks off, confident in her ability to perform her duties. Aww, I’m so proud."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "After a few minutes of each of them getting their own items on the list, I hear a crash. Something crunches and rolls across the floor. Oh god, what happened?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerDialogue": "Um… Doo Doo...? I need help..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Drew walks towards Stella’s voice."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "Stella! What did you do?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "The anger in his voice is quickly obvious. Oh no..."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerDialogue": "I’m- I’m sowwy!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "Clean this up right now!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "You’re just rubbing it around!"
+        },
+        {
+            "scene": "Shop",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I should probably intervene now. I walk over to where they are to see an empty egg carton in Stella’s hand. The eggs are broken on the floor. Egg whites are all over Stella’s knees and hands. Yet another reminder on why I shouldn’t have kids…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "I’m so sorry!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "It’s alright… Accidents happen."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Yeah! I didn’t mean to!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "I know, Stella. Don’t worry. Just be more careful next time, okay?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Okay!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She grabs another carton off the shelf and it falls open. All the eggs fall to the floor, growing the mess that was already there."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Drew can’t hold back his growing anger anymore."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "STELLA! STOP IT! STOP TOUCHING THINGS! YOU CAN’T DO ANYTHING!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Stella starts crying. To be honest, I’m surprised she was able to keep it together thus far. Alright… How do I fix this?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Here! Why don’t you try to get something else on the list, Stella?",
+            "c1pv": 2,
+            "branchingChoice2": "Let’s clean this up…",
+            "c2pv": 1,
+            "branchingChoice3": "Hey, Stella! How about you go play? I can help Drew with his list.",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "I’ll just clean this all up later…",
+            "lineSkip": 15
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "If that’s okay…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "She sniffles for a moment, rubbing her nose through her mask."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "NO! You’ll just mess up again!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "I lean over to Drew, whispering to make sure Stella can’t hear me."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "You should give her another chance… She wants really badly to make you proud. Can't you tell?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "He’s being really stubborn..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Please?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Alright, fine! Get dad a movie, Stella."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Okay!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She runs off to get the movie, wanting to prove herself on this new mission."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Aww, look how happy she is!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Yeah? Whatever…"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Let me go get the cleaning wipes…",
+            "lineSkip": 19
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I walk a bit away to grab some cleaning supplies from behind the counter, then rush back."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "I really am very sorry…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewSadScared",
+            "speakerDialogue": "It’s okay. You didn’t mean for all this, right Stella?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Caught up in her sobs, she sniffles between most of her words."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "No! *sniff* It fell open! *sniff* I didn’t meant to! *sniff*"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Then it’s all okay. You want to help me wipe this up?"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Yeah! I’ll fix it!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "We wipe up all the goop and egg shells off the floor. I also have to wipe Stella’s knees and palms. Don’t want her going home like that."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "See, all better."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Well, now that everything's okay, I guess you can go get the next thing on the list, Stella..."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Really?!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Yeah… Just, don’t mess up."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Okay!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He takes out his list and looks for something that she’s less likely to mess up on."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Go get dad a movie."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Okay!!!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She runs off to get the movie, wanting to prove herself on this new mission."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "You don’t think I can do it too!",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Her crying has become a full on tantrum. Oh shit, I think I made it worse."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "I HATE YOU! I HATE YOU ALL!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Stella runs further into the store in a fit. Once she sees something that distracts her though, she seems to forget that she is mad."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerDialogue": "Hey, look! Look, Doo Doo! Look! Look!",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "What?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "We walk over to see Stella struggling to hold a big box."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Look! It’s a spaceship! You jump on it and it goes KAPOW!"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "Yes, it’s cool, but we can’t get toys right now! Remember? We can’t afford Christmas presents this year."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaAngryCute",
+            "speakerDialogue": "Why?!! Mom would buy it-"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Something in Drew is set off by this."
+        },
+        {
+            "music": "sadMusic",
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "MOM ISN’T HERE!!! AND, THAT ISN’T ON THE LIST! WHY ARE YOU SO STUPID?! I HAVE TO DO IT ALL MYSELF! JUST- JUST GO AWAY!!!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Before I realize it, Stella has run right out of the store wailing!",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "*Go after Stella.*",
+            "c1pv": 2,
+            "branchingChoice2": "Drew, let’s talk.",
+            "c2pv": 3,
+            "branchingChoice3": "*Just leave it alone.* (I don’t get paid enough to deal with this…)",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerDialogue": "Stella! Wait!",
+            "lineSkip": 21
+        },
+        {
+            "scene": "outsideStoreFront",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I sprint after her, wheezing because the days of my youthful athleticism have passed."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Luckily, I eventually catch up to her."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "You- Shouldn’t run off- like that. It isn’t safe!"
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "GO AWAY! Home is right there!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She points at a store across the road. They must live in the apartment above it. Ah, that’s why the kids come in by themselves all the time."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Okay, I understand. But, you shouldn’t go on your own."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "Doo Doo hates me!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "No. No, he doesn’t."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "He doesn’t?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "No, he loves you very much. He just gets a little mad sometimes and doesn’t know how to express it."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "She wipes her eyes and boogers on her mask again. Gross..."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "But, I don’t like making him so mad… Doo Doo is the coolest, but I'm- I'm just stupid..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaCrying",
+            "speakerDialogue": "You’re so cool, Stella! Look at you! Buying groceries just like a grownup."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Stella’s eyes light up a bit."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "stellaNeutralHappyCute",
+            "speakerDialogue": "Now, a grownup thing to do is to go back and give your brother a big hug. Do you think you can do it?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "A huge smile spreads across her face."
+        },
+        {
+            "speakerName": "Stella",
+            "displayName": "Stella",
+            "speakerExpression": "stellaExtraHappy",
+            "speakerDialogue": "Yeah!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She runs back inside and almost knocks Drew over with her hug. At first, he looks surprised. So, I’m worried he might start yelling at her again;"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "but instead, he hugs her back. It's hard to tell from this far away. Still... Once he wraps his arms around her, I think he starts trembling. I wonder what these kids are going through."
+        },
+        {
+            "scene": "whereSceneHasBeenSetThusFar",
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "First, where is Stella running off to? Is she going to be okay?",
+            "lineSkip": 27
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Our house is right across the street, so she’s going over there… She's being dramatic..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Okay. Just wanted to make sure."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewAngryCute",
+            "speakerDialogue": "Now, what’s going on? Talk to me."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Drew answers me steadily but looks away from my face."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "Nothing’s wrong."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "I know your dad is sick, but why isn’t your mom here? Why do you have to do this all by yourself?"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "She… She…"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "Mom…"
+        },
+        {
+            "music": "noMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He turns fully away from me now and shoves his face into the crook of his arm. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I don't know how to react for a few moments, but I decide to put a hand on his shoulder."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "It’s okay. You don’t have to talk about it if you don’t want to."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "She said-"
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "She said I have to take care of Stella, but I can’t do it! I can’t... I can’t do it like she could."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "…"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I have to think a bit about what to say next. I don't want to say something he doesn't need to hear."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "How about you let me help? When you need help, you can ask me."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "You don’t have to do it all alone. You shouldn’t have to, Drew."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "I- I don’t want to let her down."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "You won’t! I promise. She would be so happy with how hard you are working. Helping your dad, taking care of your sister."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerDialogue": "I think… I think I’ll go after Stella…"
+        },
+        {
+            "music": "sadMusic",
+            "speakerName": "MC",
+            "speakerDialogue": "Alright, that’s a good idea. Here, give me your list. I’ll get what you need. It’s on me."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "drewCrying",
+            "speakerDialogue": "Handing over his list, he looks up at me. His eyes are swollen."
+        },
+        {
+            "speakerName": "Drew",
+            "displayName": "Drew",
+            "speakerExpression": "drewCrying",
+            "speakerDialogue": "Thank you."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "He runs after Stella, leaving me alone with my thoughts."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I really hope this kid gets a break sometime soon. I don’t want him to miss out on his childhood. Hopefully, I can be there for him from now on."
+        },
+        {
+            "startEnd": "Start/End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Yeah… I’m just gonna go back to work… I’m not a babysitter. I walk back to the counter and hope it all works out.",
+            "lineSkip": 2
+        },
+        {
+            "scene": "Shop",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Later, once everything is more settled down, I approach Drew.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "drewNeutralHappy",
+            "speakerDialogue": "This might cheer you up a bit. I saw something the other day that I thought you might like to get."
+        }
+    ]
+}

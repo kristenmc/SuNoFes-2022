@@ -3,6 +3,7 @@
     [
         {
             "scene": "Shop",
+            "music": "shopMusic",
             "speakerName": "MC",
             "displayName": "Thinking",
             "sfx": "Bell Ringing",

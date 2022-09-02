@@ -1,0 +1,135 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "Register",
+            "startEnd": "Start",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "item": "Peaches",
+            "pointValue": 3,
+            "speakerDialogue": "Elijah, since you’ve been such a cool person, I decided to pick out a lil something for you…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "A … box of peaches?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Ah, but not just any peaches, my friend!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Wait… they… they smell so damn good…"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yep! I remembered how much you loved Peaches from when you were in Georgia, and ordered the finest batch I could find!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "That’s… oh my god. That’s so sweet of you! God, I’m way hungrier than I expected, I didn’t even have dinner yet… You mind if I dig in?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Go right on ahead! But, remember to pay!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Oh hell yeah-"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He scoops up the first peach he sees and digs right in. I mean, he’s just going to town on that stuff."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I haven’t had peaches this good since last time I went South. I can’t believe you remembered this."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Doing little favors like this for my friends makes coming here everyday worth it."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Ya know, the world has gone to shit out there."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "But… moments like these…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "With people like you…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Gives me hope for it all."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "And, I have something to look forward to."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "He takes another big bite of his peach."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "I should get going. Thanks so much again for these peaches, they’re just incredible."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "My pleasure, friend."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "It’ll be a while before I come back here. Got some stuff to sort out. But… Hope I’ll see you around, some."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "See you, my man!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "We exchange a bodacious fist-bump before he takes his goods and saunters out the door."
+        }
+    ]
+}

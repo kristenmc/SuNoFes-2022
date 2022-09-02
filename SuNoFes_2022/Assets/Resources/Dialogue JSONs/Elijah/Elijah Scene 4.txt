@@ -1,0 +1,282 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "Shop",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "There’s Elijah again. He’s studying some notebooks he's got pretty intently."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Yo."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Hey,  anything I can help with?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Thinking of buying a notebook. Really been thinking about getting into journaling."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "These past convos we’ve been having made me realize I don’t got outlets to vent my frustrations."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Don’t think that’s healthy, and putting all this on one person isn't really fair. Sorry...",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "I hope it helps, but I enjoy our talks.",
+            "c1pv": 3,
+            "branchingChoice2": "I get that. Therapy helps me.",
+            "c2pv": 1,
+            "branchingChoice3": "No, I would not say this is healthy.",
+            "c3pv": 0
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Aw, I’m touched. Thank you.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "They mean a lot to me too."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "No problem, my guy."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I’m glad it helps you.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I don’t wanna bring down it's personal value for you, but …"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Just from my experiences looking for a therapist, not many know how to handle either Black issues or trans issues."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Yeah. Sorry. Hope I’m not being a burden or nothin’.",
+            "lineSkip": 4
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "You’re cool, just… I get how much it sucks."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Thanks…"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Anyways. I’ll just take this and be on my way.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "He bags his items, very slowly.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "Something on your mind?",
+            "c1pv": 2,
+            "branchingChoice2": "[Scan his items and send him off]",
+            "c2pv": 0
+        },
+        {
+            "music": "sadMusic",
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Yeah actually. Uh, mind if I get some stuff off my chest?",
+            "lineSkip": 21
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Go for it."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "Thanks, pal."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "He takes a long, heavy sigh."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Being from Georgia and all, I’ve dealt with both overt and subtle racism. And plenty of transphobia too. A little bit of everything from almost everyone."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "But, those aren’t the only things making me miserable."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "It all sucks, but I guess I could deal with everything bad if... If I had a little more good in my life."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Things are just as bad on the inside as they are on the outside for me."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "What do you mean?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "There’s some stuff that’s gone right for me. Living in NYC, getting a job right after graduating, meeting so many cool people. Even living here has its perks, much as I rag on it."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "But so much else has gone wrong. My mom’s dealt with Lymphoma twice now. I stopped talking to one of my closest friends back in 2019."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I’ve fallen out with my siblings, I haven’t kept in touch with anyone from my college days, hell, I barely have any friends as is."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Some of them turned out to be real shitheads too."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I’m sorry..."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Thanks. I really don’t get a chance to complain about this stuff."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I wish I had a thicker skin sometimes too. In this body, I should've been born ready to handle all this."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I just want to live my life in peace. Does that always have to be out of reach?"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "... I dunno what’s going to come of all this talk. But, I appreciate having someone to confide in."
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "I uh, I should get going."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Sure thing, my man. You wanna get this before you leave?"
+        },
+        {
+            "music": "whicheverMusicHasBeenSetThusFar",
+            "startEnd": "Start",
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahNeutral",
+            "speakerDialogue": "Thanks. I’ll, uh, I’ll catch you around.",
+            "lineSkip": 6
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "He lingers for a second before walking out the door. He seems almost hesitant to leave."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "Oh wait!"
+        },
+        {
+            "speakerName": "Elijah",
+            "displayName": "Elijah",
+            "speakerExpression": "elijahHappy",
+            "speakerDialogue": "He turns around a little too quickly, like he's happy I called him back over."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "elijahSad",
+            "speakerDialogue": "I almost forgot. Do you wanna get this?"
+        }
+    ]
+}
