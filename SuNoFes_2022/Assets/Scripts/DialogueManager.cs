@@ -175,13 +175,13 @@ public class DialogueManager : MonoBehaviour
             AkSoundEngine.PostEvent("Play_" + sentence.sfx.Replace(" ", "_"), this.gameObject);
             
         }
-        if(sentence.music != null && sentence.music != "")
+        if(sentence.music != null && sentence.music != "" && sentence.music!=currentlyPlayingMusic && sentence.music!="whicheverMusicHasBeenSetThusFar")
         {
-            Debug.Log(sentence.music);
             //@Kristen TODO:: Add music code here based on the string sentence.music
             if(currentlyPlayingMusic != null)
                 AkSoundEngine.PostEvent("Stop_"+currentlyPlayingMusic, this.gameObject);
-            AkSoundEngine.PostEvent("Play_"+sentence.music, this.gameObject);
+            if (sentence.music != "noMusic")    
+                AkSoundEngine.PostEvent("Play_"+sentence.music, this.gameObject);
         
             //stop music using the string var currentlyPlayingMusic
             currentlyPlayingMusic = sentence.music; 

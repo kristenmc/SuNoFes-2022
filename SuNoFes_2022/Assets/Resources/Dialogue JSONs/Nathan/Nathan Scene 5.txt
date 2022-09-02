@@ -1,8 +1,9 @@
 {
     "dialogue": 
     [
-        {
+         {
             "scene": "Shop",
+            "music": "shopMusic",
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerExpression": "nathanSad",
@@ -23,7 +24,7 @@
             "speakerName": "Nathan",
             "displayName": "Nathan",
             "speakerExpression": "nathanSadSmiling",
-            "speakerDialogue": "O-Oh! ‘Sup, Player Name? Sorry, I didn’t see you there."
+            "speakerDialogue": "O-Oh! ‘Sup? Sorry, I didn’t see you there."
         },
         {
             "speakerName": "MC",
@@ -124,6 +125,7 @@
             "c2pv": 0
         },
         {
+            "music": "sadMusic",
             "startEnd": "Start",
             "speakerName": "MC",
             "speakerDialogue": "Nathan, are you sure you’re okay? You don’t have to tell me anything, but I’m here if you need anything.",
@@ -204,6 +206,7 @@
             "speakerDialogue": "Nathan takes a deep breath and recomposes himself before putting his phone away and picking up a box at his feet."
         },
         {
+            "music": "shopMusic",
             "speakerName": "Nathan",
             "displayName": "Nathan",
             "speakerExpression": "nathanDefault",
@@ -219,9 +222,10 @@
             "speakerName": "Nathan",
             "displayName": "Nathan",
             "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Geez, that sounds like something I’m supposed to say. Thanks, Player Name. I do feel a little better."
+            "speakerDialogue": "Geez, that sounds like something I’m supposed to say. Thanks. I do feel a little better."
         },
         {
+            "music": "whicheverMusicHasBeenSetThusFar",
             "startEnd": "Start",
             "speakerName": "MC",
             "speakerDialogue": "I hope the dogs haven’t caused any trouble at home.",
@@ -240,6 +244,7 @@
             "speakerDialogue": "The conversation remained light and ended when a customer needed to be rung up at the register. I couldn’t help but see that there was less pep in his step than usual. I hope he’s okay..."
         },
         {
+            "music": "whicheverMusicHasBeenSetThusFar",
             "speakerName": "MC",
             "speakerDialogue": "Nathan, I picked something out for you the other day. You wanna buy it?",
             "isBranching": "whereStoryConvergesAfterChoices"

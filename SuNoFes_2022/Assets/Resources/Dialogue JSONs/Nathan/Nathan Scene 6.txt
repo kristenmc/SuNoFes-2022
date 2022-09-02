@@ -3,6 +3,7 @@
     [
         {
             "scene": "Shop",
+            "music": "shopMusic",
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerDialogue": "I walk down an aisle and start organizing disinfectant wipes on the shelf. Thankfully, people have calmed down with the hoarding, but it’s clear that this part of the store still gets a lot of traffic."
@@ -132,29 +133,26 @@
             "speakerDialogue": "I sigh. I don’t think he’ll ever learn what a real break is."
         },
         {
+            "music": "ringTone",
             "speakerName": "MC",
             "displayName": "Thinking",
-            "sfx": "Phone Ringing",
             "speakerDialogue": "Nathan’s phone rings, and he reaches into his pocket. "
         },
         {
             "speakerName": "Nathan",
             "displayName": "Nathan",
             "speakerExpression": "nathanDefault",
-            "sfx": "Phone Ringing",
             "speakerDialogue": "Oop. Let me get that. I know you'll miss me, but I'll be back soon."
         },
         {
             "speakerName": "Nathan",
             "displayName": "Nathan",
             "speakerExpression": "nathanDefault",
-            "sfx": "Phone Ringing",
             "speakerDialogue": "See, if I wasn’t on break, I wouldn’t be answering this."
         },
         {
             "speakerName": "MC",
             "speakerExpression": "nathanDefault",
-            "sfx": "Phone Ringing",
             "speakerDialogue": "Just- just pick up your phone!"
         },
         {
@@ -169,6 +167,7 @@
             "speakerDialogue": "Nathan answers his phone and puts it up to his ear."
         },
         {
+            "music": "noMusic",
             "speakerName": "Nathan",
             "displayName": "Nathan",
             "speakerExpression": "nathanDefault",
@@ -271,6 +270,7 @@
             "speakerDialogue": "That offer’s still on the table, huh? Well…"
         },
         {
+            "music": "sadMusic",
             "speakerName": "Nathan",
             "displayName": "Nathan",
             "speakerExpression": "nathanSadSmiling",
@@ -471,6 +471,7 @@
             "speakerDialogue": "Nathan takes a slow deep breath and exhales. I watch him relax."
         },
         {
+            "music": "shopMusic",
             "speakerName": "Nathan",
             "displayName": "Nathan",
             "speakerExpression": "nathanDefault",
