@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Notebook
   m_EditorClassIdentifier: 
   _itemName: Notebook
-  _itemDescription: An item Elijah is considering buying
+  _itemDescription: A beautifully decorated lined notebook. This is pretty high-quality.
   _itemID: 15
   _itemAmount: 1
-  _itemCost: 0
+  _itemCost: 10
   _itemAffinity: 1
   _itemImage: {fileID: 21300000, guid: 043e726fe7a970d40a3239c034863cc1, type: 3}

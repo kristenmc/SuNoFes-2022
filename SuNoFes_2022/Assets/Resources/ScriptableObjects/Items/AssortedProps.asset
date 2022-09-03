@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: AssortedProps
   m_EditorClassIdentifier: 
   _itemName: Assorted Props
-  _itemDescription: These items can be anything sellable. They have the purpose of
-    throwing off the player. These do not affect any of the characters. They lead
-    to responses like, "I don't need this."
+  _itemDescription: 
   _itemID: 5
   _itemAmount: 1
   _itemCost: 0
