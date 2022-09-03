@@ -19,6 +19,7 @@ public class CharacterDialogueLoader : DialogueLoader
     }
     [SerializeField] private giftSceneDict[] giftScenes;
     [SerializeField] private DialogueList warningScene;
+    [SerializeField] private DialogueList finalScene;
     [SerializeField] private bool canTalk;
     #endregion
 
@@ -41,6 +42,7 @@ public class CharacterDialogueLoader : DialogueLoader
             dialogueScenes[i] = dialogueList;
         }
         warningScene = JsonUtility.FromJson<DialogueList>(character.WarningScene.text);
+        finalScene = JsonUtility.FromJson<DialogueList>(character.FinalScene.text);
     }
 
     public void LoadGiftDialogueData()
@@ -59,10 +61,8 @@ public class CharacterDialogueLoader : DialogueLoader
 
     private void OnMouseDown() 
     {
-        Debug.Log("clicked on person");
         if(!dialogueManager.IsDialoguePlaying() && canTalk && !GameManager.Instance.IsMenuOpen())
         {
-            Debug.Log("stargting dialogue");
             canTalk = false;
             LoadDialogue();    
         }
@@ -72,26 +72,26 @@ public class CharacterDialogueLoader : DialogueLoader
     {
         if(character.SceneProgression < dialogueScenes.Length)
         {
-            Debug.Log("trying cangift");
             if(character.SceneProgression != 0 && character.SceneProgression < character.Scenes.Length - 1)
             {
-                Debug.Log("cangift tru");
                 dialogueManager.SetCanGift(true);
             }
             else
             {
-                Debug.Log("cangift fals");
                 dialogueManager.SetCanGift(false);
             }
             //Sending itself as part of the function call is definitely bad practice 
             //Unfortunately it was the best way to get things to work based off time constraints
-            Debug.Log("starting dialogue");
             dialogueManager.StartDialogue(GetCurrentScene(), this);
             character.SceneProgression++;
         }
         else
         {
             //Play ending scene or something idk
+            if(character.CharacterAffinity > character.AffinityMax)
+            {
+                dialogueManager.StartDialogue(finalScene.dialogue, this);
+            }
         }
     }
 

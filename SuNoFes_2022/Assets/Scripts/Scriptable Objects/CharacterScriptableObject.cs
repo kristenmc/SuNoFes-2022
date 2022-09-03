@@ -7,9 +7,11 @@ public class CharacterScriptableObject : ScriptableObject
 {
     [SerializeField] private string _characterName;
     [SerializeField] private int _characterAffinity;
+    [SerializeField] private int _affinityMax;
     [SerializeField] private int _sceneProgression;
     [SerializeField] private TextAsset[] _scenes;
     [SerializeField] private TextAsset _warningScene;
+    [SerializeField] private TextAsset _finalScene;
     
     [System.Serializable]
     public class giftJSONDict
@@ -38,6 +40,11 @@ public class CharacterScriptableObject : ScriptableObject
         get {return _characterAffinity;}
         set {_characterAffinity = value;}
     }
+    public int AffinityMax
+    {
+        get {return _affinityMax;}
+        set {_affinityMax = value;}
+    }
     public int SceneProgression
     {
         get {return _sceneProgression;}
@@ -50,6 +57,10 @@ public class CharacterScriptableObject : ScriptableObject
     public TextAsset WarningScene
     {
         get {return _warningScene;}
+    }
+    public TextAsset FinalScene
+    {
+        get {return _finalScene;}
     }
     public giftJSONDict[] CharacterGifts
     {

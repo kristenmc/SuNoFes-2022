@@ -129,10 +129,6 @@ public class DialogueManager : MonoBehaviour
         dialogueQueue.Clear();
         foreach(CharacterDialogueLoader.Dialogue sentence in dialogue)
         {
-            if(isGiftScene)
-            {
-                Debug.Log("Here is a sentence we are enquign: " + sentence.speakerDialogue);
-            }
             dialogueQueue.Enqueue(sentence);
         }
 
@@ -303,6 +299,10 @@ public class DialogueManager : MonoBehaviour
         }
         dialogueBoxAnimator.Play(dialogueBoxHide);
         dialogueInProgress = false;
+        if(currentCharacter != null && currentCharacter.GetSceneProgression() > currentCharacter.GetCharacterSO().Scenes.Length - 1)
+        {
+            currentCharacter.LoadDialogue();
+        }
     }
 
     //@Molina TODO:: This should be called by the gifting UI Button
