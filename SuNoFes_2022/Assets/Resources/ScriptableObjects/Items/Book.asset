@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: Book
   m_EditorClassIdentifier: 
   _itemName: Book
-  _itemDescription: This is a different book than the one you see Raina holding.
-    It is a book she has been meaning to get because she heard people raving about
-    it on Book Tiktok.
+  _itemDescription: A trending romance novel. I think I saw this once on Tiktok...
   _itemID: 7
   _itemAmount: 1
   _itemCost: 10

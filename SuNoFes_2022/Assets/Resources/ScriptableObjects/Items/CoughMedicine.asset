@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: CoughMedicine
   m_EditorClassIdentifier: 
   _itemName: Cough Medicine
-  _itemDescription: Grocery list item
+  _itemDescription: Medicine for curing a cough, or sore throat. It should be a good
+    enough dosage for 24 hours!
   _itemID: 1
   _itemAmount: 1
   _itemCost: 10

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: BoardGame
   m_EditorClassIdentifier: 
   _itemName: Board Game
-  _itemDescription: A board game box with a cover that resembles some sort of Pikmin
-    knockoff called Piknion.
+  _itemDescription: A board game box with a multicovered aliens on the cover called
+    Piknion. Isn't this also a video game?
   _itemID: 10
   _itemAmount: 1
   _itemCost: 10

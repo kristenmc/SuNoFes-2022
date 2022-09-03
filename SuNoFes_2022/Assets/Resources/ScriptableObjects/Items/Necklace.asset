@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Necklace
   m_EditorClassIdentifier: 
   _itemName: Necklace
-  _itemDescription: She thanks the player for this, but she isn't that into jewelry.
+  _itemDescription: A beautiful necklace, which every woman would adore because bliss
+    begins with bae.
   _itemID: 9
   _itemAmount: 1
   _itemCost: 10

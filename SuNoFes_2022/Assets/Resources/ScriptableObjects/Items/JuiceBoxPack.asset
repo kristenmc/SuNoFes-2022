@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: JuiceBoxPack
   m_EditorClassIdentifier: 
   _itemName: Juice Box Pack
-  _itemDescription: Grocery list item
+  _itemDescription: A pack of six rectangular juice boxes with straws. They're all
+    cherry flavor. What an odd flavor...
   _itemID: 2
   _itemAmount: 1
   _itemCost: 10

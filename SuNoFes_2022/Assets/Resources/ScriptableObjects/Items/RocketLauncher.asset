@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: RocketLauncher
   m_EditorClassIdentifier: 
   _itemName: Rocket Launcher
-  _itemDescription: If the MC paid attention to the dialogue in scene 3, they will
-    find out Stella is obsessed with this toy and so is Drew. They start using it
-    in the store because they are so excited. (no need for animation or image of
-    this happening)
+  _itemDescription: A one way ticket to the sky! Coming with six rockets, place the
+    rocket of the pump and jump on the button to see it soar! This is the best price
+    you can get this for kids, so go ask your parents! Recommended for 6 and up.
   _itemID: 3
   _itemAmount: 1
   _itemCost: 10

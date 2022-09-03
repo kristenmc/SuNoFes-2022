@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Manga
   m_EditorClassIdentifier: 
   _itemName: Manga
-  _itemDescription: She has watched the anime for this and is thrilled when receiving
-    this.
+  _itemDescription: Purple Garden, winter edition. This anime turned manga tells
+    the story of a girl raised as a soldier, who tries to make up for her past sins
+    through the written word.
   _itemID: 8
   _itemAmount: 1
   _itemCost: 10

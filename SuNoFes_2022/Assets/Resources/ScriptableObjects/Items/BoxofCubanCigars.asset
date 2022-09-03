@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: BoxofCubanCigars
   m_EditorClassIdentifier: 
   _itemName: Box of Cuban Cigars
-  _itemDescription: An item Elijah is considering buying
+  _itemDescription: 'A box of CUBAN CIGARS??? (Aren''t these illegal?) I won''t tell
+    if you won''t. You can''t get these cigars in many other places. '
   _itemID: 16
   _itemAmount: 1
   _itemCost: 10

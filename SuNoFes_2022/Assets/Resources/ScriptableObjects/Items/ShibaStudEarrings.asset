@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: ShibaStudEarrings
   m_EditorClassIdentifier: 
   _itemName: Shiba Stud Earrings
-  _itemDescription: A pair of stud earrings with shiba inus on them. (If possible,
-    make it so Nathan puts them on and keeps them on for the rest of the game after
-    the MC gives them to him.
+  _itemDescription: A pair of stud earrings with shiba inus on them. How cute! Great
+    for children or young-minded adults!
   _itemID: 11
   _itemAmount: 1
   _itemCost: 10
