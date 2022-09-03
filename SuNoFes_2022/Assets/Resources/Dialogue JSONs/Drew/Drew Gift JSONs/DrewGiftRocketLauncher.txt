@@ -8,7 +8,7 @@
             "speakerExpression": "drewVeryHappy",
             "item": "Rocket Launcher",
             "pointValue": 3,
-            "speakerDialogue": "THIS IS AWESOME! And, it’s on sale!!! Look, Stella!",
+            "speakerDialogue": "THIS IS AWESOME! And, it’s on sale!!! Look, Stella!"
         },
         {
             "speakerName": "Stella",

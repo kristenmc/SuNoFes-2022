@@ -16,6 +16,7 @@ public class DialogueLoader : MonoBehaviour
         //Probably switch this to an enum
         public string speakerExpression;
         public string objectOnScreen;
+        public int pointValue;
         public string sfx;
         public string music;
         public string speakerDialogue;

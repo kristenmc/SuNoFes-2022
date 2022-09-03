@@ -35,6 +35,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private string dialogueBoxHide;
 #endregion
 
+#region Speaker Expression Vars
+    [SerializeField] private GameObject[] expressionList;
+    [SerializeField] private RectTransform displayLocation;
+    [SerializeField] private RectTransform hideLocation;
+#endregion
+
 #region Saved Variables
     private int playerChoice;
     private CharacterDialogueLoader.Dialogue dialoguePointValues;    
@@ -45,6 +51,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private bool sharedScene1Played = false;
     [SerializeField] private bool sharedScene2Played = false;
     private string currentlyPlayingMusic;
+    private string currentSpeakerExpression;
+    private GameObject currentSpeakerExpressionObject;
     private int elijahChoice;
     public DialogueLoader.Dialogue[] DebugThing;
 #endregion
@@ -144,7 +152,6 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         CharacterDialogueLoader.Dialogue sentence = dialogueQueue.Dequeue();
-        Debug.Log("SEntence IS: " + sentence.speakerDialogue);
         if(sentence.lineSkip > 0)
         {
             sentence = LineSkipHelper(sentence);
@@ -190,6 +197,7 @@ public class DialogueManager : MonoBehaviour
             //stop music using the string var currentlyPlayingMusic
             currentlyPlayingMusic = sentence.music; 
         }
+        SpeakerExpressionHelper(sentence.speakerExpression);
         //#ToDo: speaker expression stuff goes here 
         if(sentence.isBranching != null && sentence.isBranching != "")
         {
@@ -286,6 +294,124 @@ public class DialogueManager : MonoBehaviour
             return sentence;
     }
     
+    public void SpeakerExpressionHelper(string expression)
+    {
+        if(currentSpeakerExpression == expression)
+        {
+            return;
+        }
+        if(currentSpeakerExpressionObject != null)
+        {
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = hideLocation.position; 
+        }
+        currentSpeakerExpression = expression;
+        if(expression == "List")
+        {
+            currentSpeakerExpressionObject = expressionList[0];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "nathanDefault")
+        {
+            currentSpeakerExpressionObject = expressionList[1];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "nathanHappyGrinning")
+        {
+            currentSpeakerExpressionObject = expressionList[2];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "nathanHappyLaughing")
+        {
+            currentSpeakerExpressionObject = expressionList[3];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "nathanSadSmiling")
+        {
+            currentSpeakerExpressionObject = expressionList[4];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "nathanSad")
+        {
+            currentSpeakerExpressionObject = expressionList[5];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "nathanWearingShibaEarrings")
+        {
+            currentSpeakerExpressionObject = expressionList[6];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "rainaNeutralHappyRobot")
+        {
+            currentSpeakerExpressionObject = expressionList[7];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "rainaNeutralNervous")
+        {
+            currentSpeakerExpressionObject = expressionList[8];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "rainahappyPassionate")
+        {
+            currentSpeakerExpressionObject = expressionList[9];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "rainaCrying")
+        {
+            currentSpeakerExpressionObject = expressionList[10];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "stellaNeutralHappyCute")
+        {
+            currentSpeakerExpressionObject = expressionList[11];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "stellaCrying")
+        {
+            currentSpeakerExpressionObject = expressionList[12];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "stellaAngryCute")
+        {
+            currentSpeakerExpressionObject = expressionList[13];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "stellaExtraHappy")
+        {
+            currentSpeakerExpressionObject = expressionList[14];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "drewNeutralHappy")
+        {
+            currentSpeakerExpressionObject = expressionList[15];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "drewVeryHappy")
+        {
+            currentSpeakerExpressionObject = expressionList[16];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "drewSadScared")
+        {
+            currentSpeakerExpressionObject = expressionList[17];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "drewCrying")
+        {
+            currentSpeakerExpressionObject = expressionList[18];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        else if(expression == "drewAngryCute")
+        {
+            currentSpeakerExpressionObject = expressionList[19];
+            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+        }
+        //Add more expressions here
+        else
+        {
+            Debug.Log("Missing Expression: " + expression);
+        }
+    }
+
     //Ends the dialogue
     public void EndDialogue()
     {
