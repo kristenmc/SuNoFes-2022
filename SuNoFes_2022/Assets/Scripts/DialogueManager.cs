@@ -378,6 +378,30 @@ public class DialogueManager : MonoBehaviour
             {
                 currentSpeakerExpressionObject = stellaModel;
                 currentSpeakerExpressionObject.transform.position = displayLocation.position;
+                foreach(GameObject characterExp in stellaExpressionList)
+                {
+                    characterExp.SetActive(false);
+                }
+                if(expression == "drewVeryHappy")
+                {
+                    drewExpressionList[1].SetActive(true);
+                }
+                else if(expression == "drewSadScared")
+                {
+                    drewExpressionList[2].SetActive(true);
+                }
+                else if(expression == "drewCrying")
+                {
+                    drewExpressionList[3].SetActive(true);
+                }
+                else if(expression == "drewAngryCute")
+                {
+                    drewExpressionList[4].SetActive(true);
+                }
+                else
+                {
+                    drewExpressionList[0].SetActive(true);
+                }
             }
         }
         else if(expression == "drewNeutralHappy" || expression == "drewVeryHappy" || expression == "drewSadScared" || expression == "drewCrying" || expression == "drewAngryCute")
@@ -386,6 +410,30 @@ public class DialogueManager : MonoBehaviour
             {
                 currentSpeakerExpressionObject = drewModel;
                 currentSpeakerExpressionObject.transform.position = displayLocation.position;
+                foreach(GameObject characterExp in drewExpressionList)
+                {
+                    characterExp.SetActive(false);
+                }
+                if(expression == "drewVeryHappy")
+                {
+                    drewExpressionList[1].SetActive(true);
+                }
+                else if(expression == "drewSadScared")
+                {
+                    drewExpressionList[2].SetActive(true);
+                }
+                else if(expression == "drewCrying")
+                {
+                    drewExpressionList[3].SetActive(true);
+                }
+                else if(expression == "drewAngryCute")
+                {
+                    drewExpressionList[4].SetActive(true);
+                }
+                else
+                {
+                    drewExpressionList[0].SetActive(true);
+                }
             }
         }
         else if(expression == "elijahNeutral" || expression == "elijahSad" || expression == "elijahHappy")
