@@ -48,16 +48,16 @@ public class SettingsManager : MonoBehaviour
 
     public void SetAllVolume(float volume)
     {
-        AkSoundEngine.SetRTPCValue("AllVolume", volume);
+        AkSoundEngine.SetRTPCValue("AllVolume", volume*100);
     }
 
     public void SetMusicVolume(float volume)
     {
-        AkSoundEngine.SetRTPCValue("MusicVolume", volume);
+        AkSoundEngine.SetRTPCValue("MusicVolume", volume*100);
     }
 
     public void SetSFXVolume(float volume)
     {
-        AkSoundEngine.SetRTPCValue("SFXVolume", volume);
+        AkSoundEngine.SetRTPCValue("SFXVolume", volume*100);
     }
 }
