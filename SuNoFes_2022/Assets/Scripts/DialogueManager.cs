@@ -382,25 +382,21 @@ public class DialogueManager : MonoBehaviour
                 {
                     characterExp.SetActive(false);
                 }
-                if(expression == "drewVeryHappy")
+                if(expression == "stellaCrying")
                 {
-                    drewExpressionList[1].SetActive(true);
+                    stellaExpressionList[1].SetActive(true);
                 }
-                else if(expression == "drewSadScared")
+                else if(expression == "stellaAngryCute")
                 {
-                    drewExpressionList[2].SetActive(true);
+                    stellaExpressionList[2].SetActive(true);
                 }
-                else if(expression == "drewCrying")
+                else if(expression == "stellaExtraHappy")
                 {
-                    drewExpressionList[3].SetActive(true);
-                }
-                else if(expression == "drewAngryCute")
-                {
-                    drewExpressionList[4].SetActive(true);
+                    stellaExpressionList[3].SetActive(true);
                 }
                 else
                 {
-                    drewExpressionList[0].SetActive(true);
+                    stellaExpressionList[0].SetActive(true);
                 }
             }
         }

@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
-  itemShopInventory: 01000000020000000300000004000000050000000700000008000000090000000a0000000b0000000e0000000f0000001000000011000000
+  itemShopInventory: 01000000020000000300000004000000050000000700000008000000090000000a0000000b0000000e0000000f0000001000000019000000
   itemShopDisplaySlots:
   - {fileID: 926676135}
   - {fileID: 868768285}
@@ -2504,7 +2504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3617191076780922859, guid: 9b87c7f56f610b74bbf56d137ae21492, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3617191076780922859, guid: 9b87c7f56f610b74bbf56d137ae21492, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2516,7 +2516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3617191076780922859, guid: 9b87c7f56f610b74bbf56d137ae21492, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3617191076780922859, guid: 9b87c7f56f610b74bbf56d137ae21492, type: 3}
       propertyPath: m_LocalRotation.w

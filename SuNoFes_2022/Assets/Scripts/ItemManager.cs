@@ -88,6 +88,8 @@ public class ItemManager : MonoBehaviour
         foreach(int item in itemShopInventory)
         {
             itemShopDisplaySlots[displaySlotIndex].SetActive(true);
+            Debug.Log("Sprite: " + itemShopDisplaySlots[displaySlotIndex].GetComponent<Image>().sprite);
+            Debug.Log("ItemImage: " + ReturnItem(item).ItemImage);
             itemShopDisplaySlots[displaySlotIndex].GetComponent<Image>().sprite = ReturnItem(item).ItemImage;
             displaySlotIndex++;
         }   
@@ -155,6 +157,11 @@ public class ItemManager : MonoBehaviour
             //@Molina TODO:: probably change this for the graying out
             itemPlayerInventory.Remove(currentItem.ItemID);
             DialogueManager.Instance.GiveItem(currentItem.ItemID);
+            GameManager.Instance.CloseUI();
+        }
+        else
+        {
+            DialogueManager.Instance.GiveItem(-1);
             GameManager.Instance.CloseUI();
         }
     }
