@@ -1496,7 +1496,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515802254}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -2427,7 +2427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5271034529696797507, guid: 483df4424c928c84dbc64da9b233a238, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5271034529696797507, guid: 483df4424c928c84dbc64da9b233a238, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2504,6 +2504,10 @@ PrefabInstance:
     - target: {fileID: 5271034529696797535, guid: 483df4424c928c84dbc64da9b233a238, type: 3}
       propertyPath: m_Name
       value: C_Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271034529696797535, guid: 483df4424c928c84dbc64da9b233a238, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6095561044553838467, guid: 483df4424c928c84dbc64da9b233a238, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4054,7 +4058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3549418178275417669, guid: 0a2d0f88095f0e7499bf28bb15e1ea2b, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3549418178275417669, guid: 0a2d0f88095f0e7499bf28bb15e1ea2b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4354,6 +4358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueJSONs:
   - {fileID: 4900000, guid: 8be047d2bf7f5b647a53f2c9ae9d6d4b, type: 3}
+  - {fileID: 4900000, guid: 7c0bf8a7a84866347a73aabd2af50684, type: 3}
   - {fileID: 4900000, guid: 8b76c7f2204c91c4a88085e75f876fef, type: 3}
   dialogueManager: {fileID: 2005947358}
   dialogueList:

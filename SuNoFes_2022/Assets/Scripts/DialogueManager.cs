@@ -419,7 +419,7 @@ public class DialogueManager : MonoBehaviour
     //Ends the dialogue
     public void EndDialogue()
     {
-        dialogueCanvas.sortingOrder = 0;
+        dialogueCanvas.sortingOrder = -1;
         //Add any following occurences here
         if(canGift)
         {
