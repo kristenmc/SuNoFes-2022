@@ -107,7 +107,7 @@ public class ItemManager : MonoBehaviour
 
     public void BuyItem()
     {
-        if(currentItem != null && playerBudget - currentItem.ItemCost > 0)
+        if(currentItem != null && playerBudget - currentItem.ItemCost >= 0)
         {
             ModifyBudget(-currentItem.ItemCost);
             itemPlayerInventory.Add(currentItem.ItemID);
