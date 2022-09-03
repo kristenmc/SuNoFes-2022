@@ -28,6 +28,7 @@ public class CharacterDialogueLoader : DialogueLoader
         dialogueManager = DialogueManager.Instance;
         LoadDialogueData();
         LoadGiftDialogueData();
+        //ResetSceneProgression();
     }
 
     public override void LoadDialogueData()
@@ -58,8 +59,10 @@ public class CharacterDialogueLoader : DialogueLoader
 
     private void OnMouseDown() 
     {
-        if(!dialogueManager.IsDialoguePlaying() && canTalk)
+        Debug.Log("clicked on person");
+        if(!dialogueManager.IsDialoguePlaying() && canTalk && !GameManager.Instance.IsMenuOpen())
         {
+            Debug.Log("stargting dialogue");
             canTalk = false;
             LoadDialogue();    
         }
@@ -69,16 +72,20 @@ public class CharacterDialogueLoader : DialogueLoader
     {
         if(character.SceneProgression < dialogueScenes.Length)
         {
-            if(character.SceneProgression != 0 && character.SceneProgression !> character.Scenes.Length - 1)
+            Debug.Log("trying cangift");
+            if(character.SceneProgression != 0 && character.SceneProgression < character.Scenes.Length - 1)
             {
+                Debug.Log("cangift tru");
                 dialogueManager.SetCanGift(true);
             }
             else
             {
+                Debug.Log("cangift fals");
                 dialogueManager.SetCanGift(false);
             }
             //Sending itself as part of the function call is definitely bad practice 
             //Unfortunately it was the best way to get things to work based off time constraints
+            Debug.Log("starting dialogue");
             dialogueManager.StartDialogue(GetCurrentScene(), this);
             character.SceneProgression++;
         }
@@ -90,17 +97,25 @@ public class CharacterDialogueLoader : DialogueLoader
 
     public void LoadGiftDialogue(int ID)
     {
+        Debug.Log("trying to gift: " + ID);
         dialogueManager.SetCanGift(false);
         Dialogue[] giftSceneDialogue = giftScenes[giftScenes.Length - 1].giftScene.dialogue;
-        foreach(giftSceneDict gift in giftScenes)
+        if(ID == -1)
         {
-            if(gift.giftID == ID)
+            giftSceneDialogue = giftScenes[giftScenes.Length - 2].giftScene.dialogue;
+        }
+        else
+        {
+            foreach(giftSceneDict gift in giftScenes)
             {
-                giftSceneDialogue = gift.giftScene.dialogue;
-                IncrementCharAffinity(ItemManager.Instance.ReturnItem(ID).ItemAffinity);
+                if(gift.giftID == ID)
+                {
+                    giftSceneDialogue = gift.giftScene.dialogue;
+                    IncrementCharAffinity(ItemManager.Instance.ReturnItem(ID).ItemAffinity);
+                }
             }
         }
-        dialogueManager.StartDialogue(giftSceneDialogue, this);
+        dialogueManager.StartDialogue(giftSceneDialogue, this, true);
     }
 
     public void IncrementSceneProgression(int incrementAmount)

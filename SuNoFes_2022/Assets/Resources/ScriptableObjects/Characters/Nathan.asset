@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Nathan
   m_EditorClassIdentifier: 
   _characterName: Nathan
-  _characterAffinity: 20
-  _sceneProgression: 3
+  _characterAffinity: 0
+  _sceneProgression: 1
   _scenes:
   - {fileID: 4900000, guid: 2d9243ef2a4bc5547b293ec1bd8d4bcd, type: 3}
   - {fileID: 4900000, guid: e071268b58cb0274ab1244525214af13, type: 3}

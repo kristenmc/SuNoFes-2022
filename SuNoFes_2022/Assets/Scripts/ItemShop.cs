@@ -16,8 +16,9 @@ public class ItemShop : MonoBehaviour
     }
     public void Purchase()
     {
-        Destroy(item);
-        Destroy(itemDescription);itemPurchased.SetActive(true);
+        //Destroy(item);
+        //Destroy(itemDescription);
+        itemPurchased.SetActive(true);
     }
     public void ExitScene()
     {
@@ -30,9 +31,9 @@ public class ItemShop : MonoBehaviour
             if (itemPurchased.activeInHierarchy)
             {
                 purchaseTimer += Time.deltaTime;
-                if (purchaseTimer >= 3)
+                if (purchaseTimer >= 2)
                 {
-                    Destroy(itemPurchased);
+                    itemPurchased.SetActive(false);
                     purchaseTimer = 0;
                 }
             }

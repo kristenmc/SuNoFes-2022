@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    static private GameManager _instance;
+    static public GameManager Instance { get { return _instance;}}
+
     [SerializeField] private int currentGameDay = 0;
     [SerializeField] private int maxGameDays;
     [SerializeField] private DialogueLoader genericDialogueLoader;
@@ -16,7 +19,24 @@ public class GameManager : MonoBehaviour
     }
     [SerializeField] private List<CharacterPositioning> availableCharacters;
     [SerializeField] private DialogueLoader.Dialogue[] warningLoader;
+    [SerializeField] private GameObject shopOrderUI;
+    [SerializeField] private GameObject inventoryUI;
+    [SerializeField] private Canvas dialogueCanvas;
+    [SerializeField] private bool menuOpen;
     // Start is called before the first frame update
+    void Awake()
+    {
+        if(_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(this);
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        } 
+    }
+    
     void Start()
     {
         LoadShopDay();
@@ -31,8 +51,14 @@ public class GameManager : MonoBehaviour
     //There should be a button that the player can press to end the game
     public void EndDay()
     {
-        if(!DialogueManager.Instance.IsDialoguePlaying())
+        ItemManager.Instance.AddSalary();
+        if(!DialogueManager.Instance.IsDialoguePlaying() && !menuOpen)
         {
+            if(currentGameDay == 0)
+            {
+                dialogueCanvas.sortingOrder = 1;
+                genericDialogueLoader.LoadDialogue();
+            }
             currentGameDay ++;
             if(currentGameDay >= maxGameDays)
             {
@@ -40,6 +66,7 @@ public class GameManager : MonoBehaviour
             }
             else
             {
+                menuOpen = true;
                 LoadShopDay();
             }
         }
@@ -59,9 +86,11 @@ public class GameManager : MonoBehaviour
         {
             genericDialogueLoader.LoadDialogue();
         }
-        else if(currentGameDay > 1)
+        else if(currentGameDay > 0)
         {
             //load night order UI here
+            shopOrderUI.SetActive(true);
+            ItemManager.Instance.UpdateShopInventory();
         }
     }
 
@@ -96,5 +125,24 @@ public class GameManager : MonoBehaviour
                 availableCharacters.RemoveAt(i);
             }
         }
+    }
+
+    public bool IsMenuOpen()
+    {
+        return menuOpen;
+    }
+
+    public void CloseUI()
+    {
+        shopOrderUI.SetActive(false);
+        inventoryUI.SetActive(false);
+        menuOpen = false;
+    }
+
+    public void OpenInventory()
+    {
+        inventoryUI.SetActive(true);
+        ItemManager.Instance.UpdateInventory();
+        menuOpen = true;
     }
 }

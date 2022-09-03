@@ -7,6 +7,7 @@ public class DialogueManager : MonoBehaviour
 {
     static private DialogueManager _instance;
     static public DialogueManager Instance { get { return _instance;}}
+    [SerializeField] private Canvas dialogueCanvas;
     [SerializeField] private Queue<CharacterDialogueLoader.Dialogue> dialogueQueue;
 
     [SerializeField] private TextMeshProUGUI displayName;
@@ -45,11 +46,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private bool sharedScene2Played = false;
     private string currentlyPlayingMusic;
     private int elijahChoice;
+    public DialogueLoader.Dialogue[] DebugThing;
 #endregion
 
     private void Awake()
     {
-         if(_instance == null)
+        if(_instance == null)
         {
             _instance = this;
             DontDestroyOnLoad(this);
@@ -73,11 +75,12 @@ public class DialogueManager : MonoBehaviour
     }
 
     //Starts and sets up the dialogue system
-    public void StartDialogue(CharacterDialogueLoader.Dialogue[] dialogue, CharacterDialogueLoader loader = null)
+    public void StartDialogue(CharacterDialogueLoader.Dialogue[] dialogue, CharacterDialogueLoader loader = null, bool isGiftScene = false)
     {
+        DebugThing = dialogue;
         //Check to make sure this isnt a shared scene
         //If it is and it has already been played, skip this scene
-        if(loader != null)
+        if(loader != null && !isGiftScene)
         {
             if(loader.GetCharacterName() == "Nathan")
             {
@@ -126,6 +129,10 @@ public class DialogueManager : MonoBehaviour
         dialogueQueue.Clear();
         foreach(CharacterDialogueLoader.Dialogue sentence in dialogue)
         {
+            if(isGiftScene)
+            {
+                Debug.Log("Here is a sentence we are enquign: " + sentence.speakerDialogue);
+            }
             dialogueQueue.Enqueue(sentence);
         }
 
@@ -141,6 +148,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         CharacterDialogueLoader.Dialogue sentence = dialogueQueue.Dequeue();
+        Debug.Log("SEntence IS: " + sentence.speakerDialogue);
         if(sentence.lineSkip > 0)
         {
             sentence = LineSkipHelper(sentence);
@@ -178,7 +186,7 @@ public class DialogueManager : MonoBehaviour
         if(sentence.music != null && sentence.music != "" && sentence.music!=currentlyPlayingMusic && sentence.music!="whicheverMusicHasBeenSetThusFar")
         {
             //@Kristen TODO:: Add music code here based on the string sentence.music
-            if(currentlyPlayingMusic != null)
+            if(currentlyPlayingMusic != null && currentlyPlayingMusic != "noMusic")
                 AkSoundEngine.PostEvent("Stop_"+currentlyPlayingMusic, this.gameObject);
             if (sentence.music != "noMusic")    
                 AkSoundEngine.PostEvent("Play_"+sentence.music, this.gameObject);
@@ -285,11 +293,13 @@ public class DialogueManager : MonoBehaviour
     //Ends the dialogue
     public void EndDialogue()
     {
+        dialogueCanvas.sortingOrder = 0;
         //Add any following occurences here
         if(canGift)
         {
             canGift = false;
             //Pull up the gifting UI here
+            GameManager.Instance.OpenInventory();
         }
         dialogueBoxAnimator.Play(dialogueBoxHide);
         dialogueInProgress = false;

@@ -3,7 +3,7 @@
     [
        {
             "scene": "outsideStoreFront",
-            "music": "noMusic",
+            "music": "",
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerDialogue": "Today, I’m starting my new job."

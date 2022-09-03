@@ -19,4 +19,4 @@ MonoBehaviour:
   _itemAmount: 1
   _itemCost: 0
   _itemAffinity: 5
-  _itemImage: {fileID: 0}
+  _itemImage: {fileID: 21300000, guid: 043e726fe7a970d40a3239c034863cc1, type: 3}
