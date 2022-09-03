@@ -32,7 +32,7 @@ public class CharacterDialogueLoader : DialogueLoader
         dialogueManager = DialogueManager.Instance;
         LoadDialogueData();
         LoadGiftDialogueData();
-        //ResetSceneProgression();
+        ResetSceneProgression();
     }
 
     public override void LoadDialogueData()
