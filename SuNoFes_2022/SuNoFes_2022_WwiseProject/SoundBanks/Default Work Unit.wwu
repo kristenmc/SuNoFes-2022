@@ -14,6 +14,7 @@
 						<ObjectRef Name="Play_ringTone" ID="{236914BD-1D7E-4B27-B09F-315CC3E423D3}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_sadMusic" ID="{C3F4D085-201B-4C57-96A7-F180B1F451D1}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Dog_Barking" ID="{0659FC18-42AF-4D4F-8541-47F515FD382D}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Phone_Ringing" ID="{109736CE-1929-4D6D-9878-7FCA96517F97}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_sadMusic" ID="{BDA3C45F-7C3A-4F3E-AC47-E344F5A84F9D}" WorkUnitID="{1695FBBB-C64E-44F3-833D-164135208EFA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

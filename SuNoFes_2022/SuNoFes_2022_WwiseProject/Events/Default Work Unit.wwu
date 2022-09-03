@@ -122,6 +122,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Phone_Ringing" ID="{109736CE-1929-4D6D-9878-7FCA96517F97}">
+					<ChildrenList>
+						<Action Name="" ID="{3199E05C-9899-4070-AB06-71906CDBC289}" ShortID="270399415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phone Ringing" ID="{ECCB62CB-824A-4D02-AC9D-B5AD73E16428}" WorkUnitID="{83E26E37-3229-4915-A994-39A119FE6FAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

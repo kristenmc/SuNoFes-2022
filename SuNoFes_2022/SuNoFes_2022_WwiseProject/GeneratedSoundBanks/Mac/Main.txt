@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	206523841	Play_Phone_Ringing			\Default Work Unit\Play_Phone_Ringing	
 	379521629	test_music			\Default Work Unit\test_music	
 	605676670	Stop_ringTone			\Default Work Unit\Stop_ringTone	
 	839113379	Play_sadMusic			\Default Work Unit\Play_sadMusic	
@@ -13,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23982910	dog_02	D:\GitHub\SuNoFes-2022\SuNoFes_2022\SuNoFes_2022_WwiseProject\.cache\Mac\SFX\dog_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dog Barking\dog_02		48128
 	110844117	dog_01	D:\GitHub\SuNoFes-2022\SuNoFes_2022\SuNoFes_2022_WwiseProject\.cache\Mac\SFX\dog_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dog Barking\dog_01		71204
+	138995459	Phone Ringing	D:\GitHub\SuNoFes-2022\SuNoFes_2022\SuNoFes_2022_WwiseProject\.cache\Mac\SFX\Phone Ringing_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Phone Ringing		973648
 	254421818	Sad_Music_Loop	D:\GitHub\SuNoFes-2022\SuNoFes_2022\SuNoFes_2022_WwiseProject\.cache\Mac\SFX\Sad_Music_Loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Sad Music\Sad Music Loop\Sad_Music_Loop		16884404
 	390051558	Zephrily - Cobalt Coastlands 2 Remix (Legends Arceus)	D:\GitHub\SuNoFes-2022\SuNoFes_2022\SuNoFes_2022_WwiseProject\.cache\Mac\SFX\Zephrily - Cobalt Coastlands 2 Remix (Legends Arceus)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Zephrily - Cobalt Coastlands 2 Remix (Legends Arceus)		30159904
 	421020346	Bell Ringing	D:\GitHub\SuNoFes-2022\SuNoFes_2022\SuNoFes_2022_WwiseProject\.cache\Mac\SFX\Bell Ringing_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bell Ringing		329668

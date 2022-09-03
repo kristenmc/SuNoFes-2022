@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_BELL_RINGING = 2468196366U;
         static const AkUniqueID PLAY_DOG_BARKING = 1436986643U;
         static const AkUniqueID PLAY_MONEY_SOUND = 3574127934U;
+        static const AkUniqueID PLAY_PHONE_RINGING = 206523841U;
         static const AkUniqueID PLAY_RINGTONE = 3452698164U;
         static const AkUniqueID PLAY_SADMUSIC = 839113379U;
         static const AkUniqueID PLAY_SHOPMUSIC = 1308834723U;

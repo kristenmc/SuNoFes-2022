@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 2908b99d94a369458b21360869af1f90
     GuidInternal: 
-    m_lastTime: -8585395215371581658
+    m_lastTime: -8585393860207153188
     List:
     - name: Main
       guid: e732e254945fb445864a4fdf1fc0cedb
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: bbfb95164ec6f344833d164135208efa
     GuidInternal: 
-    m_lastTime: -8585395215558775152
+    m_lastTime: -8585393860355668547
     List:
     - name: Play_Bell_Ringing
       guid: ac4a3646ec4b8b498525c1ae861aaa30
@@ -181,6 +181,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.581729
       minDuration: 0.581729
+    - name: Play_Phone_Ringing
+      guid: ce36971029196d4d98787fca96517f97
+      id: 206523841
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bbfb95164ec6f344833d164135208efa
+      - ElementName: Play_Phone_Ringing
+        ObjectType: 3
+        guid: ce36971029196d4d98787fca96517f97
+      Path: Events\Default Work Unit\Play_Phone_Ringing
+      maxAttenuation: 0
+      maxDuration: 5.070416
+      minDuration: 5.070416
     - name: Play_ringTone
       guid: bd1469237e1d274bb09f315cc3e423d3
       id: 3452698164

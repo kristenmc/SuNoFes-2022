@@ -21,7 +21,7 @@
 				<GameParameter Id="2731583604" Name="AllVolume" ObjectPath="\Game Parameters\Default Work Unit\AllVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="352377569">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1420684646">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -59,6 +59,14 @@
 						<File Id="953728689" Language="SFX">
 							<ShortName>Money Sound.wav</ShortName>
 							<Path>SFX\Money Sound_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="206523841" Name="Play_Phone_Ringing" ObjectPath="\Events\Default Work Unit\Play_Phone_Ringing" DurationType="OneShot" DurationMin="5.070416" DurationMax="5.070416">
+					<IncludedMemoryFiles>
+						<File Id="138995459" Language="SFX">
+							<ShortName>Phone Ringing.wav</ShortName>
+							<Path>SFX\Phone Ringing_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
