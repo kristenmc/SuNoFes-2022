@@ -549,14 +549,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: C_Shop
       objectReference: {fileID: 0}
-    - target: {fileID: 3549418178275417673, guid: 0a2d0f88095f0e7499bf28bb15e1ea2b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3549418179835162087, guid: 0a2d0f88095f0e7499bf28bb15e1ea2b, type: 3}
-      propertyPath: item
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a2d0f88095f0e7499bf28bb15e1ea2b, type: 3}
 --- !u!1001 &5796109623693009482
@@ -572,7 +564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2777598023808578481, guid: fab3dc08f7839fd42b8759ad261d81d6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2777598023808578493, guid: fab3dc08f7839fd42b8759ad261d81d6, type: 3}
       propertyPath: m_Pivot.x
@@ -657,10 +649,6 @@ PrefabInstance:
     - target: {fileID: 2777598023808578493, guid: fab3dc08f7839fd42b8759ad261d81d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777598024361639967, guid: fab3dc08f7839fd42b8759ad261d81d6, type: 3}
-      propertyPath: item
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab3dc08f7839fd42b8759ad261d81d6, type: 3}
