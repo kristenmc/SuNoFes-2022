@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int currentGameDay = 0;
     [SerializeField] private int maxGameDays;
+    [SerializeField] private int numConversations;
     [SerializeField] private DialogueLoader genericDialogueLoader;
     
     [System.Serializable]
@@ -85,10 +86,12 @@ public class GameManager : MonoBehaviour
         }
         if(currentGameDay == 0)
         {
+            numConversations = 4;
             genericDialogueLoader.LoadDialogue();
         }
         else if(currentGameDay > 0)
         {
+            numConversations = 2;
             //load night order UI here
             shopOrderUI.SetActive(true);
             ItemManager.Instance.UpdateShopInventory();
@@ -125,6 +128,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void HideCharacters()
+    {
+        for(int i = availableCharacters.Count - 1; i >= 0; i--)
+        {
+            CharacterDialogueLoader currentCharacter = availableCharacters[i].character.GetComponent<CharacterDialogueLoader>();
+            currentCharacter.ToggleClickableObject(false);
+        }
+    }
+
     public bool IsMenuOpen()
     {
         return menuOpen;
@@ -142,5 +154,15 @@ public class GameManager : MonoBehaviour
         inventoryUI.SetActive(true);
         ItemManager.Instance.UpdateInventory();
         menuOpen = true;
+    }
+
+    public bool ConversationAvailable()
+    {
+        return numConversations > 0;
+    }
+
+    public void ReduceNumConversations()
+    {
+        numConversations--;
     }
 }

@@ -64,9 +64,14 @@ public class CharacterDialogueLoader : DialogueLoader
 
     private void OnMouseDown() 
     {
-        if(!dialogueManager.IsDialoguePlaying() && canTalk && !GameManager.Instance.IsMenuOpen())
+        if(!dialogueManager.IsDialoguePlaying() && canTalk && !GameManager.Instance.IsMenuOpen() && GameManager.Instance.ConversationAvailable())
         {
             ToggleClickableObject(false);
+            GameManager.Instance.ReduceNumConversations();
+            if(!GameManager.Instance.ConversationAvailable())
+            {
+                GameManager.Instance.HideCharacters();
+            }
             canTalk = false;
             LoadDialogue();    
         }
