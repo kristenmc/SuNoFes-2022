@@ -21,6 +21,9 @@ public class CharacterDialogueLoader : DialogueLoader
     [SerializeField] private DialogueList warningScene;
     [SerializeField] private DialogueList finalScene;
     [SerializeField] private bool canTalk;
+    [SerializeField] private CapsuleCollider clickableCollider;
+    [SerializeField] private GameObject clickableModel;
+    [SerializeField] private GameObject[] characterExpressions;
     #endregion
 
     // Start is called before the first frame update
@@ -63,6 +66,7 @@ public class CharacterDialogueLoader : DialogueLoader
     {
         if(!dialogueManager.IsDialoguePlaying() && canTalk && !GameManager.Instance.IsMenuOpen())
         {
+            ToggleClickableObject(false);
             canTalk = false;
             LoadDialogue();    
         }
@@ -162,5 +166,11 @@ public class CharacterDialogueLoader : DialogueLoader
     public DialogueList GetWarningScene()
     {
         return warningScene;
+    }
+
+    public void ToggleClickableObject(bool state)
+    {
+        clickableCollider.enabled = state;
+        clickableModel.SetActive(state);
     }
 }

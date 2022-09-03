@@ -285,7 +285,7 @@
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerExpression": "List",
+            "speakerExpression": "drewNeutralHappy",
             "speakerDialogue": "It reads, cough medicine, juice, and peanut butter,"
         },
         {

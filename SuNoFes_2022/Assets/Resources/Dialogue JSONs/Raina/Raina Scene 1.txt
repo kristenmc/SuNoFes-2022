@@ -1,110 +1,156 @@
 {
     "dialogue": 
     [
-       {
+        {
             "scene": "Shop",
+            "music": "shopMusic",
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "Hoping to help her out, I walk up to a woman in the store. Wow, she is strikingly beautiful, but I think she "
+            "speakerDialogue": "Hoping to help her out, I walk up to a woman in the store, who is staring at an aisle with a perplexed look on her face."
         },
         {
             "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Now up close, I can see her features in greater detail."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "Wow, she is strikingly beautiful. The kind of beautiful that has advantages but makes other women mean. But... I get the feeling she is trying to cover it up."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "Hello! Did you need help looking for something?"
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "She jumps upon hearing my voice. Oh shoot, I think I startled her."
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "When she hears my voice, she jumps. Oh shoot, I think I startled her."
         },
         {
             "speakerName": "Raina",
-            "displayName": "Raina",
-            "speakerDialogue": "Oh- Um, no. Thank you, but I’m alright."
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "Oh- Um, no. Thank you for asking, but should be just fine."
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "She’s so polite! She smiles while talking, but something seems off about it."
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "She’s speaks so politely!"
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "She smiles while talking, but it doesn't feel genuine."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "I’m about to turn away and let her continue her search, when she blurts out…"
         },
         {
             "speakerName": "Raina",
-            "displayName": "Raina",
-            "speakerDialogue": "Actually! Wait! I actually can’t find the flour."
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "Actually! Wait! I actually... can’t find the flour."
         },
         {
             "speakerName": "MC",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "Oh here! Let me grab some for you."
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "I step away to grab a bag off the other shelf and then return."
+            "speakerDialogue": "I step away to grab a bag of flour off of another shelf and then return with it."
         },
         {
             "speakerName": "MC",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "I'm sorry. You were looking in the wrong place. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "Does this work?"
         },
         {
             "speakerName": "Raina",
-            "displayName": "Raina",
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "Yes, that’s good. Thank you."
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "She starts to turn away while I say something next.",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "She starts to turn away, when I ask her a question.",
+            "isBranching": "isPlayerChoice",
             "branchingChoice1": "Are you baking something?",
-            "c1pv": -1,
+            "c1pv": 1,
             "branchingChoice2": "Are you ready to pay?",
-            "c2pv": 1,
+            "c2pv": 2,
             "branchingChoice3": "I just wanted to let you know that you’re very pretty.",
-            "c3pv": -3
+            "c3pv": 0
         },
         {
             "startEnd": "Start",
             "speakerName": "Raina",
-            "displayName": "Raina",
-            "speakerDialogue": "Something like that.",
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "Oh, um. Something like that.",
             "lineSkip": 4
         },
         {
             "speakerName": "Raina",
-            "displayName": "Raina",
-            "speakerDialogue": "Could I pay?"
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "... Could I pay?"
         },
         {
             "startEnd": "End",
             "speakerName": "MC",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "Oh, alright…"
         },
         {
-            "startEnd": "Start/End",
+            "startEnd": "Start",
             "speakerName": "Raina",
-            "displayName": "Raina",
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "Yes. Thanks.",
-            "lineSkip": 2
+            "lineSkip": 3
+        },
+        {
+            "startEnd": "End",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "After hearing my question, her shoulders relax, as she walks to the counter with me."
         },
         {
             "startEnd": "Start",
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "She looks really uncomfortable… Oh shit, that was definitely too forward.",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "She looks really uncomfortable… Shit, that was definitely too forward.",
             "lineSkip": 5
         },
         {
             "speakerName": "Raina",
-            "displayName": "Raina",
+            "displayName": "???",
+            "speakerExpression": "rainaSadScared",
             "speakerDialogue": "…"
         },
         {
             "speakerName": "Raina",
-            "displayName": "Raina",
-            "speakerDialogue": "I need to pay…"
+            "displayName": "???",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "I- I need to pay…"
         },
         {
             "startEnd": "End",
@@ -114,52 +160,81 @@
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "I ring up the flour at the counter and she pays. Hoping to find a topic to break this painful silence, I try to make conversation again while I bag her items.",
+            "sfx": "Money Sound",
+            "speakerDialogue": "I ring up the flour at the counter, and she pays. ",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "Hoping to find a topic to break this PAINFUL silence, I ask another question, while bagging her items.",
+            "isBranching": "isPlayerChoice",
             "branchingChoice1": "You got plans for the weekend?",
-            "c1pv": -1,
+            "c1pv": 0,
             "branchingChoice2": "How’s the pandemic been treating you?",
             "c2pv": 1,
             "branchingChoice3": "What’s your name?",
-            "c3pv": -3
+            "c3pv": 0
         },
         {
+            "startEnd": "Start/End",
             "speakerName": "Raina",
-            "displayName": "Raina",
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "Not really.",
             "lineSkip": 2
         },
         {
+            "startEnd": "Start/End",
             "speakerName": "Raina",
-            "displayName": "Raina",
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "I’ve been okay.",
             "lineSkip": 2
         },
         {
+            "startEnd": "Start/End",
             "speakerName": "MC",
             "displayName": "Thinking",
+            "speakerExpression": "rainaNeutralHappyRobot",
             "speakerDialogue": "She doesn’t answer.",
             "lineSkip": 2
         },
         {
+            "startEnd": "Start",
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "She smiles and takes the bag from me."
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "Then, she plasters on another smile and takes the bag from me."
         },
         {
             "speakerName": "Raina",
-            "displayName": "Raina",
-            "speakerDialogue": "Good-bye!"
+            "displayName": "???",
+            "speakerExpression": "rainaNeutralHappyRobot",
+            "speakerDialogue": "Bye!",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Walking away quickly, I don't even start to say \"Have a nice day\" before she's at the door."
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
             "sfx": "Bell Ringing",
-            "speakerDialogue": "Then, she’s gone."
+            "speakerDialogue": "And, she’s gone."
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "That was… odd. I didn’t even get her name."
+            "speakerDialogue": "That was… odd."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I just realized. I didn’t even get her name."
         }
     ]
 }

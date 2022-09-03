@@ -36,9 +36,18 @@ public class DialogueManager : MonoBehaviour
 #endregion
 
 #region Speaker Expression Vars
-    [SerializeField] private GameObject[] expressionList;
-    [SerializeField] private RectTransform displayLocation;
-    [SerializeField] private RectTransform hideLocation;
+    [SerializeField] private GameObject[] nathanExpressionList;
+    [SerializeField] private GameObject nathanModel;
+    [SerializeField] private GameObject[] drewExpressionList;
+    [SerializeField] private GameObject drewModel;
+    [SerializeField] private GameObject[] elijahExpressionList;
+    [SerializeField] private GameObject elijahModel;
+    [SerializeField] private GameObject[] rainaExpressionList;
+    [SerializeField] private GameObject rainaModel;
+    [SerializeField] private GameObject[] stellaExpressionList;
+    [SerializeField] private GameObject stellaModel;
+    [SerializeField] private Transform displayLocation;
+    [SerializeField] private Transform hideLocation;
 #endregion
 
 #region Saved Variables
@@ -302,108 +311,103 @@ public class DialogueManager : MonoBehaviour
         }
         if(currentSpeakerExpressionObject != null)
         {
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = hideLocation.position; 
+            currentSpeakerExpressionObject.transform.position = hideLocation.position; 
         }
         currentSpeakerExpression = expression;
-        if(expression == "List")
+        if(expression == "nathanDefault" || expression == "nathanHappyGrinning" || expression == "nathanHappyLaughing" || expression == "nathanSadSmiling" || expression == "nathanSad" || expression == "nathanWearingShibaEarrings")
         {
-            currentSpeakerExpressionObject = expressionList[0];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+            currentSpeakerExpressionObject = nathanModel;
+            currentSpeakerExpressionObject.transform.position = displayLocation.position;
+            foreach(GameObject characterExp in nathanExpressionList)
+            {
+                characterExp.SetActive(false);
+            }
+            if(expression == "nathanHappyGrinning")
+            {
+                nathanExpressionList[1].SetActive(true);
+            }
+            else if(expression == "nathanHappyLaughing")
+            {
+                nathanExpressionList[2].SetActive(true);
+            }
+            else if(expression == "nathanSadSmiling" || expression == "nathanSad")
+            {
+                nathanExpressionList[3].SetActive(true);
+            }
+            else
+            {
+                nathanExpressionList[0].SetActive(true);
+            }
         }
-        else if(expression == "nathanDefault")
+        else if(expression == "rainaNeutralHappyRobot" || expression == "rainaNeutralNervous" || expression == "rainahappyPassionate" || expression == "rainaCrying" || expression == "rainaSadScared")
         {
-            currentSpeakerExpressionObject = expressionList[1];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+            currentSpeakerExpressionObject = rainaModel;
+            currentSpeakerExpressionObject.transform.position = displayLocation.position;
+            foreach(GameObject characterExp in rainaExpressionList)
+            {
+                characterExp.SetActive(false);
+            }
+            if(expression == "rainaNeutralHappyRobot")
+            {
+                rainaExpressionList[1].SetActive(true);
+            }
+            else if(expression == "rainaNeutralNervous")
+            {
+                rainaExpressionList[2].SetActive(true);
+            }
+            else if(expression == "rainahappyPassionate")
+            {
+                rainaExpressionList[3].SetActive(true);
+            }
+            else if(expression == "rainaCrying")
+            {
+                rainaExpressionList[4].SetActive(true);
+            }
+            else if(expression == "rainaSadScared")
+            {
+                rainaExpressionList[5].SetActive(true);
+            }
+            else
+            {
+                rainaExpressionList[0].SetActive(true);
+            }
         }
-        else if(expression == "nathanHappyGrinning")
+        else if(expression == "stellaNeutralHappyCute" || expression == "stellaCrying" || expression == "stellaAngryCute" || expression == "stellaExtraHappy")
         {
-            currentSpeakerExpressionObject = expressionList[2];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+            if(stellaModel != null)
+            {
+                currentSpeakerExpressionObject = stellaModel;
+                currentSpeakerExpressionObject.transform.position = displayLocation.position;
+            }
         }
-        else if(expression == "nathanHappyLaughing")
+        else if(expression == "drewNeutralHappy" || expression == "drewVeryHappy" || expression == "drewSadScared" || expression == "drewCrying" || expression == "drewAngryCute")
         {
-            currentSpeakerExpressionObject = expressionList[3];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+            if(drewModel != null)
+            {
+                currentSpeakerExpressionObject = drewModel;
+                currentSpeakerExpressionObject.transform.position = displayLocation.position;
+            }
         }
-        else if(expression == "nathanSadSmiling")
+        else if(expression == "elijahNeutral" || expression == "elijahSad" || expression == "elijahHappy")
         {
-            currentSpeakerExpressionObject = expressionList[4];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "nathanSad")
-        {
-            currentSpeakerExpressionObject = expressionList[5];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "nathanWearingShibaEarrings")
-        {
-            currentSpeakerExpressionObject = expressionList[6];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "rainaNeutralHappyRobot")
-        {
-            currentSpeakerExpressionObject = expressionList[7];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "rainaNeutralNervous")
-        {
-            currentSpeakerExpressionObject = expressionList[8];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "rainahappyPassionate")
-        {
-            currentSpeakerExpressionObject = expressionList[9];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "rainaCrying")
-        {
-            currentSpeakerExpressionObject = expressionList[10];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "stellaNeutralHappyCute")
-        {
-            currentSpeakerExpressionObject = expressionList[11];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "stellaCrying")
-        {
-            currentSpeakerExpressionObject = expressionList[12];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "stellaAngryCute")
-        {
-            currentSpeakerExpressionObject = expressionList[13];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "stellaExtraHappy")
-        {
-            currentSpeakerExpressionObject = expressionList[14];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "drewNeutralHappy")
-        {
-            currentSpeakerExpressionObject = expressionList[15];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "drewVeryHappy")
-        {
-            currentSpeakerExpressionObject = expressionList[16];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "drewSadScared")
-        {
-            currentSpeakerExpressionObject = expressionList[17];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "drewCrying")
-        {
-            currentSpeakerExpressionObject = expressionList[18];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
-        }
-        else if(expression == "drewAngryCute")
-        {
-            currentSpeakerExpressionObject = expressionList[19];
-            currentSpeakerExpressionObject.GetComponent<RectTransform>().position = displayLocation.position;
+            currentSpeakerExpressionObject = elijahModel;
+            currentSpeakerExpressionObject.transform.position = displayLocation.position;
+            foreach(GameObject characterExp in elijahExpressionList)
+            {
+                characterExp.SetActive(false);
+            }
+            if(expression == "elijahSad")
+            {
+                elijahExpressionList[1].SetActive(true);
+            }
+            else if(expression == "elijahHappy")
+            {
+                elijahExpressionList[2].SetActive(true);
+            }
+            else
+            {
+                elijahExpressionList[0].SetActive(true);
+            }
         }
         //Add more expressions here
         else

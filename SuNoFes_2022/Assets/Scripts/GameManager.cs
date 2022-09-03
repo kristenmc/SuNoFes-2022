@@ -81,6 +81,7 @@ public class GameManager : MonoBehaviour
             CharacterPositioning positioningData = availableCharacters[i];
             positioningData.character.GetComponent<CharacterDialogueLoader>().SetTalk(true);
             positioningData.character.transform.position = positioningData.characterPositions[currentGameDay].position;
+            positioningData.character.transform.rotation = positioningData.characterPositions[currentGameDay].rotation;
         }
         if(currentGameDay == 0)
         {
@@ -100,6 +101,7 @@ public class GameManager : MonoBehaviour
         for(int i = availableCharacters.Count - 1; i >= 0; i--)
         {
             CharacterDialogueLoader currentCharacter = availableCharacters[i].character.GetComponent<CharacterDialogueLoader>();
+            currentCharacter.ToggleClickableObject(true);
             CharacterScriptableObject currentCharacterSO = currentCharacter.GetCharacterSO();
             int scenesLeft = currentCharacterSO.Scenes.Length - currentCharacterSO.SceneProgression;
             Debug.Log("Scenes Left: " + scenesLeft);
@@ -110,14 +112,10 @@ public class GameManager : MonoBehaviour
                 //Insert Warning info here
                 DialogueLoader.DialogueList currentWarning = currentCharacter.GetWarningScene();
                 DialogueLoader.Dialogue[] concatArray = new DialogueLoader.Dialogue[warningLoader.Length + currentWarning.dialogue.Length];
-                Debug.Log("new Array created"); 
                 warningLoader.CopyTo(concatArray, 0);
-                Debug.Log("first copy complete");
                 currentWarning.dialogue.CopyTo(concatArray, warningLoader.Length);
-                Debug.Log("second copy complete");
                 warningLoader = concatArray;
                 DialogueManager.Instance.StartDialogue(warningLoader);
-                Debug.Log("dialogue started");
             }
             else if(scenesLeft > daysLeft)
             {
