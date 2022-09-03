@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    void Start()
+    {
+        AkSoundEngine.PostEvent("Play_shopMusic", this.gameObject);
+    }
     public void StartGame()
     {
         AkSoundEngine.PostEvent("Stop_shopMusic", this.gameObject);
