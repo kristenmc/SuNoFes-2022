@@ -45,4 +45,19 @@ public class SettingsManager : MonoBehaviour
         _musicSlider.value = _savedSettings.MusicVolume = _defaultSettings.MusicVolume;
         _sfxSlider.value = _savedSettings.SFXVolume = _defaultSettings.SFXVolume;
     }
+
+    public void SetAllVolume(float volume)
+    {
+        AkSoundEngine.SetRTPCValue("AllVolume", volume);
+    }
+
+    public void SetMusicVolume(float volume)
+    {
+        AkSoundEngine.SetRTPCValue("MusicVolume", volume);
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        AkSoundEngine.SetRTPCValue("SFXVolume", volume);
+    }
 }
