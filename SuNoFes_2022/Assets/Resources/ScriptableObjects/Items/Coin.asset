@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Coin
   m_EditorClassIdentifier: 
   _itemName: Coin
-  _itemDescription: A coin that Nathan uses for a magic trick in one of his scenes.
-    Something that resembles a quarter. Best if Nathan is holding this.
+  _itemDescription: 
   _itemID: 13
   _itemAmount: 1
   _itemCost: 0
