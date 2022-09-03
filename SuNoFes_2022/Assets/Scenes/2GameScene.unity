@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
-  itemShopInventory: 01000000020000000300000004000000050000000700000008000000090000000a0000000b0000000e0000000f00000010000000
+  itemShopInventory: 01000000020000000300000004000000050000000700000008000000090000000a0000000b0000000e0000000f0000001000000019000000
   itemShopDisplaySlots:
   - {fileID: 926676135}
   - {fileID: 868768285}
@@ -184,6 +184,7 @@ MonoBehaviour:
   - {fileID: 1556351592}
   - {fileID: 1246763238}
   - {fileID: 98666826}
+  - {fileID: 1543309635}
   itemShopDisplayName: {fileID: 1796541427}
   itemShopDisplayDescription: {fileID: 41010610}
   itemShopDisplayCost: {fileID: 993319617}
@@ -4282,6 +4283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentGameDay: 0
   maxGameDays: 8
+  numConversations: 0
   genericDialogueLoader: {fileID: 1332021863}
   availableCharacters:
   - character: {fileID: 360255228}
