@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Settings")]
-public class Settings : MonoBehaviour
+[CreateAssetMenu(fileName = "New Settings", menuName = "ScriptableObjects/Settings")]
+public class Settings : ScriptableObject
 {
     [SerializeField] [Range(0.0001f, 1f)] private float _allVolume = 1f;
     public float AllVolume{ get{return _allVolume;} set{_allVolume = value;}}

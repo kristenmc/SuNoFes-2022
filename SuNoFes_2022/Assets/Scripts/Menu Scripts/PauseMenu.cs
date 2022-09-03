@@ -1,27 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    void ResumeGame()
+    private bool _isPaused;
+    public bool isPaused { get { return _isPaused; }}
+    private void Update()
     {
-
+        if (Input.GetKey("escape") && !_isPaused)
+        {
+            PauseGame();
+        }
+    }
+    public void ResumeGame()
+    {
+        _isPaused = false;
     }
 
-    void PauseGame()
+    public void PauseGame()
     {
-
+        _isPaused = true;
     }
 
-    void MainMenu()
+    public void MainMenu()
     {
-
+        SceneManager.LoadScene(0);
     }
 
-    void QuitGame()
+    public void QuitGame()
     {
-
+        Application.Quit();
     }
 
 }

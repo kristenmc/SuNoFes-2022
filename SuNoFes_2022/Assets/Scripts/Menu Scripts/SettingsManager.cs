@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class SettingsManager : MonoBehaviour
 {
-    [SerializeField] private Canvas _settingsCanvas;
-
     [SerializeField] private Settings _savedSettings;
     [SerializeField] private Settings _defaultSettings; 
     [SerializeField] private Slider _allSlider;
@@ -21,7 +19,6 @@ public class SettingsManager : MonoBehaviour
     public void CloseSettings()
     {
         SavePrefs();
-        _settingsCanvas.enabled = false;
     }
 
     public void LoadPrefs()

@@ -21,6 +21,9 @@ ModelImporter:
   - first:
       74: 5947413898379817524
     second: Arma-Soldier|RainaHappy
+  - first:
+      74: -823252571660150016
+    second: rightEye|RainaHappy
   externalObjects: {}
   materials:
     materialImportMode: 2

@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    void StartGame()
+    public void StartGame()
     {
-
+        SceneManager.LoadScene(1);
     }
 
     public void OpenCanvas(Canvas canvas)
@@ -19,8 +20,8 @@ public class MainMenu : MonoBehaviour
         canvas.enabled = false;
     }
 
-    void QuitGame()
+    public void QuitGame()
     {
-        
+        Application.Quit();
     }
 }
