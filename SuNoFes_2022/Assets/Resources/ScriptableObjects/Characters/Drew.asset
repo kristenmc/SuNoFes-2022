@@ -14,17 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterName: Drew
   _characterAffinity: 4
+  _affinityMax: 13
   _sceneProgression: 0
   _scenes:
-  - {fileID: 4900000, guid: a86396cbe8e0c23458c2444a6e7f10aa, type: 3}
+  - {fileID: 4900000, guid: 3fd36f32468e104448afe5e997907638, type: 3}
+  - {fileID: 4900000, guid: 249dab948dccfb842b2dc2cadc0084ba, type: 3}
+  - {fileID: 4900000, guid: 3ebf045114a5e704fbbfc147b41342a1, type: 3}
+  - {fileID: 4900000, guid: 6ad3c8ab079ca674f98710281e2ce642, type: 3}
+  - {fileID: 4900000, guid: 30bed825ade40c048aaf14bba985a47b, type: 3}
+  - {fileID: 4900000, guid: fab4ff262b52f2049841d83e50543036, type: 3}
   _warningScene: {fileID: 4900000, guid: 9594406f8086ca241aeefbb328b1c4ac, type: 3}
+  _finalScene: {fileID: 4900000, guid: 810f509494de58448962b47a192c62fc, type: 3}
   _characterGifts:
-  - giftID: 11
-    giftScene: {fileID: 4900000, guid: a86396cbe8e0c23458c2444a6e7f10aa, type: 3}
-  - giftID: 10
-    giftScene: {fileID: 4900000, guid: 4ad1d808074f1834f898c4292e46e9db, type: 3}
+  - giftID: 1
+    giftScene: {fileID: 4900000, guid: 3d12179986087ad409070d2448a192c9, type: 3}
+  - giftID: 2
+    giftScene: {fileID: 4900000, guid: 1cacfc594378a1b4babd724c6dc29913, type: 3}
+  - giftID: 3
+    giftScene: {fileID: 4900000, guid: ca64309adf2974444a03cad67405c2c0, type: 3}
   - giftID: -1
-    giftScene: {fileID: 4900000, guid: a01d666dd92b52943b22dd64bc762a7f, type: 3}
+    giftScene: {fileID: 4900000, guid: 8ce9c959698017741af6faf9625ae9c0, type: 3}
   - giftID: -2
-    giftScene: {fileID: 4900000, guid: 80f2e9f375d946740843269e5254d53a, type: 3}
+    giftScene: {fileID: 4900000, guid: 73fc97a7669019446b895895c8bdc10d, type: 3}
   _characterExpressions: []

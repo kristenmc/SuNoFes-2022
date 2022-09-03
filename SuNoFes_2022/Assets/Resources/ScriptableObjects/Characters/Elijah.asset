@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 405981dd11084fc4eaa74ef66ad62778, type: 3}
   m_Name: Elijah
   m_EditorClassIdentifier: 
-  _characterName: 
+  _characterName: Elijah
   _characterAffinity: 0
   _affinityMax: 20
   _sceneProgression: 0
@@ -26,11 +26,11 @@ MonoBehaviour:
   _finalScene: {fileID: 4900000, guid: 31a0bed2ab996fd42a16ff09340b3ec7, type: 3}
   _characterGifts:
   - giftID: 16
-    giftScene: {fileID: 0}
-  - giftID: 0
-    giftScene: {fileID: 0}
-  - giftID: 0
-    giftScene: {fileID: 0}
-  - giftID: 0
-    giftScene: {fileID: 0}
+    giftScene: {fileID: 4900000, guid: 06d379e070f373b41be445e1b2eeb2fd, type: 3}
+  - giftID: 25
+    giftScene: {fileID: 4900000, guid: d32665bcc0a2b5644808121a98286542, type: 3}
+  - giftID: -1
+    giftScene: {fileID: 4900000, guid: b0a8110cd71714a4eb8220bae879abb7, type: 3}
+  - giftID: -2
+    giftScene: {fileID: 4900000, guid: 6617d438ed7f01941a49a7c78e70719b, type: 3}
   _characterExpressions: []

@@ -16,6 +16,6 @@ MonoBehaviour:
   _itemDescription: She thanks the player for this, but she isn't that into jewelry.
   _itemID: 9
   _itemAmount: 1
-  _itemCost: 0
+  _itemCost: 10
   _itemAffinity: 1
   _itemImage: {fileID: 21300000, guid: 043e726fe7a970d40a3239c034863cc1, type: 3}
