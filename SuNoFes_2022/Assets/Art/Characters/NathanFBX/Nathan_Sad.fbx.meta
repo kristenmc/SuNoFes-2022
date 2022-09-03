@@ -21,6 +21,9 @@ ModelImporter:
   - first:
       74: -6897975532382666305
     second: Arma-Nathan|NathanSad
+  - first:
+      74: -6804690196299647137
+    second: Arma-Nathan|NathanDefault
   externalObjects: {}
   materials:
     materialImportMode: 2

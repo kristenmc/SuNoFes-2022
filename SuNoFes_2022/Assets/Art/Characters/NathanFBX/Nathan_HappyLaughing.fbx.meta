@@ -18,6 +18,12 @@ ModelImporter:
   - first:
       74: 6127448019350882720
     second: Arma-Nathan|NathanHappyLaughing
+  - first:
+      74: -3743099603466162809
+    second: Arma-Nathan|NathanHappyGrinning
+  - first:
+      74: -6897975532382666305
+    second: Arma-Nathan|NathanSad
   externalObjects: {}
   materials:
     materialImportMode: 2
