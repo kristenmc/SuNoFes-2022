@@ -4,7 +4,6 @@
         {
             "scene": "Shop",
             "music": "shopMusic",
-            "pvToUnlock": 15,
             "speakerDialogue": "You've unlocked Nathan's Ending:"
         },
         {
