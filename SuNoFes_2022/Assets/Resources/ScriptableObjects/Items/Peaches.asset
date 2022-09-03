@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ded684d64df96494e8ed49278e4796ae, type: 3}
+  m_Name: Peaches
+  m_EditorClassIdentifier: 
+  _itemName: Assorted Props
+  _itemDescription: These items can be anything sellable. They have the purpose of
+    throwing off the player. These do not affect any of the characters. They lead
+    to responses like, "I don't need this."
+  _itemID: 5
+  _itemAmount: 1
+  _itemCost: 0
+  _itemAffinity: 0
+  _itemImage: {fileID: 21300000, guid: 043e726fe7a970d40a3239c034863cc1, type: 3}

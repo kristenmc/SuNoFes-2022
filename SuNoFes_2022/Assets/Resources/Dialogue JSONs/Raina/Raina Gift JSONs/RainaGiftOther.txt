@@ -1,0 +1,15 @@
+{
+    "dialogue": 
+    [
+        {
+            "startEnd": "Start&End",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "item": "Item That Has No Effect",
+            "pointValue": 0,
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Oh, I'm good. I'm not interested in that. Sorry! And um, bye!"
+        }
+    ]
+}

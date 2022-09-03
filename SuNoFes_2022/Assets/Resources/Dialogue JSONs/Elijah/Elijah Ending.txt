@@ -4,7 +4,6 @@
        {
             "scene": "Register",
             "music": "shopMusic",
-            "pvToUnlock": 20,
             "speakerName": "MC",
             "displayName": "Thinking",
             "speakerDialogue": "God, I hope I didn’t scare off Elijah with what I said the last time…"

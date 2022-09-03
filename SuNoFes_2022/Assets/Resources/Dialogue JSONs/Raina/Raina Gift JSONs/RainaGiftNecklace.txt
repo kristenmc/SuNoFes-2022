@@ -1,0 +1,26 @@
+{
+    "dialogue": 
+    [
+        {
+            "startEnd": "Start",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "item": "Necklace",
+            "speakerDialogue": "Oh, this is pretty!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I'm not that into jewelry, but I think I'll get it."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "sfx": "Money Sound",
+            "speakerDialogue": "You don't have to, but if you insist..."
+        }
+    ]
+}

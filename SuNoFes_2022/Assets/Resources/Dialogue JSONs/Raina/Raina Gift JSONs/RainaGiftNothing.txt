@@ -1,0 +1,16 @@
+{
+    "dialogue": 
+    [
+        {
+            "music": "whicheverMusicHasBeenSetThusFar",
+            "startEnd": "Start&End",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "item": "Don't Sell Anything",
+            "pointValue": 0,
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Oh alright, I'm going then..."
+        }
+    ]
+}

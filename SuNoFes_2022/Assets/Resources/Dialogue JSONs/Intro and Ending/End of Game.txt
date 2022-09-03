@@ -1,0 +1,191 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "outsideStoreFront",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I finish closing up shop, ready to get some much needed sleep. I'm exhausted, but..."
+        },
+        {
+            "speakerDialogue": "You know, these past months have been really nice."
+        },
+        {
+            "sfx": "Phone Ringing",
+            "speakerDialogue": "..."
+        },
+        {
+            "sfx": "Phone Ringing",
+            "speakerDialogue": "..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Hello?"
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "???",
+            "speakerDialogue": "Hey! How's my favorite employee?"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I smile. It's Mia!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "I probably shouldn't tell Nathan you said that."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "God, no. He'll be moaning about it for weeks."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Haha, you're right. But, how are you feeling?"
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "I'm doing a lot better. I've finally been discharged!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "That's so great! Will I be seeing you soon?"
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Yep! I will be there right behind you to make sure you are doing your job right!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Great..."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Bahahaha! I'm just messing with you! But actually, there is something I wanted to talk to you about."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Since you started working for me, we've gotten so many great customer reviews and way more sales."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "So, seriously thank you for all your hard work. The moment I get back, you're getting a raise."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Aww, thanks, Mia. But, I can't take too much credit..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Working here, I've been a little selfish."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "All these wonderful people that I've met with amazing stories have really kept me going. "
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "They make me excited to go into work everyday, hoping to see them again."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "That's really the magic of it. "
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Outside of work, we have to stay at home, waiting for something to happen, considering whether to message this or that person."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "It gets kinda lonely."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "But, if you try smiling and talking to strangers that you see in your day jobs or everyday errands, you find that some people smile back. "
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Relieved that their routine has become a little more memorable."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Kind of like how, if you're walking outside, you can watch the ground and avoid other people's eyes until everything you experience kind of becomes a blur."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "But a few steps away from you, there's a child trying to jump over the lines in the sidewalk."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Or, there's a guy passing by with a t-shirt which you find hilarious."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "And, he would have smiled if you complimented him. Knowing someone else got it, would have been nice."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Sorry, I got kinda off track. But, do you get what I mean?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "I do."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "We all need to live more for those moments that make us feel warm, even during COVID."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "Yeah... Or, is it just the joy you get from being paid?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Haha! Of couse. That must be it."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "All jokes aside, thank you."
+        },
+        {
+            "speakerName": "Mia",
+            "displayName": "Mia",
+            "speakerDialogue": "I know you're off and I don't wanna have to pay you overtime, so I'll see you later!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "Haha, of course. Bye, Mia!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "After hanging up, I look around Mia's one last time. At the counter, the register, the items, the aisles, the items, the colors. I soak it all in, and I feel warm."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "Then, I pick up all my stuff and head out the door."
+        }
+    ]
+}

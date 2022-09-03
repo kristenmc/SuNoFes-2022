@@ -1,0 +1,38 @@
+{
+    "dialogue": 
+    [
+        {
+            "startEnd": "Start",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "item": "Manga",
+            "pointValue": 3,
+            "speakerDialogue": "OH MY GOD! THIS IS THE WINTER EDITION OF PURPLE GARDEN!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I didn't even know the series shipped to America!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Well, it does! When I saw it, I thought you'd like it! But, it's a little pricey..."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Haha, now this... This is the type of thing that I can buy without crying about it later."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Cool! Then, here!"
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "dialogue": 
+    [
+      {
+            "scene": "Register",
+            "music": "shopMusic",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "HEY! DO YOU HAVE IMPERFECT VISION BY COLLETTE BOURNE?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Yes, um we've got it right here..."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "OH MY GOSH!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "She picks up a book from the stack we have in the front. We usually put new books on the front counter, since they get sold out pretty quickly. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Raina came in so quickly that I need a moment to take in what's happening."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "She must really want that book."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Is there a good reason for why you came running in?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "YES! THIS BOOK RIGHT HERE!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "She points aggressively at the book, which has a picture of a man looking out at a world that is in color on one half of the cover and black and white on the other half."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I could kiss it right now!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Please pay first."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "AHHH! I CAN'T BELIEVE YOU HAVE IT! "
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "It was out of stock in all the stores before this because of the shipping issues, but IT'S RIGHT HERE! IN MY HANDS!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "So... I hate to break up this romance going on here, but what makes this book so special?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "WHY?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Yes... why?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "BECAUSE IT IS THEEE COLLETTE BOURNE!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "She is so loud right now..."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "She has only written short stories up until now, but always from different outlooks. Her work is so poetic and beautiful. I've never seen anything like it! And now, she has published a book!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "It's always such an emotional journey with her work. I should probably get some tissues, while I'm here..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "What's the book about?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I only know a bit based on the hints the media has given and ads, but it is supposed to be about a man, who grows up in this colorless world. He is told from a young age never to cross past the trees because it is dangerous in the world of color."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "But, the kid is dared to cross. Once he is on the color side, everything behind him disappears. He has to learn to adapt to a new world and find his old one and the people he left behind."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "The story is supposed to make many relevant statements on race and connection. I'msoexcited!!!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Woah, slow down. You're talking really fast."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Sorry! I just wanna read it so badly! I originally wanted to read this with my book group; but we haven't talked in a while, so I just got so excited to talk about it."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Alright, haha. I won't hold you up anymore. Here, let me ring you up."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I've never seen Raina this passionate before. Actually, I don't think I've ever seen anyone this passionate before. She must really love this author. I wish I could make her smile the way she smiles at her stories."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "sfx": "Money Sound",
+            "speakerDialogue": "THANK YOU!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Oh, and before you go off into your book nook, do you want to get this?"
+        }
+    ]
+}

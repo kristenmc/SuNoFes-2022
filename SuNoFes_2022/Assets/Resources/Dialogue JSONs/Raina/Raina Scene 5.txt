@@ -1,0 +1,292 @@
+{
+    "dialogue": 
+    [
+       {
+            "scene": "bookSigningShop",
+            "music": "shopMusic",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "After my last chat with Raina, I googled this Collette Bourne that she is obsessed with, and the lady is actually pretty impressive. She is a writer in multiple mediums, such as film, video games, and poetry."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "But, she isn't crazy famous, so I thought I would send her a message to see if she would be interested in doing a book signing at the store."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Then, I find out that she actually lives almost fifteen minutes away! What a coincidence!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I tell Collette about her mega fan, and she agrees to come!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Currently, she's set up inside the store and there's a small line formed outside. She posted about the book signing about an hour ago, so Raina is unlikely to have seen it yet."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Raina said she would be coming in today though, so we should be seeing her soon... I can't wait to see her reaction!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "There she is!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Hey! What's going on in here? I saw the line outside."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Well..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "I point towards Collette, and Raina turns to see her. So many emotions flash across her face that I could not describe what she's feeling."
+        },
+        {
+            "speakerName": "Collette",
+            "speakerDialogue": "Ah, you must be the super fan! Hi! I'm Collette!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "ABAHSHHDHSAHJSD"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She blurts out gibberish. And then, RAINA FAINTS!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "OH MY GOD!"
+        },
+        {
+            "speakerName": "Collette",
+            "speakerDialogue": "Oh, dear!"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "After about ten minutes of cold and hot towels, she wakes up utterly embarrassed and horrified. Collette and I are standing beside her."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "I- I just fainted in front of my favorite person in the whole universe. I think- I think I'll die now."
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "Don't worry, sweetheart. It happens to the best of us."
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "I didn't think I would elicit that sort of reaction though, haha."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "I'm so sorry. And, I don't have any right to tell you to do anything, but PLEASE PLEASE, stay back at least a few feet."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "I feel like I might faint again."
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainaSadScared",
+            "speakerDialogue": "Alright."
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Now, Raina. I am honored to meet you!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I- I'M HONORED TO MEET YOU!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "YOUR WORK HAS HELPED ME IN SO MANY WAYS, YOU DON'T EVEN KNOW! "
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Like, \"Lulla By\" was so touching and so real at the same time! And, it isn't a love story! I don't care what anyone says! Except you, of course. "
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "And, Thedalay was my favorite character in Toothache! I picked her as my character every time!"
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Wow, I'm honored to hear that."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Raina starts tearing up. "
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Well, after everything that your friend here has told me, I was happy to come by and do a book signing here! And, I wrote you this note, since I thought you deserved better than just a signed copy of one of my books."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "I- I-"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "She's crying now. I put a tissue box next to her, which I had prepared for this very moment on the counter. "
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "Thank you, Collette! I will cherish this with my life. I will frame it on my wall!"
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "Haha, alright. If that's what you'd like!"
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "Now, you take care of yourself. I'm going to go back to the line over there."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "Of course! Thank you again!"
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "And..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "Collette smiles in my direction, saying,"
+        },
+        {
+            "speakerName": "Collette",
+            "displayName": "Collette",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "And, Raina, keep a hold of friends like these. Friends come and go, but people, who make this kind of effort for others are the kind of people you don't want to let slip by."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaCrying",
+            "speakerDialogue": "Raina now smiles at me, with tears in her eyes."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I will, don't worry."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Collette walks away, and Raina smiles ridiculously to herself. She looks like a mess, but I've never seen a sight so bright and beautiful."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I was stupid, wasn't I?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Well..."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She punches me in the arm."
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "OW! WHAT'S THAT FOR?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Haha, sorry. "
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Thank you. This has been- just-"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I smile. She can't even describe it."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "You're welcome."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Well, I gotta go back to work because Collette has brought in a bunch of business, but would you like to get this before I go?"
+        }
+    ]
+}

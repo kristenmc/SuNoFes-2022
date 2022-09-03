@@ -5,7 +5,6 @@
         {
             "scene": "Register",
             "music": "shopMusic",
-            "pvToUnlock": 13,
             "speakerName": "MC",
             "displayName": "Thinking",
             "sfx": "Bell Ringing",

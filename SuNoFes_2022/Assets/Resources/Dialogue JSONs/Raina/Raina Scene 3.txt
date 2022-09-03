@@ -2,237 +2,746 @@
     "dialogue": 
     [
        {
-            "scene": "Register",
+            "scene": "Shop",
             "music": "shopMusic",
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "This is a cozy little place, and it doesn’t seem too busy so far. Right now, I’m just hanging out behind the cash register. "
+            "sfx": "Bell Ringing",
+            "speakerDialogue": "While stacking the egg cartons in a fridge, I think about Raina. I never got to apologize to her before... I hope that she won't start avoiding the store because of me."
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "It’s odd, though. There’s apparently supposed to be someone else working with me today, but I haven’t seen them at all."
+            "speakerDialogue": "And after talking to Elijah, I really wish I could get the chance to know her. The real her. "
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "A figure pops out from under the counter with a grin on his face."
+            "speakerDialogue": "I wonder if she is alright... "
         },
         {
-            "speakerName": "Nathan",
+            "speakerName": "Raina",
             "displayName": "???",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "BOO! Hehe, did I scare you?"
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Hello..."
         },
         {
             "speakerName": "MC",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "Er, not quite."
-        },
-        {
-            "speakerName": "Nathan",
-            "displayName": "???",
-            "speakerExpression": "nathanSadSmiling",
-            "speakerDialogue": "Aww, man. I really thought I had ya there for a sec!"
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Oh, hey!"
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Judging by the apron, he must work here, too. He must have been here earlier than me to open the store, but how did he manage to avoid me for two whole hours?!"
-        },
-        {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Anyway, the name’s Nathan."
-        },
-        {
-            "speakerName": "MC",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Hello, it’s nice to meet you, Nathan."
-        },
-        {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Likewise! I look forward to working with you."
-        },
-        {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Hmm, no, that sounds way too serious. How about this: I look forward to being partners in crime! "
-        },
-        {
-            "speakerName": "MC",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Partners in crime?"
-        },
-        {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Since it’s just you and me under the manager, I think it’s fair to call us partners, don’tcha think? Unless that’s too overbearing. Haha, sorry."
-        },
-        {
-            "speakerName": "MC",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "I guess that makes sense…"
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "It- it's her!"
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "This guy is kind of off the rails, isn’t he?"
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "She's standing a few feet away frrom me with her arms over her stomach in a nervous sort of way. How long was she standing there? I didn't hear anyone walk over."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Hi, I'm sorry. It seems like you were busy."
         },
         {
             "speakerName": "MC",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Why were you hiding behind the counter, by the way?"
-        },
-        {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "To make a good first impression, of course! I don’t want you thinkin’ I’m as stiff as a board or somethin’."
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "No, no! Just passing time, getting stuff done."
         },
         {
             "speakerName": "MC",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "And... if you don’t mind me asking, why is your hair like that?"
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "This is the first time you've approached me."
         },
         {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "My hair? Well, don’t ya think it makes me look like an onion? ",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Yeah... I'm sorry. I just- wanted to apologize..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "For what??"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "For... For having running out on you the other day. That- that was rude of me... I'm sorry."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "She isn't smiling. This is a much different version of Raina than the woman I met on my first day.  "
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Although she isn't smiling, she seems more honest this way."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Ah, Elijah must have talked to you."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Y- Yeah... I'm sorry. I didn't realize you were just trying to do your job.",
             "isBranching": "isPlayerChoice",
-            "branchingChoice1": "Haha, like an onion, huh?",
+            "branchingChoice1": "Still, you didn't have to be rude to me like that.",
+            "c1pv": 0,
+            "branchingChoice2": "It's alright.",
+            "c2pv": 1,
+            "branchingChoice3": "I'm sorry.",
+            "c3pv": 3
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I know... I'm really sorry...",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I'll just get out of your hair. I don't want to ruin your day..."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Wait! I'm not that mad!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "O- okay..."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "You didn't mean to hurt my feelings, so you're okay.",
+            "lineSkip": 5
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "We didn't start off on a great note, did we?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "No, not really..."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Well, then let's fix that!"
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I appreciate your apology, but I'm sorry for having scared you like that.",
+            "lineSkip": 9
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I know you went into the store to buy something, and me being there really messed up your plans. I'll try to be more cautious from now on and wait for you come up to me if you choose to."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "It isn't your fault! I- I'm just a bit jumpy that's all. It's my fault!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Well, how about we agree to disagree?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Alright."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I think I see a slight smile forming under her mask."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "But thank you, I think it would be better if I just come up to you from now on."
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Sounds like a plan!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "How about we try starting over? And, forget the last two times we saw each other ever happened.",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I'd like that."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Alright! Well, hello! What's your name?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "My name is Raina... This is silly."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I know, I know, but just go with it. Trust me."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She starts smiling to herself. Aww, she's so cute, when she lets herself smile for real."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "How are you doing?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I am quite spectacular on this fine day. How about yourself?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Haha, I don't know if I could match that level of happiness."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Aww, well hopefully we can change that."
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I guess, it's my turn to ask a question.",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "You watching any good shows right now?",
             "c1pv": 2,
-            "branchingChoice2": "Um, sure…? Are you okay?",
-            "c2pv": 0
+            "branchingChoice2": "You got any pets?",
+            "c2pv": 1
         },
         {
             "startEnd": "Start",
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanHappyLaughing",
-            "speakerDialogue": "Yeah! And I popped out from under the counter like an onion being pulled out of the ground. It works, right? ",
-            "lineSkip": 15
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Oh, actually I am. But not standard tv shows, more like anime...",
+            "lineSkip": 23
         },
         {
             "speakerName": "MC",
-            "speakerExpression": "nathanHappyLaughing",
-            "speakerDialogue": "Hmm… I think I see it."
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "REALLY?!!! I just finished Vegetable Basket, which a friend recommended to me. It was great! So, I'd love more recommendations."
         },
         {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "I promise I don’t normally wear my hair like this, honest. I just wanted to see if I could get a good laugh out of you."
+            "speakerName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "THAT'S MY FAVORITE SHOW!"
         },
         {
-            "speakerName": "MC",
-            "speakerExpression": "nathanDefault",
-            "speakerDialogue": "Well, consider your mission a success. "
-        },
-        {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "For sure! Anyways, you won’t have to worry about work being boring with me around. "
-        },
-        {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "I’ll make sure to check up on ya every once in a while. Here’s to a great first day. "
+            "speakerName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Oh, sorry I was a bit loud just then."
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "Nathan holds out his hand for a fist bump."
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Her face lit up when she said that, and she honestly was pretty loud, which takes me by surprise."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Well... Not, my favorite show. Purple Garden is my favorite, but Tohtru is actually the sweetest and most genuine human on the planet. So, it's impossible not to love her!"
         },
         {
             "speakerName": "MC",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "Yeah!"
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I know right! When Akiro came around, I was ready to give my life to protect them! Like stay away from my babies!!!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Haha, I know!!!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "But, you know they're not real right?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "HOW DARE YOU!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Shhhhh, I'm just joking. Really!!!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Still, that isn't funny."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Sorry!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "It's okay... Anyways, what genre are you looking to get into?"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I'm thinking something that is horror, ooh, but also mystery."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Hmm..."
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "I accept the fist bump, but then Nathan proceeds to perform an elaborate handshake which apparently he thought I would know. I just stand there and let him do his thing…"
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "She thinks to herself a bit, but lights up again when something comes to mind!"
         },
         {
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "You’re cool, man! If you need anything, feel free to holler. "
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Higarash: When We Cried was soooo good! You should watch that! You'll go in thinking that it's just like any old children's show, but I swear! It's not! I usually hate horror, but this one was so good. Very violent though. "
         },
         {
-            "speakerName": "MC",
-            "displayName": "Thinking",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "I smile awkwardly."
-        },
-        {
-            "speakerName": "MC",
-            "speakerExpression": "nathanHappyGrinning",
-            "speakerDialogue": "Will do. Um, bye!"
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "So many plot twists. The lore is amazing as well! It is also based off a video game!"
         },
         {
             "speakerName": "MC",
-            "displayName": "Thinking",
-            "speakerDialogue": "Nathan leaves to check on customers and tidy the store."
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Haha, alright alright you've convinced me."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Yes!"
         },
         {
             "startEnd": "End",
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "I have a good feeling about working with Nathan. I should probably check in with him every once in a while."
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I love seeing her like this. There's this feeling you get when you see someone talk about something they're passionate about. And, I can't help but smile."
         },
         {
             "startEnd": "Start",
-            "speakerName": "Nathan",
-            "displayName": "Nathan",
-            "speakerExpression": "nathanSadSmiling",
-            "speakerDialogue": "I-I’m fine, yeah. How about we just forget I said anything? Sorry for weirding you out…",
-            "lineSkip": 8
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Sadly, no...",
+            "lineSkip": 23
         },
         {
             "speakerName": "MC",
-            "speakerExpression": "nathanSadSmiling",
-            "speakerDialogue": "Oh, no. Don’t worry about it! You’re fine."
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Aww, why not?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Well, my landlord has a strict no pets policy, and if I wanted to get a pet, I'd have to add a hundred dollars to my rent. I don't really want that kind of expense right now."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "You can't have one in secret?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "No... A dog would probably start barking."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Why not get a cat?"
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerExpression": "nathanSadSmiling",
-            "speakerDialogue": "Nathan gives an unsure smile."
+            "speakerDialogue": "She scrunches up her nose and glares at this question with pure disgust."
         },
         {
-            "speakerName": "Nathan",
-            "speakerExpression": "nathanSadSmiling",
-            "speakerDialogue": "Okay… Anywayyyys, I’ll check on you every now and then. If you need anything, feel free to ask. I’m going to get back to work."
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Ugh, hell no. Hate those things."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Haha, why? You seem like a cat person."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I probably would be if they didn't like me so much. Like, just leave me in peace!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Are you scared, or something?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "YES! I don't want hives."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "..."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Plus, there was one time, when I was younger, when my girl scout troop saw a stray cat on the beach. They were all petting it, while I stood a bit away. Then it locked eyes on me and started bolting towards me! You don't understand."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I had to RUN FOR MY LIFE! AND IT JUST KEPT COMING! I swear I ran a full mile that day before it decided to give up."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Pfff- "
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "Nathan scurries off like he’s in a hurry. Is he running away from me??"
+            "speakerDialogue": "I bend over holding my stomach. I- I can't stop laughing. "
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "HEY! Is this funny to you?!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerDialogue": "No, no! Sorry! That sounds terrible."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerDialogue": "Yes! It was!"
         },
         {
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "At the very least, I don’t think I’ll be bored whenever he’s around. "
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I look up, biting my cheeks. I don't want to risk making her too mad."
         },
         {
             "startEnd": "End",
             "speakerName": "MC",
             "displayName": "Thinking",
-            "speakerDialogue": "I didn’t mean to upset him, though. Maybe I should make it up to him somehow when I get the chance."
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "You know, she's pretty funny when you get to know her. "
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Sorry, I was talking for a while there wasn't I?",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Don't worry. I loved it."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "O- okay!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Well, let me ask you something now. What do you like to do when you're not in here?",
+            "isBranching": "isPlayerChoice",
+            "branchingChoice1": "I go to the gym!",
+            "c1pv": 0,
+            "branchingChoice2": "I love to read!",
+            "c2pv": 2,
+            "branchingChoice3": "I play video games!",
+            "c3pv": 1
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Oh, um... That's cool.",
+            "lineSkip": 9
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Ya! I lifted last night actually and broke some personal records."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Okay, um. Neat!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Do you lift?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I, uh, I can barely get myself to walk up the stairs to my bedroom everyday, so nope."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "You should!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Maybe... "
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "She doesn't seem that into this topic... Probably shouldn't show her my mirror selfies then..."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "OH, really?! Me too!",
+            "lineSkip": 13
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "What are you reading right now?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Well, right now, I finally picked up Station Eleven, that book about the pandemic."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Oof, I have been reluctant to read about that one because it's hard enough living in a pandemic. Reading about one would probably just be a downer."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I mainly read to escape."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I totally understand that; and, that's honestly why the book has been sitting unread on my bookshelf for a while. But one day, I needed a new read, so I was just like, what the hell and started reading it anyways."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "And, I gotta tell you! It is an amazing book with fascinating symbolism and intricate metaphors and lore. The writing style really keeps you on your toes. It's hard to get bored."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I think I'll have to buy a copy then."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Here, I'll lend you mine when I'm done with it."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Thanks, Raina!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Of course!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Aww, she's blushing."
+        },
+        {
+            "startEnd": "Start",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Oh, I actually work for a game company.",
+            "lineSkip": 7
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Really?! Have you worked on anything I would know?"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Probably not. It's just a small indie. We're making the company's first game right now."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Oh wow! Congrats! That sounds awesome!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Thanks!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "Aww, she's blushing."
+        },
+        {
+            "sfx": "Phone Ringing",
+            "speakerDialogue": "...",
+            "isBranching": "whereStoryConvergesAfterChoices"
+        },
+        {
+            "speakerName": "MC",
+            "displayName": "Thinking",
+            "speakerDialogue": "The ringing stops, and she looks down at her phone."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "I should probably call her back... It's my mom."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Ya, of course!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Thanks for talking with me. It was really nice to meet you in this way."
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Yeah! I loved it too! Now, don't be a stranger."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "Alright! Bye!"
+        },
+        {
+            "speakerName": "MC",
+            "speakerExpression": "rainaNeutralNervous",
+            "speakerDialogue": "Oh, wait! Real quickly, I was wondering if you wanted to get this."
         }
     ]
 }

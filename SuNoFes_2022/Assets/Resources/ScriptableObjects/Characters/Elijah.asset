@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405981dd11084fc4eaa74ef66ad62778, type: 3}
+  m_Name: Elijah
+  m_EditorClassIdentifier: 
+  _characterName: 
+  _characterAffinity: 0
+  _affinityMax: 20
+  _sceneProgression: 0
+  _scenes:
+  - {fileID: 4900000, guid: cfb6f4dd6214539438c878214038bada, type: 3}
+  - {fileID: 4900000, guid: 63c02435abb6a274ba530bbfd6f123e2, type: 3}
+  - {fileID: 4900000, guid: b27ab4b86c21e3449b5e660470b07b7d, type: 3}
+  - {fileID: 4900000, guid: d7e06ce3c3a94794eaf7fc9c8c062c8a, type: 3}
+  - {fileID: 4900000, guid: f8a8b136980fd6f47acb4c3827408cbd, type: 3}
+  _warningScene: {fileID: 4900000, guid: 208aad4c7e4a2d74eb40e67296e59a36, type: 3}
+  _finalScene: {fileID: 4900000, guid: 31a0bed2ab996fd42a16ff09340b3ec7, type: 3}
+  _characterGifts:
+  - giftID: 16
+    giftScene: {fileID: 0}
+  - giftID: 0
+    giftScene: {fileID: 0}
+  - giftID: 0
+    giftScene: {fileID: 0}
+  - giftID: 0
+    giftScene: {fileID: 0}
+  _characterExpressions: []

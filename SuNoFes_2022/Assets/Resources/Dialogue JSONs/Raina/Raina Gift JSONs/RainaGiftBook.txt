@@ -1,0 +1,35 @@
+{
+    "dialogue": 
+    [
+        {
+            "scene": "whereSceneHasBeenSetThusFar",
+            "music": "shopMusic",
+            "startEnd": "Start",
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "item": "Book",
+            "pointValue": 2,
+            "speakerDialogue": "Oh my gosh! I say this book on my TikTok!"
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I heard it was really good, and had some saucy themes... hehe."
+        },
+        {
+            "speakerName": "Raina",
+            "displayName": "Raina",
+            "speakerExpression": "rainahappyPassionate",
+            "speakerDialogue": "I'd love to buy it!"
+        },
+        {
+            "startEnd": "End",
+            "speakerName": "MC",
+            "speakerExpression": "rainahappyPassionate",
+            "sfx": "Money Sound",
+            "speakerDialogue": "Great!"
+        }
+    ]
+}
