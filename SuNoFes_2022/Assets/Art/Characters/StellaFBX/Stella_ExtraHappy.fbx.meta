@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 08455d2d3c1399a42945fe3aff1aeab7
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -8271160361190263192
+    second: Arma-Soldier|DrewAngryCute
+  - first:
+      74: 8578838977642730290
+    second: Arma-Soldier|DrewCrying
+  - first:
+      74: 3569583819171207320
+    second: Arma-Soldier|DrewNeutral
+  - first:
+      74: 7377373868959016070
+    second: Arma-Soldier|DrewNeutral.001
+  - first:
+      74: 4101487614209035238
+    second: Arma-Soldier|DrewSadScared
+  - first:
+      74: -5357146021010659762
+    second: Arma-Soldier|DrewVeryHappy
+  - first:
+      74: 4009617788025780422
+    second: Arma-Soldier|leftEyeAction
+  - first:
+      74: -496108808830080075
+    second: Arma-Soldier|rightEyeAction
+  - first:
+      74: 8037945015248477346
+    second: Arma-Soldier|StellaAngryCute
+  - first:
+      74: 5763231261625859729
+    second: Arma-Soldier|StellaExtralHappy
+  - first:
+      74: 2498682289889420645
+    second: Arma-Soldier|StellaNeutralHappy
+  - first:
+      74: -8153427753135441177
+    second: leftEye|leftEyeAction
+  - first:
+      74: 2769003936697758064
+    second: leftEye|rightEyeAction
+  - first:
+      74: 493451515579921296
+    second: Model|DrewNeutral
+  - first:
+      74: -4949932354361260844
+    second: Model|leftEyeAction
+  - first:
+      74: -3873533523429349846
+    second: Model|rightEyeAction
+  - first:
+      74: -6706005602847855361
+    second: rightEye|leftEyeAction
+  - first:
+      74: 7942323229612418530
+    second: rightEye|rightEyeAction
+  - first:
+      74: 5500111182693242224
+    second: Tanktop|leftEyeAction
+  - first:
+      74: 1767063165116833932
+    second: Tanktop|rightEyeAction
+  - first:
+      74: 3418172268660115710
+    second: Shorts|leftEyeAction
+  - first:
+      74: 4761891338312517518
+    second: Shorts|rightEyeAction
+  - first:
+      74: 6195700639011549209
+    second: FaceMAsk|leftEyeAction
+  - first:
+      74: -6549832174939759584
+    second: FaceMAsk|rightEyeAction
+  - first:
+      74: 4371218128250926968
+    second: Hair|DrewAngryCute
+  - first:
+      74: -6024221492452076224
+    second: Hair|leftEyeAction
+  - first:
+      74: 5404658309304533002
+    second: Hair|rightEyeAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
