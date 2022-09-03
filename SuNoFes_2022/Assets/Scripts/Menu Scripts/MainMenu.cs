@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
+        AkSoundEngine.PostEvent("Stop_shopMusic", this.gameObject);
         SceneManager.LoadScene(1);
     }
 
