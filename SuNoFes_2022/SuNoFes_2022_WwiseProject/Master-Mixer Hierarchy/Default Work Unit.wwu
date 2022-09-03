@@ -4,11 +4,109 @@
 		<WorkUnit Name="Default Work Unit" ID="{346F2433-9DDB-40DE-A5DA-D84AEAB692C6}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{2A09EEE1-6368-4F8F-8AB0-CB6C74EBF050}" ShortID="112747721">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="AllVolume" ID="{6F78914D-45BD-4F70-979F-8DA4B4FEBF86}" WorkUnitID="{AC8A8B56-B08F-4F52-97CE-802B956517EF}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{FD7B93F7-797C-4CFB-8165-858850D49FE6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{DF1F54F2-B6A0-4936-8219-9603251E0E55}" WorkUnitID="{443A68C1-6157-4C02-A7D9-A6986306A369}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{4DC29365-8874-4590-BFAB-1ABB065CCCD8}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E876DF67-1E16-4867-B052-52B03927953F}" ShortID="713156222">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MusicVolume" ID="{076684BA-0C57-4CF6-9CA5-1819A5468A73}" WorkUnitID="{AC8A8B56-B08F-4F52-97CE-802B956517EF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C92AF903-7843-4154-9FA5-9671EA8DB806}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SFX" ID="{D503D26B-3855-4EBA-BBDF-C7E50CFC4D33}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E59CA572-8558-43C8-9436-156C024A3867}" ShortID="896934102">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXVolume" ID="{81D9C626-8F32-4996-AB35-6E22FDCBF464}" WorkUnitID="{AC8A8B56-B08F-4F52-97CE-802B956517EF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2E2DF699-BA16-4978-8671-195490DD24EC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
