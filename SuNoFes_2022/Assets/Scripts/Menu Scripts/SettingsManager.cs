@@ -24,11 +24,11 @@ public class SettingsManager : MonoBehaviour
     public void LoadPrefs()
     {
         _allSlider.value = _savedSettings.AllVolume;
-        AkSoundEngine.SetRTPCValue("AllVolume", _savedSettings.AllVolume);
+        AkSoundEngine.SetRTPCValue("AllVolume", _savedSettings.AllVolume * 100);
         _musicSlider.value = _savedSettings.MusicVolume;
-        AkSoundEngine.SetRTPCValue("MusicVolume", _savedSettings.MusicVolume);
+        AkSoundEngine.SetRTPCValue("MusicVolume", _savedSettings.MusicVolume * 100);
         _sfxSlider.value = _savedSettings.SFXVolume;
-        AkSoundEngine.SetRTPCValue("SFXVolume", _savedSettings.SFXVolume);
+        AkSoundEngine.SetRTPCValue("SFXVolume", _savedSettings.SFXVolume * 100);
 
     }
 
