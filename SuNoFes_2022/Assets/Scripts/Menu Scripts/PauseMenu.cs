@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Not my code. It is being used by the game though.
 public class PauseMenu : MonoBehaviour
 {
     private bool _isPaused;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Not my code. It is being used by the game though.
 public class SettingsManager : MonoBehaviour
 {
     [SerializeField] private Settings _savedSettings;

@@ -71,12 +71,11 @@ public class ItemManager : MonoBehaviour
     }
 
     //Generates or updates the shop inventory
-    //Should be called at the beginning of a day
+    //Should be called before the shop opens up
     public void UpdateShopInventory()
     {
         currentItem = null;
         itemShopBudget.text = "$" + playerBudget;
-        //@Molina TODO:: This might be useful to you
         //Replace with object pooling if there is time
         //Remove and delete objects from itemDisplay
         foreach(GameObject displaySlot in itemShopDisplaySlots)
@@ -95,9 +94,9 @@ public class ItemManager : MonoBehaviour
         }   
     }
 
+    //Displays item information in the right side of the shop ui
     public void DisplayItemInUI(int displaySlotIndex)
     {
-        Debug.Log("Button pressted");
         if(displaySlotIndex < itemShopInventory.Count)
         {
             currentItem = ReturnItem(itemShopInventory[displaySlotIndex]);
@@ -107,21 +106,19 @@ public class ItemManager : MonoBehaviour
         }
     }
 
+    //Puts the item into the player inventory and subtracts its cost from the players budget
     public void BuyItem()
     {
         if(currentItem != null && playerBudget - currentItem.ItemCost >= 0)
         {
             ModifyBudget(-currentItem.ItemCost);
             itemPlayerInventory.Add(currentItem.ItemID);
-            //@Molina TODO:: probably change this for the graying out
             itemShopInventory.Remove(currentItem.ItemID);
             UpdateShopInventory();
         }
     }
 
     //Similar to UpdateShopInventory except it is specifically for player gifting
-    //@Molina TODO:: if you edited UpdateShopInventory you probably should edit this as well
-    //Or just let me know
     public void UpdateInventory()
     {
         currentItem = null;
@@ -139,6 +136,7 @@ public class ItemManager : MonoBehaviour
         }
     }
 
+    //Its just DisplayItemInUI but for the gifting (or selling if you want to call it that) menu
     public void DisplayItemInInventory(int displaySlotIndex)
     {
         Debug.Log("Button pressted");
@@ -150,11 +148,11 @@ public class ItemManager : MonoBehaviour
         }
     }
 
+    //Removes item from inventory and starts the dialogue for the npc
     public void GiveItem()
     {
         if(currentItem != null)
         {
-            //@Molina TODO:: probably change this for the graying out
             itemPlayerInventory.Remove(currentItem.ItemID);
             DialogueManager.Instance.GiveItem(currentItem.ItemID);
             GameManager.Instance.CloseUI();

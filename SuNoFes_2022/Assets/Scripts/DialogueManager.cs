@@ -3,6 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+/*
+To whom it may concern,
+
+This code is absolutely fucked as the overall architecture could not meet nor support the changing requirements
+of the visual novel in the time alloted for this project. As a result, you may see horrors that may instill 
+madness to the human psyche. As your humble guide and the previous owner of this abomination, I will attempt
+to help you navigate this labrynthine code, although I have no doubt that my comments will be lacking in areas.
+I wish you the best of luck brave adventurer.
+
+-Mr. Green Text
+*/
 public class DialogueManager : MonoBehaviour
 {
     static private DialogueManager _instance;
@@ -92,6 +103,8 @@ public class DialogueManager : MonoBehaviour
     }
 
     //Starts and sets up the dialogue system
+    //the variable loader should only be passed in if the dialogue is being started by an NPC
+    //if the dialogue does not have an NPC associated with it, do not pass in loader
     public void StartDialogue(CharacterDialogueLoader.Dialogue[] dialogue, CharacterDialogueLoader loader = null, bool isGiftScene = false)
     {
         DebugThing = dialogue;
@@ -207,12 +220,13 @@ public class DialogueManager : MonoBehaviour
             currentlyPlayingMusic = sentence.music; 
         }
         SpeakerExpressionHelper(sentence.speakerExpression);
-        //#ToDo: speaker expression stuff goes here 
         if(sentence.isBranching != null && sentence.isBranching != "")
         {
             numSkipBefore = 0;
             numSkipAfter = 0;
             availableChoices.Clear();
+            //For some strange reason halfway through development, the JSON started reading fields left blank
+            //as empty strings instead of null, so I'm checking for both now
             if(sentence.branchingChoice1 != null && sentence.branchingChoice1 != "")
             {
                 availableChoices.Add(sentence.branchingChoice1);
@@ -234,6 +248,7 @@ public class DialogueManager : MonoBehaviour
                     dialoguePointValues = sentence;
                     SetUpChoices(availableChoices);
                 }
+                //this takes the choice made in a previous scene and sets up the skip variables
                 else if(sentence.isBranching == "elijahChoice")
                 {
                     if(elijahChoice == 0)
@@ -260,8 +275,12 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    //The bug with the dialogue choices not working is almost guarenteed to be in this helper function
     public CharacterDialogueLoader.Dialogue LineSkipHelper(CharacterDialogueLoader.Dialogue sentence)
     {
+        //in theory, each choice should give you a numSkipBefore and a numSkipAfter
+        //For Example: choice 1 should give a numSkipBefore value of 0, and a numSkipAfter of 1 or 2 depending on the number of choices
+        //While numSkipBefore > 0, dequeue from the dialogueQueue a number of times equal to the lineskip value found in the JSON
         if(numSkipBefore > 0)
             {
                 int i = sentence.lineSkip - 1;
@@ -279,10 +298,12 @@ public class DialogueManager : MonoBehaviour
                 sentence = dialogueQueue.Dequeue();
                 numSkipBefore--;
             }
+            //if numSkipBefore = 0, display the dialogue as usual
             else if(numSkipBefore == 0)
             {
                 numSkipBefore--;
             }
+            //if numSkipBefore > 0 and numSkipAfter > 0, reduce numSkipAfter and dequeue a number of lines = lineSkip
             else if(numSkipBefore <0 && numSkipAfter > 0)
             {
                 int i = sentence.lineSkip - 1;
@@ -303,6 +324,7 @@ public class DialogueManager : MonoBehaviour
             return sentence;
     }
     
+    //All the expressions are hardcoded because I ran out time to set it up in a less horrendous manner
     public void SpeakerExpressionHelper(string expression)
     {
         if(currentSpeakerExpression == expression)
@@ -479,7 +501,6 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    //@Molina TODO:: This should be called by the gifting UI Button
     //Gives an item to a NPC the player is talking to
     public void GiveItem(int itemID)
     {
@@ -489,6 +510,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    //This funciton sets up the choices and positions the choice buttons, then displays them  to the screen
     public void SetUpChoices(List<string> choices)
     {
         numChoices = choices.Count;
@@ -502,8 +524,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    //This function is called by whichever choice button the player pressed
     public void ChooseDialogue(int choiceNumber)
     {
+        //There is only one choice in the game that has an effect on a different scene 
         if(dialoguePointValues.isBranching == "elijahChoice")
         {
             elijahChoice = choiceNumber;
@@ -514,6 +538,9 @@ public class DialogueManager : MonoBehaviour
         {
             button.SetActive(false);
         }
+        //There are some choices that exist in a dual scene that can change the affinity of multiple characters
+        //those affinity valuesexist in c1nathanpv and c1drewpv and v2nathanvpv and c2drewpv
+        //yes, this sucks and yes, there is a better way to do it and no, I did not know about this feature until too late
         if(playerChoice == 0)
         {
             numSkipBefore = 0;

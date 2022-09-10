@@ -98,6 +98,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //This checks to see whicch characters should still be in the shop
+    //If the (num of scenes for a character) > (days left in game) it removes that character
+    //If they are about to leave, the game warns the player
     public void UpdateAvailableCharacters()
     {
         warningLoader = new DialogueLoader.Dialogue[0];
@@ -128,6 +131,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //Hides all characters in the scene
     public void HideCharacters()
     {
         for(int i = availableCharacters.Count - 1; i >= 0; i--)
@@ -156,6 +160,7 @@ public class GameManager : MonoBehaviour
         menuOpen = true;
     }
 
+    //There is max 2 conversations a day the player can make
     public bool ConversationAvailable()
     {
         return numConversations > 0;

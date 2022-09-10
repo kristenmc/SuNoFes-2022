@@ -35,6 +35,8 @@ public class CharacterDialogueLoader : DialogueLoader
         ResetSceneProgression();
     }
 
+    //This loads the JSON file for character scenes
+    //Its called at startup as loading the JSON can take a little bit of time
     public override void LoadDialogueData()
     {
         dialogueJSONs = character.Scenes;
@@ -48,6 +50,8 @@ public class CharacterDialogueLoader : DialogueLoader
         finalScene = JsonUtility.FromJson<DialogueList>(character.FinalScene.text);
     }
 
+    //This loads the JSON file for character gift responses
+    //Its also called at startup 
     public void LoadGiftDialogueData()
     {
         giftJSONs = character.CharacterGifts;
@@ -62,6 +66,7 @@ public class CharacterDialogueLoader : DialogueLoader
         }
     }
 
+    //This function reads if the player has clicked on an NPC
     private void OnMouseDown() 
     {
         if(!dialogueManager.IsDialoguePlaying() && canTalk && !GameManager.Instance.IsMenuOpen() && GameManager.Instance.ConversationAvailable())
@@ -77,6 +82,7 @@ public class CharacterDialogueLoader : DialogueLoader
         }
     }
 
+    //This loader is for normal character dialogue
     public override void LoadDialogue()
     {
         if(character.SceneProgression < dialogueScenes.Length)
@@ -104,6 +110,7 @@ public class CharacterDialogueLoader : DialogueLoader
         }
     }
 
+    //This loader is for NPC responses to gifts given (or sold if thats what you want to call it)
     public void LoadGiftDialogue(int ID)
     {
         Debug.Log("trying to gift: " + ID);
@@ -136,6 +143,9 @@ public class CharacterDialogueLoader : DialogueLoader
     {
         character.CharacterAffinity += incrementAmount;
     }
+
+    //This resets the scriptable objects because their data persists between scene resets
+    //As such this must be called at the beginning of the scene if you want a fresh start
     public void ResetSceneProgression()
     {
         character.SceneProgression = 0;
@@ -173,6 +183,7 @@ public class CharacterDialogueLoader : DialogueLoader
         return warningScene;
     }
 
+    //Turns the model off or one depending on the passed in variable
     public void ToggleClickableObject(bool state)
     {
         clickableCollider.enabled = state;

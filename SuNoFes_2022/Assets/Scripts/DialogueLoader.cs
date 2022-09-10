@@ -5,6 +5,10 @@ using System;
 
 public class DialogueLoader : MonoBehaviour
 {
+    //The JSON files are loaded into this class
+    //Have fun with all the variables
+    //if you ever get a JSON error, its probably because the JSON has an extra comma
+    //or its trying to save a variable that doesnt exist in this class
     [System.Serializable]
     public class Dialogue
     {
@@ -44,7 +48,8 @@ public class DialogueLoader : MonoBehaviour
     [SerializeField] protected DialogueManager dialogueManager;
         
     [Space(10)]
-    [Header("For QoL only, don't add items here")]
+    [Header("For QoL only, don't input items here")]
+    //these variables only exist to allow you to track them in the inspector while the game is running
     [SerializeField] protected DialogueList dialogueList = new DialogueList();
     [SerializeField] protected DialogueList[] dialogueScenes;
     [SerializeField] private int currentScene = 0;
@@ -67,6 +72,8 @@ public class DialogueLoader : MonoBehaviour
         
     }
 
+    //This loads the JSON file for system scenes
+    //Its called at startup as loading the JSON can take a little bit of time
     public virtual void LoadDialogueData()
     {
         dialogueScenes = new DialogueList[dialogueJSONs.Length];
@@ -77,6 +84,8 @@ public class DialogueLoader : MonoBehaviour
         }
     }
 
+    //Starts the dialogue for the current system scene
+    //its loader variable for StartDialogue is null
     public virtual void LoadDialogue()
     {
         currentScene++;

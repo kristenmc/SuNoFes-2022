@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Not my code. It is being used by the game though.
 [CreateAssetMenu(fileName = "New Settings", menuName = "ScriptableObjects/Settings")]
 public class Settings : ScriptableObject
 {
